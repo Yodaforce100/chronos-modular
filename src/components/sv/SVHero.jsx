@@ -4,20 +4,13 @@ import { motion } from "framer-motion";
 const BG_IMG = "https://media.base44.com/images/public/69e96f879840c600a93d0ce5/eeb901bc6_generated_image.png";
 
 function SoundwaveBars() {
-  const heights = [28, 44, 60, 76, 56, 88, 64, 44];
   return (
-    <div className="flex items-center gap-[5px] h-14" aria-hidden="true">
-      {heights.map((h, i) => (
-        <div
-          key={i}
-          className="w-[3px] rounded-full bg-[#669eea]"
-          style={{
-            height: `${h}%`,
-            animation: `soundwave ${1 + (i % 5) * 0.15}s ease-in-out ${i * 0.07}s infinite`,
-          }}
-        />
-      ))}
-    </div>
+    <img
+      src="https://media.base44.com/images/public/69e96f879840c600a93d0ce5/937568997_Shepherd_Verses_favicon_SOUNDWAVE.png"
+      alt=""
+      className="h-6 w-auto"
+      aria-hidden="true"
+    />
   );
 }
 
