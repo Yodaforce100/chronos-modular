@@ -8,7 +8,7 @@ function SoundwaveBars() {
     <img
       src="https://media.base44.com/images/public/69e96f879840c600a93d0ce5/6ae5def09_SV_soundwave_512.png"
       alt=""
-      className="h-9 w-auto"
+      className="h-7 w-auto"
       aria-hidden="true"
     />
   );
@@ -36,7 +36,7 @@ export default function SVHero({ onCTAClick }) {
           className="flex flex-col items-center"
         >
           {/* Eyebrow */}
-          <div className="flex items-center gap-1 mb-8">
+          <div className="flex items-center gap-1.5 mb-8">
             <SoundwaveBars />
             <span className="font-sans text-xs font-medium text-[#669eea] tracking-widest uppercase">
               Spoken Scripture & Affirmations
