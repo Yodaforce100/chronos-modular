@@ -50,7 +50,7 @@ export default function SVHero({ onCTAClick }) {
             </span>
           </div>
 
-          <h1 className="font-serif text-4xl sm:text-5xl md:text-[56px] leading-[1.2] text-[#3A4A5A]">
+          <h1 className="font-serif text-4xl sm:text-5xl md:text-[56px] leading-[1.2] text-[#243E6B]">
             Wake up to a voice that hears you—and guides you with scripture and affirmations.
           </h1>
 
@@ -65,7 +65,7 @@ export default function SVHero({ onCTAClick }) {
 
           <button
             onClick={onCTAClick}
-            className="mt-10 font-sans text-[15px] font-medium text-white bg-[#243E6B] px-8 py-4 rounded-full hover:bg-[#1a2e52] transition-colors duration-300 min-h-[44px] shadow-md"
+            className="mt-10 font-sans text-[15px] font-medium text-white bg-[#D88C7A] px-8 py-4 rounded-full hover:bg-[#c47a68] transition-colors duration-300 min-h-[44px] shadow-md"
           >
             Start Your Morning with Peace
           </button>
