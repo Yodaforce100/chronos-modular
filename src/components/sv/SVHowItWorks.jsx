@@ -54,46 +54,46 @@ export default function SVHowItWorks() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: i * 0.12 }}
-              className="relative bg-[#F2F1EE] rounded-[24px] overflow-hidden border border-[#E7DED2]"
+              className="relative bg-white rounded-[24px] overflow-hidden border border-[#E7DED2] h-full flex flex-col"
             >
-              {/* Image banner */}
-              <img
-                src={step.image}
-                alt=""
-                className="w-full h-40 object-cover"
-              />
-
-              <div className="p-8 md:p-10 relative">
-                {/* Step number watermark */}
-                <span
-                  className="absolute top-4 right-6 font-serif text-[80px] leading-none select-none pointer-events-none"
-                  style={{ color: step.accent, opacity: 0.12 }}
-                  aria-hidden="true"
-                >
-                  {step.number}
-                </span>
-
-                {/* Icon */}
-              <div
-                className="w-12 h-12 rounded-full flex items-center justify-center mb-6"
-                style={{ backgroundColor: step.accent + "22" }}
-              >
-                {i === 0 ? (
-                  <SpeechBubbleIcon color={step.accent} />
-                ) : (
-                  <step.icon className="w-5 h-5" style={{ color: step.accent }} />
-                )}
+              {/* Full-bleed image with text overlay */}
+              <div className="relative h-72 overflow-hidden">
+                <img
+                  src={step.image}
+                  alt=""
+                  className="w-full h-full object-cover"
+                />
+                {/* Dark overlay for text readability */}
+                <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/40" />
+                
+                {/* Overlay text */}
+                <div className="absolute inset-0 flex flex-col justify-end p-8">
+                  <h3 className="font-serif text-2xl text-white mb-2 leading-snug drop-shadow-lg">
+                    {step.title}
+                  </h3>
+                </div>
               </div>
 
-              <p className="font-sans text-xs font-medium tracking-widest uppercase mb-3" style={{ color: step.accent }}>
-                Step {step.number}
-              </p>
-              <h3 className="font-serif text-2xl text-[#001c5f] mb-4 leading-snug">
-                {step.title}
-              </h3>
-              <p className="font-sans text-[16px] text-[#4A5B6B] leading-[1.7]">
-                {step.body}
-              </p>
+              {/* Card content below image */}
+              <div className="p-8 md:p-10 flex-1 flex flex-col">
+                {/* Icon */}
+                <div
+                  className="w-12 h-12 rounded-full flex items-center justify-center mb-6"
+                  style={{ backgroundColor: step.accent + "22" }}
+                >
+                  {i === 0 ? (
+                    <SpeechBubbleIcon color={step.accent} />
+                  ) : (
+                    <step.icon className="w-5 h-5" style={{ color: step.accent }} />
+                  )}
+                </div>
+
+                <p className="font-sans text-xs font-medium tracking-widest uppercase mb-3" style={{ color: step.accent }}>
+                  Step {step.number}
+                </p>
+                <p className="font-sans text-[16px] text-[#4A5B6B] leading-[1.7]">
+                  {step.body}
+                </p>
               </div>
             </motion.div>
           ))}
