@@ -21,7 +21,7 @@ const STEPS = [
   },
   {
     number: "02",
-    image: "https://media.base44.com/images/public/69e96f879840c600a93d0ce5/a5f933ec3_generated_image.png",
+    image: "https://media.base44.com/images/public/69e96f879840c600a93d0ce5/1096c0073_generated_image.png",
     icon: Volume2,
     title: "Hear a Caring Voice",
     body: "Listen as your companion shares spoken scripture and affirmations tailored to your feelings, carefully chosen to guide and support you all day.",
