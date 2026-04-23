@@ -5,12 +5,18 @@ const BG_IMG = "https://media.base44.com/images/public/69e96f879840c600a93d0ce5/
 
 function SoundwaveBars() {
   return (
-    <img
-      src="https://media.base44.com/images/public/69e96f879840c600a93d0ce5/6ae5def09_SV_soundwave_512.png"
-      alt=""
-      className="h-7 w-auto"
-      aria-hidden="true"
-    />
+    <div className="flex items-center gap-0.5" aria-hidden="true">
+      {[1, 2, 3, 4, 5, 6, 7].map((i) => (
+        <div
+          key={i}
+          className="w-1 bg-[#669eea] rounded-full animate-soundwave"
+          style={{
+            height: i === 4 ? '16px' : i % 2 === 0 ? '12px' : '8px',
+            animationDelay: `${(i - 4) * 0.08}s`,
+          }}
+        />
+      ))}
+    </div>
   );
 }
 
