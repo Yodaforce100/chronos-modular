@@ -52,7 +52,7 @@ export default function SVHero({ onCTAClick }) {
 
           <h1 className="font-serif text-[#001c5f]">
             <span className="block text-3xl sm:text-4xl md:text-[40px] leading-[1.25]">Wake up to a voice that hears you—</span>
-            <span className="block text-xl sm:text-2xl md:text-[28px] leading-[1.4] mt-1 text-[#243E6B]">and guides you with scripture and affirmations.</span>
+            <span className="block text-xl sm:text-2xl md:text-[28px] leading-[1.4] mt-1 text-[#001c5f]">and guides you with scripture and affirmations.</span>
           </h1>
 
           <div className="w-12 h-px bg-[#C5B49A] mt-7 mb-7" />
