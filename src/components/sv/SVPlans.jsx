@@ -119,11 +119,12 @@ export default function SVPlans({ onSelectPlan }) {
               {/* CTA */}
               <button
                 onClick={() => onSelectPlan(plan)}
-                className={`w-full font-sans text-[15px] font-medium py-4 rounded-full min-h-[44px] transition-all duration-300 ${
+                className={`w-full font-sans text-[15px] font-medium py-4 rounded-full min-h-[44px] transition-opacity duration-300 hover:opacity-90 ${
                   plan.featured
-                    ? "bg-[#D4A843] text-white hover:bg-[#be952e] shadow-md"
+                    ? "text-white shadow-md"
                     : "bg-[#F2F1EE] text-[#3A4A5A] border border-[#E7DED2] hover:bg-[#E7DED2]"
                 }`}
+                style={plan.featured ? { background: "linear-gradient(135deg, #C9A84C 0%, #E8C84A 60%, #C9A84C 100%)" } : {}}
               >
                 {plan.cta}
               </button>
