@@ -9,9 +9,9 @@ function SoundwaveBars() {
       {[1, 2, 3, 4, 5, 6, 7].map((i) => (
         <div
           key={i}
-          className="w-1 bg-[#669eea] rounded-full animate-soundwave"
+          className="w-1.5 bg-[#669eea] rounded-full animate-soundwave"
           style={{
-            height: i === 4 ? '16px' : i % 2 === 0 ? '12px' : '8px',
+            height: i === 4 ? '20px' : i % 2 === 0 ? '16px' : '12px',
             animationDelay: `${(i - 4) * 0.08}s`,
           }}
         />
@@ -44,7 +44,7 @@ export default function SVHero({ onCTAClick }) {
           {/* Eyebrow */}
           <div className="flex items-center gap-1.5 mb-8">
             <SoundwaveBars />
-            <span className="font-sans text-xs font-medium text-[#669eea] tracking-widest uppercase">
+            <span className="font-sans text-sm font-medium text-[#669eea] tracking-widest uppercase">
               Spoken Scripture & Affirmations
             </span>
           </div>
