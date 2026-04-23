@@ -10,34 +10,34 @@
     --font-sans: 'Inter', system-ui, sans-serif;
 
     /* Shepherd Verses Brand Colors */
-    --background: 0 0% 95%;          /* #F2F1EE */
-    --foreground: 210 20% 27%;       /* #3A4A5A heading */
+    --background: 0 0% 95%;          /* #F2F1EE light stone */
+    --foreground: 215 100% 18%;      /* #001c5f dark navy */
     --card: 0 0% 100%;
-    --card-foreground: 210 20% 27%;
+    --card-foreground: 215 100% 18%;
     --popover: 0 0% 100%;
-    --popover-foreground: 210 20% 27%;
-    --primary: 13 52% 65%;           /* #D88C7A button coral */
+    --popover-foreground: 215 100% 18%;
+    --primary: 214 100% 55%;         /* #D9B86A button gold - keeping gold */
     --primary-foreground: 0 0% 100%;
-    --secondary: 28 24% 89%;         /* #E7DED2 divider warm */
-    --secondary-foreground: 210 20% 27%;
-    --muted: 28 24% 92%;
-    --muted-foreground: 205 15% 36%; /* #4A5B6B body text */
-    --accent: 205 35% 76%;           /* #A9C3D6 soft blue accent */
-    --accent-foreground: 222 48% 27%;/* #243E6B logo navy */
+    --secondary: 213 49% 60%;        /* #669eea light blue */
+    --secondary-foreground: 215 100% 18%;
+    --muted: 0 0% 96%;
+    --muted-foreground: 215 15% 40%;
+    --accent: 213 49% 60%;           /* #669eea light blue accent */
+    --accent-foreground: 215 100% 18%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
-    --border: 28 24% 89%;            /* #E7DED2 */
-    --input: 28 24% 89%;
-    --ring: 13 52% 65%;
+    --border: 0 0% 90%;
+    --input: 0 0% 96%;
+    --ring: 214 100% 55%;
 
-    --brand-navy: #243E6B;
-    --brand-coral: #D88C7A;
-    --brand-accent: #A9C3D6;
-    --brand-wave: #6F98C2;
-    --brand-bg: #F2F1EE;
-    --brand-heading: #3A4A5A;
-    --brand-body: #4A5B6B;
-    --brand-divider: #E7DED2;
+    --brand-navy: #001c5f;
+    --brand-blue: #669eea;
+    --brand-gold: #D9B86A;
+    --brand-white: #FFFFFF;
+    --brand-stone: #F2F1EE;
+    --brand-text-primary: #001c5f;
+    --brand-text-secondary: #334455;
+    --brand-divider: #E8E8E8;
 
     --radius: 9999px;
     --chart-1: 13 52% 65%;
