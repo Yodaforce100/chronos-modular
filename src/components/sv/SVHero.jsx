@@ -54,7 +54,7 @@ export default function SVHero({ onCTAClick }) {
             Wake up to a voice that hears you—and guides you with scripture and affirmations.
           </h1>
 
-          <div className="w-16 h-[1.5px] bg-[#A9C3D6] my-7" />
+          <div className="w-16 h-[1.5px] bg-[#4A8C8C] my-7" />
 
           <p className="font-sans text-[17px] text-[#4A5B6B] leading-[1.7] max-w-xl">
             Share how you're feeling, and your{" "}
