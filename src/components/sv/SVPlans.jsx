@@ -74,14 +74,14 @@ export default function SVPlans({ onSelectPlan }) {
               {/* Badge */}
               {plan.badge && (
                 <div className="absolute -top-3.5 left-1/2 -translate-x-1/2">
-                  <span className="font-sans text-[11px] font-semibold text-white bg-[#D4A843] px-4 py-1.5 rounded-full whitespace-nowrap shadow">
+                  <span className="font-sans text-[11px] font-semibold text-white bg-[#9E7D45] px-4 py-1.5 rounded-full whitespace-nowrap shadow">
                     {plan.badge}
                   </span>
                 </div>
               )}
 
               {/* Label */}
-              <p className={`font-sans text-xs font-medium tracking-widest uppercase mb-6 ${plan.featured ? "text-[#A9C3D6]" : "text-[#D4A843]"}`}>
+              <p className={`font-sans text-xs font-medium tracking-widest uppercase mb-6 ${plan.featured ? "text-[#A9C3D6]" : "text-[#9E7D45]"}`}>
                 {plan.label}
               </p>
 
@@ -106,7 +106,7 @@ export default function SVPlans({ onSelectPlan }) {
                           plan.featured ? "bg-[#4A8C8C]" : "bg-[#4A8C8C]/20"
                         }`}
                       >
-                        <Check className={`w-3 h-3 ${plan.featured ? "text-white" : "text-[#D4A843]"}`} />
+                        <Check className={`w-3 h-3 ${plan.featured ? "text-white" : "text-[#9E7D45]"}`} />
                       </div>
                       <span className={`font-sans text-[15px] leading-snug ${plan.featured ? "text-white/90" : "text-[#4A5B6B]"}`}>
                         {rest.length > 0 ? rest.join(": ") : feat}
@@ -124,7 +124,7 @@ export default function SVPlans({ onSelectPlan }) {
                     ? "text-white shadow-md"
                     : "bg-[#F2F1EE] text-[#3A4A5A] border border-[#E7DED2] hover:bg-[#E7DED2]"
                 }`}
-                style={plan.featured ? { background: "linear-gradient(135deg, #E8C84A 0%, #C9A84C 50%, #E8C84A 100%)" } : {}}
+                style={plan.featured ? { background: "linear-gradient(135deg, #B8975A 0%, #9E7D45 50%, #B8975A 100%)" } : {}}
               >
                 {plan.cta}
               </button>
