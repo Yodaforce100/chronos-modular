@@ -57,7 +57,7 @@ export default function SVHowItWorks() {
               className="relative bg-white overflow-hidden border border-[#E7DED2] h-full flex flex-col rounded-[24px]"
             >
               {/* Full-bleed image with text overlay */}
-              <div className="relative h-96 overflow-hidden -m-px">
+              <div className="relative h-96 overflow-hidden">
                 <img
                   src={step.image}
                   alt=""
