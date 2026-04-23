@@ -13,14 +13,6 @@ function SpeechBubbleIcon({ color }) {
 const STEPS = [
   {
     number: "01",
-    image: "https://media.base44.com/images/public/69e96f879840c600a93d0ce5/37c678379_Screenshot2026-04-21at111033am.png",
-    icon: Heart,
-    title: "Share How You Feel",
-    body: "Pause and name your current emotion—whether you're anxious, tired, or grateful. Your Shepherd Verses companion listens to where you are in this moment.",
-    accent: "#669eea",
-  },
-  {
-    number: "02",
     image: "https://media.base44.com/images/public/69e96f879840c600a93d0ce5/1096c0073_generated_image.png",
     icon: Volume2,
     title: "Hear a Caring Voice",
