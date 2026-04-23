@@ -75,23 +75,11 @@ export default function SVHowItWorks() {
               </div>
 
               {/* Card content below image */}
-              <div className="p-8 md:p-10 flex-1 flex flex-col">
-                {/* Icon */}
-                <div
-                  className="w-12 h-12 rounded-full flex items-center justify-center mb-6"
-                  style={{ backgroundColor: step.accent + "22" }}
-                >
-                  {i === 0 ? (
-                    <SpeechBubbleIcon color={step.accent} />
-                  ) : (
-                    <step.icon className="w-5 h-5" style={{ color: step.accent }} />
-                  )}
-                </div>
-
-                <p className="font-sans text-xs font-medium tracking-widest uppercase mb-3" style={{ color: step.accent }}>
+              <div className="p-6 md:p-8 flex-1 flex flex-col">
+                <p className="font-sans text-xs font-medium tracking-widest uppercase mb-2" style={{ color: step.accent }}>
                   Step {step.number}
                 </p>
-                <p className="font-sans text-[16px] text-[#4A5B6B] leading-[1.7]">
+                <p className="font-sans text-[15px] text-[#4A5B6B] leading-[1.6]">
                   {step.body}
                 </p>
               </div>
