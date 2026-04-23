@@ -9,7 +9,7 @@ function SoundwaveBars() {
       {[1, 2, 3, 4, 5, 6, 7].map((i) => (
         <div
           key={i}
-          className="w-1.5 bg-[#669eea] rounded-full animate-soundwave"
+          className="w-0.5 bg-[#669eea] rounded-full animate-soundwave"
           style={{
             height: i === 4 ? '20px' : i % 2 === 0 ? '16px' : '12px',
             animationDelay: `${(i - 4) * 0.08}s`,
