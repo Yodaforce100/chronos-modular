@@ -109,12 +109,7 @@ export default function SVPlans({ onSelectPlan }) {
                         <Check className={`w-3 h-3 ${plan.featured ? "text-white" : "text-[#6F98C2]"}`} />
                       </div>
                       <span className={`font-sans text-[15px] leading-snug ${plan.featured ? "text-white/90" : "text-[#4A5B6B]"}`}>
-                        {rest.length > 0 ? (
-                          <>
-                            <span className={`font-medium ${plan.featured ? "text-white" : "text-[#3A4A5A]"}`}>{title}:</span>{" "}
-                            {rest.join(": ")}
-                          </>
-                        ) : feat}
+                        {rest.length > 0 ? rest.join(": ") : feat}
                       </span>
                     </li>
                   );
