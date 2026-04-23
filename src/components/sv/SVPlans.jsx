@@ -74,7 +74,7 @@ export default function SVPlans({ onSelectPlan }) {
               {/* Badge */}
               {plan.badge && (
                 <div className="absolute -top-3.5 left-1/2 -translate-x-1/2">
-                  <span className="font-sans text-[11px] font-semibold text-white bg-[#4A8C8C] px-4 py-1.5 rounded-full whitespace-nowrap shadow">
+                  <span className="font-sans text-[11px] font-semibold text-[#3A3010] bg-[#E8D48B] px-4 py-1.5 rounded-full whitespace-nowrap shadow">
                     {plan.badge}
                   </span>
                 </div>
@@ -121,10 +121,10 @@ export default function SVPlans({ onSelectPlan }) {
                 onClick={() => onSelectPlan(plan)}
                 className={`w-full font-sans text-[15px] font-medium py-4 rounded-full min-h-[44px] transition-opacity duration-300 hover:opacity-90 ${
                   plan.featured
-                    ? "text-white shadow-md"
+                    ? "text-[#3A3010] shadow-md"
                     : "bg-[#F2F1EE] text-[#3A4A5A] border border-[#E7DED2] hover:bg-[#E7DED2]"
                 }`}
-                style={plan.featured ? { background: "linear-gradient(135deg, #4A8C8C 0%, #357575 50%, #4A8C8C 100%)" } : {}}
+                style={plan.featured ? { background: "linear-gradient(135deg, #E8D48B 0%, #D4B96A 50%, #E8D48B 100%)" } : {}}
               >
                 {plan.cta}
               </button>

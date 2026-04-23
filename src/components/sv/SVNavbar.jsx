@@ -67,8 +67,8 @@ export default function SVNavbar({ onCTAClick }) {
         <div className="flex justify-end">
           <button
             onClick={onCTAClick}
-            className="hidden md:inline-flex font-sans text-sm font-medium text-white px-6 py-2.5 rounded-full min-h-[44px] items-center transition-opacity duration-300 hover:opacity-90"
-            style={{ background: "linear-gradient(135deg, #4A8C8C 0%, #357575 50%, #4A8C8C 100%)" }}
+            className="hidden md:inline-flex font-sans text-sm font-medium text-[#3A3010] px-6 py-2.5 rounded-full min-h-[44px] items-center transition-opacity duration-300 hover:opacity-90"
+            style={{ background: "linear-gradient(135deg, #E8D48B 0%, #D4B96A 50%, #E8D48B 100%)" }}
           >
             Begin Free Trial
           </button>
@@ -98,8 +98,8 @@ export default function SVNavbar({ onCTAClick }) {
               ))}
               <button
                 onClick={() => { onCTAClick(); setMobileOpen(false); }}
-                className="font-sans text-sm font-medium text-white px-6 py-3 rounded-full mt-2 transition-opacity duration-300 hover:opacity-90"
-                style={{ background: "linear-gradient(135deg, #4A8C8C 0%, #357575 50%, #4A8C8C 100%)" }}
+                className="font-sans text-sm font-medium text-[#3A3010] px-6 py-3 rounded-full mt-2 transition-opacity duration-300 hover:opacity-90"
+                style={{ background: "linear-gradient(135deg, #E8D48B 0%, #D4B96A 50%, #E8D48B 100%)" }}
               >
                 Begin Free Trial
               </button>
