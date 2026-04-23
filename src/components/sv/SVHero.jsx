@@ -6,7 +6,7 @@ const BG_IMG = "https://media.base44.com/images/public/69e96f879840c600a93d0ce5/
 function SoundwaveBars() {
   return (
     <img
-      src="https://media.base44.com/images/public/69e96f879840c600a93d0ce5/937568997_Shepherd_Verses_favicon_SOUNDWAVE.png"
+      src="https://media.base44.com/images/public/69e96f879840c600a93d0ce5/6ae5def09_SV_soundwave_512.png"
       alt=""
       className="h-12 w-auto"
       aria-hidden="true"
