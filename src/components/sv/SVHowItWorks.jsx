@@ -32,7 +32,7 @@ export default function SVHowItWorks() {
         >
 
           <h2 className="font-serif text-3xl md:text-4xl lg:text-[44px] leading-[1.25] text-[#001c5f]">
-            Two simple steps.<br />A day transformed.
+            Two simple steps.<br /><span className="text-2xl md:text-3xl lg:text-[32px]">A day transformed.</span>
           </h2>
         </motion.div>
 
