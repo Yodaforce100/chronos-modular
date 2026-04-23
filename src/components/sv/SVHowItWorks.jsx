@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Heart, Volume2 } from "lucide-react";
+import { Heart, Volume2, MessageCircle } from "lucide-react";
 
 const STEPS = [
   {
@@ -57,10 +57,17 @@ export default function SVHowItWorks() {
 
               {/* Icon */}
               <div
-                className="w-12 h-12 rounded-full flex items-center justify-center mb-6"
+                className="w-12 h-12 rounded-full flex items-center justify-center mb-6 relative"
                 style={{ backgroundColor: step.accent + "22" }}
               >
-                <step.icon className="w-5 h-5" style={{ color: step.accent }} />
+                {i === 0 ? (
+                  <>
+                    <Heart className="w-5 h-5" style={{ color: step.accent }} />
+                    <MessageCircle className="w-3 h-3 absolute bottom-1 right-1" style={{ color: step.accent }} />
+                  </>
+                ) : (
+                  <step.icon className="w-5 h-5" style={{ color: step.accent }} />
+                )}
               </div>
 
               <p className="font-sans text-xs font-medium tracking-widest uppercase mb-3" style={{ color: step.accent }}>
