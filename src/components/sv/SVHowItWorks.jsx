@@ -13,6 +13,7 @@ function SpeechBubbleIcon({ color }) {
 const STEPS = [
   {
     number: "01",
+    image: "https://images.unsplash.com/photo-1493210199442-0d6e62ce1e76?w=600&h=300&fit=crop",
     icon: Heart,
     title: "Share How You Feel",
     body: "Pause and name your current emotion—whether you're anxious, tired, or grateful. Your Shepherd Verses companion listens to where you are in this moment.",
@@ -20,6 +21,7 @@ const STEPS = [
   },
   {
     number: "02",
+    image: "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=600&h=300&fit=crop",
     icon: Volume2,
     title: "Hear a Caring Voice",
     body: "Listen as your companion shares spoken scripture and affirmations tailored to your feelings, carefully chosen to guide and support you all day.",
@@ -52,18 +54,26 @@ export default function SVHowItWorks() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: i * 0.12 }}
-              className="relative bg-[#F2F1EE] rounded-[24px] p-8 md:p-10 border border-[#E7DED2] overflow-hidden"
+              className="relative bg-[#F2F1EE] rounded-[24px] overflow-hidden border border-[#E7DED2]"
             >
-              {/* Step number watermark */}
-              <span
-                className="absolute top-4 right-6 font-serif text-[80px] leading-none select-none pointer-events-none"
-                style={{ color: step.accent, opacity: 0.12 }}
-                aria-hidden="true"
-              >
-                {step.number}
-              </span>
+              {/* Image banner */}
+              <img
+                src={step.image}
+                alt=""
+                className="w-full h-40 object-cover"
+              />
 
-              {/* Icon */}
+              <div className="p-8 md:p-10 relative">
+                {/* Step number watermark */}
+                <span
+                  className="absolute top-4 right-6 font-serif text-[80px] leading-none select-none pointer-events-none"
+                  style={{ color: step.accent, opacity: 0.12 }}
+                  aria-hidden="true"
+                >
+                  {step.number}
+                </span>
+
+                {/* Icon */}
               <div
                 className="w-12 h-12 rounded-full flex items-center justify-center mb-6"
                 style={{ backgroundColor: step.accent + "22" }}
@@ -84,6 +94,7 @@ export default function SVHowItWorks() {
               <p className="font-sans text-[16px] text-[#4A5B6B] leading-[1.7]">
                 {step.body}
               </p>
+              </div>
             </motion.div>
           ))}
         </div>
