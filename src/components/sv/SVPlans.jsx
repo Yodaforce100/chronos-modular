@@ -46,7 +46,7 @@ export default function SVPlans({ onSelectPlan }) {
           transition={{ duration: 0.6 }}
           className="text-center mb-4"
         >
-          <span className="font-sans text-xs font-medium text-[#4A8C8C] tracking-widest uppercase block mb-4">
+          <span className="font-sans text-xs font-medium text-[#D4A843] tracking-widest uppercase block mb-4">
             The Practical Specs
           </span>
           <h2 className="font-serif text-3xl md:text-4xl lg:text-[44px] leading-[1.25] text-[#243E6B]">
@@ -81,7 +81,7 @@ export default function SVPlans({ onSelectPlan }) {
               )}
 
               {/* Label */}
-              <p className={`font-sans text-xs font-medium tracking-widest uppercase mb-6 ${plan.featured ? "text-[#A9C3D6]" : "text-[#4A8C8C]"}`}>
+              <p className={`font-sans text-xs font-medium tracking-widest uppercase mb-6 ${plan.featured ? "text-[#A9C3D6]" : "text-[#D4A843]"}`}>
                 {plan.label}
               </p>
 
@@ -103,10 +103,10 @@ export default function SVPlans({ onSelectPlan }) {
                     <li key={feat} className="flex items-start gap-3">
                       <div
                         className={`w-5 h-5 rounded-full flex items-center justify-center shrink-0 mt-0.5 ${
-                          plan.featured ? "bg-[#4A8C8C]" : "bg-[#A9C3D6]/30"
+                          plan.featured ? "bg-[#D4A843]" : "bg-[#D4A843]/20"
                         }`}
                       >
-                        <Check className={`w-3 h-3 ${plan.featured ? "text-white" : "text-[#4A8C8C]"}`} />
+                        <Check className={`w-3 h-3 ${plan.featured ? "text-white" : "text-[#D4A843]"}`} />
                       </div>
                       <span className={`font-sans text-[15px] leading-snug ${plan.featured ? "text-white/90" : "text-[#4A5B6B]"}`}>
                         {rest.length > 0 ? rest.join(": ") : feat}

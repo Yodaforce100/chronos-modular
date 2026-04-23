@@ -10,7 +10,7 @@ function SoundwaveBars() {
       {heights.map((h, i) => (
         <div
           key={i}
-          className="w-[3px] rounded-full bg-[#4A8C8C]"
+          className="w-[3px] rounded-full bg-[#D4A843]"
           style={{
             height: `${h}%`,
             animation: `soundwave ${1 + (i % 5) * 0.15}s ease-in-out ${i * 0.07}s infinite`,
@@ -45,7 +45,7 @@ export default function SVHero({ onCTAClick }) {
           {/* Eyebrow */}
           <div className="flex items-center gap-3 mb-8">
             <SoundwaveBars />
-            <span className="font-sans text-xs font-medium text-[#4A8C8C] tracking-widest uppercase">
+            <span className="font-sans text-xs font-medium text-[#D4A843] tracking-widest uppercase">
               Spoken Scripture & Affirmations
             </span>
           </div>
@@ -54,7 +54,7 @@ export default function SVHero({ onCTAClick }) {
             Wake up to a voice that hears you—and guides you with scripture and affirmations.
           </h1>
 
-          <div className="w-16 h-[1.5px] bg-[#4A8C8C] my-7" />
+          <div className="w-16 h-[1.5px] bg-[#D4A843] my-7" />
 
           <p className="font-sans text-[17px] text-[#4A5B6B] leading-[1.7] max-w-xl">
             Share how you're feeling, and your{" "}
