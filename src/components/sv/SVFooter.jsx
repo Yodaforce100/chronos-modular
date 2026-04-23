@@ -3,7 +3,7 @@ import React from "react";
 function ShepherdLogoSmall() {
   return (
     <img
-      src="https://media.base44.com/images/public/69e96f879840c600a93d0ce5/fa7c06e06_Shepherd_Verses_herologo_sound_blue_1500.png"
+      src="https://media.base44.com/images/public/69e96f879840c600a93d0ce5/ba90c4f80_Shepherd_verses_logo_3125.png"
       alt="Shepherd Verses"
       className="h-12 w-auto"
     />
