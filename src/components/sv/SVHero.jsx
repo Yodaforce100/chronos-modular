@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const BG_IMG = "https://media.base44.com/images/public/69e96f879840c600a93d0ce5/51300e903_frank-mckenna-OD9EOzfSOh0-unsplash.jpg";
+const BG_IMG = "https://media.base44.com/images/public/69e96f879840c600a93d0ce5/207c34974_istockphoto-1007768414-612x612.jpg";
 
 function SoundwaveBars() {
   const heights = [28, 44, 60, 76, 56, 88, 64, 44, 52, 72, 48, 36];
