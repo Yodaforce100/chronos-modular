@@ -13,7 +13,7 @@ function SpeechBubbleIcon({ color }) {
 const STEPS = [
   {
     number: "01",
-    image: "https://images.unsplash.com/photo-1493210199442-0d6e62ce1e76?w=600&h=300&fit=crop",
+    image: "https://media.base44.com/images/public/69e96f879840c600a93d0ce5/3cf006519_istockphoto-2257561497-1024x1024.jpg",
     icon: Heart,
     title: "Share How You Feel",
     body: "Pause and name your current emotion—whether you're anxious, tired, or grateful. Your Shepherd Verses companion listens to where you are in this moment.",
@@ -21,7 +21,7 @@ const STEPS = [
   },
   {
     number: "02",
-    image: "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=600&h=300&fit=crop",
+    image: "https://media.base44.com/images/public/69e96f879840c600a93d0ce5/43a894901_younggirlheadphones.jpg",
     icon: Volume2,
     title: "Hear a Caring Voice",
     body: "Listen as your companion shares spoken scripture and affirmations tailored to your feelings, carefully chosen to guide and support you all day.",
