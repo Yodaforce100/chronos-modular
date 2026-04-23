@@ -54,10 +54,10 @@ export default function SVHowItWorks() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: i * 0.12 }}
-              className="relative bg-white overflow-hidden border border-[#E7DED2] h-full flex flex-col rounded-[24px]"
+              className="relative bg-white border border-[#E7DED2] h-full flex flex-col rounded-[24px] overflow-hidden"
             >
               {/* Full-bleed image with text overlay */}
-              <div className="relative w-full h-96 overflow-hidden p-0">
+              <div className="relative w-full h-96 overflow-hidden">
                 <img
                   src={step.image}
                   alt=""
