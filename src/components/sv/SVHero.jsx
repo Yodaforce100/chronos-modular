@@ -30,7 +30,7 @@ export default function SVHero({ onCTAClick }) {
           src={BG_IMG}
           alt=""
           className="w-full h-full object-cover object-center"
-          style={{ opacity: 0.15 }}
+          style={{ opacity: 0.4 }}
         />
         <div className="absolute inset-0" style={{ background: "linear-gradient(to bottom, rgba(240,245,255,0.4) 0%, transparent 30%, transparent 70%, rgba(240,245,255,0.4) 100%)" }} />
       </div>
