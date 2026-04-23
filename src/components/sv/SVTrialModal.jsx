@@ -93,7 +93,7 @@ export default function SVTrialModal({ isOpen, onClose, selectedPlan }) {
                 </div>
 
                 {/* CTA */}
-                <button className="w-full font-sans text-[15px] font-medium text-white bg-[#6B8F71] py-4 rounded-full min-h-[44px] hover:bg-[#5a7a60] transition-colors duration-300 shadow-md mt-2">
+                <button className="w-full font-sans text-[15px] font-medium text-white bg-[#C4964A] py-4 rounded-full min-h-[44px] hover:bg-[#a87e3a] transition-colors duration-300 shadow-md mt-2">
                   Start My Free 7-Day Trial
                 </button>
 

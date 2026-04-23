@@ -67,7 +67,7 @@ export default function SVNavbar({ onCTAClick }) {
         <div className="flex justify-end">
           <button
             onClick={onCTAClick}
-            className="hidden md:inline-flex font-sans text-sm font-medium text-white bg-[#6B8F71] px-6 py-2.5 rounded-full hover:bg-[#5a7a60] transition-colors duration-300 min-h-[44px] items-center"
+            className="hidden md:inline-flex font-sans text-sm font-medium text-white bg-[#C4964A] px-6 py-2.5 rounded-full hover:bg-[#a87e3a] transition-colors duration-300 min-h-[44px] items-center"
           >
             Begin Free Trial
           </button>
@@ -97,7 +97,7 @@ export default function SVNavbar({ onCTAClick }) {
               ))}
               <button
                 onClick={() => { onCTAClick(); setMobileOpen(false); }}
-                className="font-sans text-sm font-medium text-white bg-[#6B8F71] px-6 py-3 rounded-full mt-2 hover:bg-[#5a7a60] transition-colors duration-300"
+                className="font-sans text-sm font-medium text-white bg-[#C4964A] px-6 py-3 rounded-full mt-2 hover:bg-[#a87e3a] transition-colors duration-300"
               >
                 Begin Free Trial
               </button>
