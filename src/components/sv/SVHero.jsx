@@ -1,7 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const BG_IMG = "https://media.base44.com/images/public/69e96f879840c600a93d0ce5/eeb901bc6_generated_image.png";
+// Previous version (beach/ocean): "https://media.base44.com/images/public/69e96f879840c600a93d0ce5/eeb901bc6_generated_image.png"
+const BG_IMG = "https://media.base44.com/images/public/69e96f879840c600a93d0ce5/05f98274e_istockphoto-1007768414-612x612.jpg";
 
 function SoundwaveBars() {
   return (
@@ -29,7 +30,7 @@ export default function SVHero({ onCTAClick }) {
           src={BG_IMG}
           alt=""
           className="w-full h-full object-cover object-center"
-          style={{ opacity: 0.5 }}
+          style={{ opacity: 0.3 }}
         />
         <div className="absolute inset-0" style={{ background: "linear-gradient(to bottom, #f0f5ff 0%, transparent 20%, transparent 70%, #f0f5ff 100%)" }} />
       </div>
