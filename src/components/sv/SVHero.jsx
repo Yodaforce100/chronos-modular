@@ -55,7 +55,7 @@ export default function SVHero({ onCTAClick }) {
             <span className="block text-xl sm:text-2xl md:text-[28px] leading-[1.4] mt-1 text-[#243E6B]">and guides you with scripture and affirmations.</span>
           </h1>
 
-          <div className="w-16 h-[1.5px] bg-[#4A8C8C] my-7" />
+          <div className="w-16 h-[1.5px] bg-[#4A8C8C] mt-7 mb-7" />
 
           <p className="font-sans text-[17px] text-[#4A5B6B] leading-[1.7] max-w-xl">
             Share how you're feeling, and your{" "}
