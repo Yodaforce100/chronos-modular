@@ -37,7 +37,7 @@ const PLANS = [
 
 export default function SVPlans({ onSelectPlan }) {
   return (
-    <section id="plans" className="relative py-24 md:py-36">
+    <section id="plans" className="relative py-16 md:py-36">
       <div className="max-w-5xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -55,7 +55,7 @@ export default function SVPlans({ onSelectPlan }) {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mt-14">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 mt-10">
           {PLANS.map((plan, i) => (
             <motion.div
               key={plan.id}
@@ -63,7 +63,7 @@ export default function SVPlans({ onSelectPlan }) {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: i * 0.1 }}
-              className={`relative flex flex-col rounded-[24px] border p-8 md:p-10 ${
+              className={`relative flex flex-col rounded-[24px] border p-5 md:p-10 ${
                 plan.featured
                   ? "bg-[#243E6B] border-[#243E6B] text-white shadow-xl"
                   : "bg-white border-[#E7DED2] text-[#3A4A5A]"
@@ -84,7 +84,7 @@ export default function SVPlans({ onSelectPlan }) {
               </p>
 
               {/* Price */}
-              <div className="flex items-end gap-1.5 mb-8">
+              <div className="flex items-end gap-1.5 mb-6">
                 <span className={`font-serif text-5xl md:text-6xl ${plan.featured ? "text-white" : "text-[#3A4A5A]"}`}>
                   {plan.price}
                 </span>
@@ -94,7 +94,7 @@ export default function SVPlans({ onSelectPlan }) {
               </div>
 
               {/* Features */}
-              <ul className="space-y-4 flex-1 mb-10">
+              <ul className="space-y-3 flex-1 mb-6">
                 {plan.features.map((feat) => {
                   const [title, ...rest] = feat.split(": ");
                   return (

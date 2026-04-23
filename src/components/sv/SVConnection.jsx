@@ -12,9 +12,9 @@ const MOODS = [
 
 export default function SVConnection() {
   return (
-    <section className="relative py-16 md:py-20">
+    <section className="relative py-10 md:py-20">
       <div className="max-w-5xl mx-auto px-6">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-20 items-center">
           {/* Left: Mood illustration */}
           <motion.div
             initial={{ opacity: 0, x: -24 }}
@@ -24,7 +24,7 @@ export default function SVConnection() {
             className="relative"
           >
             {/* Main card */}
-            <div className="bg-white rounded-[24px] border border-[#E7DED2] p-8 shadow-sm">
+            <div className="bg-white rounded-[24px] border border-[#E7DED2] p-4 md:p-8 shadow-sm">
               <p className="font-sans text-xs font-medium text-[#669eea] tracking-widest uppercase mb-5">
                 How are you feeling this morning?
               </p>
@@ -66,11 +66,11 @@ export default function SVConnection() {
             transition={{ duration: 0.7, ease: [0.2, 0, 0, 1], delay: 0.1 }}
           >
 
-            <h2 className="font-serif text-3xl md:text-4xl lg:text-[42px] leading-[1.25] text-[#001c5f]">
+            <h2 className="font-serif text-2xl md:text-4xl lg:text-[42px] leading-[1.25] text-[#001c5f]">
               A companion for every moment of your day
             </h2>
             <div className="w-12 h-[1.5px] bg-[#669eea] my-6" />
-            <p className="font-sans text-[17px] text-[#4A5B6B] leading-[1.7]">
+            <p className="font-sans text-[15px] md:text-[17px] text-[#4A5B6B] leading-[1.7]">
               Some days begin with calm. Others begin with uncertainty, heaviness,
               or quiet worry.{" "}
               <span className="font-medium text-[#3A4A5A]">Shepherd Verses</span>{" "}

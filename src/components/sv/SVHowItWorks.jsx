@@ -31,14 +31,14 @@ const STEPS = [
 
 export default function SVHowItWorks() {
   return (
-    <section id="how-it-works" className="relative py-24 md:py-36 bg-white">
+    <section id="how-it-works" className="relative py-16 md:py-36 bg-white">
       <div className="max-w-5xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="text-center mb-16 md:mb-20"
+          className="text-center mb-10 md:mb-20"
         >
 
           <h2 className="font-serif text-3xl md:text-4xl lg:text-[44px] leading-[1.25] text-[#001c5f]">
@@ -46,7 +46,7 @@ export default function SVHowItWorks() {
           </h2>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
           {STEPS.map((step, i) => (
             <motion.div
               key={step.number}
@@ -57,7 +57,7 @@ export default function SVHowItWorks() {
               className="relative border border-[#E7DED2] h-full flex flex-col rounded-[24px] overflow-hidden"
             >
               {/* Full-bleed image with text overlay */}
-              <div className="relative w-full h-96 overflow-hidden">
+              <div className="relative w-full h-64 md:h-96 overflow-hidden">
                 <img
                   src={step.image}
                   alt=""
@@ -79,7 +79,7 @@ export default function SVHowItWorks() {
               </div>
 
               {/* Card content below image */}
-              <div className="p-6 md:p-8 flex-1 flex flex-col">
+              <div className="p-4 md:p-8 flex-1 flex flex-col">
                 <p className="font-sans text-xs font-medium tracking-widest uppercase mb-2" style={{ color: step.accent }}>
                   Step {step.number}
                 </p>
