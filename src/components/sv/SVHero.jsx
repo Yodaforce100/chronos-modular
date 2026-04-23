@@ -8,7 +8,7 @@ function SoundwaveBars() {
     <img
       src="https://media.base44.com/images/public/69e96f879840c600a93d0ce5/937568997_Shepherd_Verses_favicon_SOUNDWAVE.png"
       alt=""
-      className="h-8 w-auto"
+      className="h-12 w-auto"
       aria-hidden="true"
     />
   );
