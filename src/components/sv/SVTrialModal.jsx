@@ -94,7 +94,7 @@ export default function SVTrialModal({ isOpen, onClose, selectedPlan }) {
 
                 {/* CTA */}
                 <button className="w-full font-sans text-[15px] font-medium text-white py-4 rounded-full min-h-[44px] shadow-md mt-2 transition-opacity duration-300 hover:opacity-90"
-                style={{ background: "linear-gradient(135deg, #B8975A 0%, #9E7D45 50%, #B8975A 100%)" }}>
+                style={{ background: "linear-gradient(135deg, #D4A843 0%, #BF922E 50%, #D4A843 100%)" }}>
                   Start My Free 7-Day Trial
                 </button>
 
