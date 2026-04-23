@@ -58,7 +58,7 @@ export default function SVNavbar({ onCTAClick }) {
             <img
               src="https://media.base44.com/images/public/69e96f879840c600a93d0ce5/7169efe87_Shepherd_Verses_herologo_sound_blue_3000.png"
               alt="Shepherd Verses"
-              className="h-14 md:h-16 w-auto"
+              className="h-16 md:h-20 w-auto"
             />
           </a>
         </div>
