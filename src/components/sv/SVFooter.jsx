@@ -17,7 +17,7 @@ export default function SVFooter() {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
           <div>
             <ShepherdLogoSmall />
-            <p className="font-sans text-sm text-[#4A5B6B] mt-3 max-w-xs leading-relaxed">
+            <p className="font-sans text-sm text-[#334455] mt-3 max-w-xs leading-relaxed">
               Daily scripture and affirmations, spoken just for you. Every morning, without fail.
             </p>
           </div>
@@ -29,7 +29,7 @@ export default function SVFooter() {
               <ul className="space-y-2">
                 {["How It Works", "Pricing", "Free Trial"].map((l) => (
                   <li key={l}>
-                    <a href="#" className="font-sans text-sm text-[#4A5B6B] hover:text-[#3A4A5A] transition-colors">{l}</a>
+                    <a href="#" className="font-sans text-sm text-[#334455] hover:text-[#3A4A5A] transition-colors">{l}</a>
                   </li>
                 ))}
               </ul>
@@ -41,7 +41,7 @@ export default function SVFooter() {
               <ul className="space-y-2">
                 {["Privacy Policy", "Terms of Service"].map((l) => (
                   <li key={l}>
-                    <a href="#" className="font-sans text-sm text-[#4A5B6B] hover:text-[#3A4A5A] transition-colors">{l}</a>
+                    <a href="#" className="font-sans text-sm text-[#334455] hover:text-[#3A4A5A] transition-colors">{l}</a>
                   </li>
                 ))}
               </ul>
@@ -49,7 +49,7 @@ export default function SVFooter() {
           </div>
         </div>
         <div className="mt-10 pt-8 border-t border-[#E7DED2]">
-          <p className="font-sans text-xs text-[#4A5B6B] text-center">
+          <p className="font-sans text-xs text-[#334455] text-center">
             © 2026 Shepherd Verses. Made with care for your peace of mind.
           </p>
         </div>

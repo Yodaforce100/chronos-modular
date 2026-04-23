@@ -39,7 +39,7 @@ export default function SVConnection() {
                     className="flex flex-col items-center gap-2 p-3 rounded-[12px] cursor-pointer hover:bg-[#F2F1EE] transition-colors"
                   >
                     <span className="text-2xl">{mood.emoji}</span>
-                    <span className="font-sans text-[11px] font-medium text-[#4A5B6B]">
+                    <span className="font-sans text-[11px] font-medium text-[#334455]">
                       {mood.label}
                     </span>
                   </motion.div>
@@ -53,7 +53,7 @@ export default function SVConnection() {
                 <p className="font-serif text-[15px] text-[#3A4A5A] leading-snug italic">
                   "Cast all your anxiety on him because he cares for you."
                 </p>
-                <p className="font-sans text-xs text-[#4A5B6B] mt-1">— 1 Peter 5:7</p>
+                <p className="font-sans text-xs text-[#334455] mt-1">— 1 Peter 5:7</p>
               </div>
             </div>
           </motion.div>
@@ -70,7 +70,7 @@ export default function SVConnection() {
               A companion for every moment of your day
             </h2>
             <div className="w-12 h-[1.5px] bg-[#669eea] my-6" />
-            <p className="font-sans text-[15px] md:text-[17px] text-[#4A5B6B] leading-[1.7]">
+            <p className="font-sans text-[15px] md:text-[17px] text-[#334455] leading-[1.7]">
               Some days begin with calm. Others begin with uncertainty, heaviness,
               or quiet worry.{" "}
               <span className="font-medium text-[#3A4A5A]">Shepherd Verses</span>{" "}

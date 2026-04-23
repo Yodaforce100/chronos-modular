@@ -98,7 +98,7 @@ export default function SVTrialModal({ isOpen, onClose, selectedPlan }) {
                   Start My Free 7-Day Trial
                 </button>
 
-                <p className="font-sans text-xs text-center text-[#4A5B6B] opacity-70">
+                <p className="font-sans text-xs text-center text-[#334455] opacity-70">
                   No credit card required · Cancel anytime · One message per morning
                 </p>
               </div>

@@ -83,7 +83,7 @@ export default function SVHowItWorks() {
                 <p className="font-sans text-xs font-medium tracking-widest uppercase mb-2" style={{ color: step.accent }}>
                   Step {step.number}
                 </p>
-                <p className="font-sans text-[15px] text-[#4A5B6B] leading-[1.6]">
+                <p className="font-sans text-[15px] text-[#334455] leading-[1.6]">
                   {step.body}
                 </p>
               </div>

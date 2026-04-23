@@ -56,7 +56,7 @@ export default function SVHero({ onCTAClick }) {
 
           <div className="w-12 h-px bg-[#C5B49A] mt-7 mb-7" />
 
-          <p className="font-sans text-[17px] text-[#4A5B6B] leading-[1.7] max-w-xl">
+          <p className="font-sans text-[17px] text-[#334455] leading-[1.7] max-w-xl">
             Share how you're feeling, and your{" "}
             <span className="font-medium text-[#3A4A5A]">Shepherd Verses</span>{" "}
             companion delivers calming, spoken scripture and affirmations—helping
@@ -71,7 +71,7 @@ export default function SVHero({ onCTAClick }) {
             Start Your Morning with Peace
           </button>
 
-          <p className="font-sans text-xs text-[#4A5B6B] mt-4 opacity-70">
+          <p className="font-sans text-xs text-[#334455] mt-4 opacity-70">
             Free 7-day trial · No credit card required · Cancel anytime
           </p>
         </motion.div>
