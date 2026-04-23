@@ -6,6 +6,7 @@ import PageNotFound from './lib/PageNotFound';
 import { AuthProvider, useAuth } from '@/lib/AuthContext';
 import UserNotRegisteredError from '@/components/UserNotRegisteredError';
 import Landing from './pages/Landing';
+import ShepherdVersesLanding from './pages/ShepherdVersesLanding';
 // Add page imports here
 
 const AuthenticatedApp = () => {
@@ -34,7 +35,8 @@ const AuthenticatedApp = () => {
   // Render the main app
   return (
     <Routes>
-      <Route path="/" element={<Landing />} />
+      <Route path="/" element={<ShepherdVersesLanding />} />
+      <Route path="/chronos" element={<Landing />} />
       <Route path="*" element={<PageNotFound />} />
     </Routes>
   );

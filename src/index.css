@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Inter:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,78 +6,53 @@
 
 @layer base {
   :root {
-    --font-serif: 'Playfair Display', Georgia, serif;
+    --font-serif: 'Marcellus', Georgia, serif;
     --font-sans: 'Inter', system-ui, sans-serif;
-    --font-mono: 'JetBrains Mono', monospace;
 
-    --background: 40 33% 97%;
-    --foreground: 0 0% 7%;
-    --card: 40 33% 97%;
-    --card-foreground: 0 0% 7%;
-    --popover: 40 33% 97%;
-    --popover-foreground: 0 0% 7%;
-    --primary: 221 100% 50%;
+    /* Shepherd Verses Brand Colors */
+    --background: 0 0% 95%;          /* #F2F1EE */
+    --foreground: 210 20% 27%;       /* #3A4A5A heading */
+    --card: 0 0% 100%;
+    --card-foreground: 210 20% 27%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 20% 27%;
+    --primary: 13 52% 65%;           /* #D88C7A button coral */
     --primary-foreground: 0 0% 100%;
-    --secondary: 50 12% 90%;
-    --secondary-foreground: 0 0% 7%;
-    --muted: 50 12% 90%;
-    --muted-foreground: 0 0% 45%;
-    --accent: 50 8% 85%;
-    --accent-foreground: 0 0% 7%;
+    --secondary: 28 24% 89%;         /* #E7DED2 divider warm */
+    --secondary-foreground: 210 20% 27%;
+    --muted: 28 24% 92%;
+    --muted-foreground: 205 15% 36%; /* #4A5B6B body text */
+    --accent: 205 35% 76%;           /* #A9C3D6 soft blue accent */
+    --accent-foreground: 222 48% 27%;/* #243E6B logo navy */
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
-    --border: 47 8% 78%;
-    --input: 47 8% 78%;
-    --ring: 221 100% 50%;
-    --chart-1: 221 100% 50%;
-    --chart-2: 173 58% 39%;
-    --chart-3: 197 37% 24%;
-    --chart-4: 43 74% 66%;
-    --chart-5: 27 87% 67%;
-    --radius: 0.25rem;
-    --sidebar-background: 40 33% 97%;
-    --sidebar-foreground: 0 0% 7%;
-    --sidebar-primary: 221 100% 50%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 50 12% 90%;
-    --sidebar-accent-foreground: 0 0% 7%;
-    --sidebar-border: 47 8% 78%;
-    --sidebar-ring: 221 100% 50%;
-  }
+    --border: 28 24% 89%;            /* #E7DED2 */
+    --input: 28 24% 89%;
+    --ring: 13 52% 65%;
 
-  .dark {
-    --background: 0 0% 5%;
-    --foreground: 40 33% 95%;
-    --card: 0 0% 8%;
-    --card-foreground: 40 33% 95%;
-    --popover: 0 0% 8%;
-    --popover-foreground: 40 33% 95%;
-    --primary: 221 100% 55%;
-    --primary-foreground: 0 0% 100%;
-    --secondary: 0 0% 12%;
-    --secondary-foreground: 40 33% 95%;
-    --muted: 0 0% 12%;
-    --muted-foreground: 0 0% 60%;
-    --accent: 0 0% 15%;
-    --accent-foreground: 40 33% 95%;
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 0 0% 18%;
-    --input: 0 0% 18%;
-    --ring: 221 100% 55%;
-    --chart-1: 221 100% 55%;
-    --chart-2: 160 60% 45%;
-    --chart-3: 30 80% 55%;
-    --chart-4: 280 65% 60%;
-    --chart-5: 340 75% 55%;
-    --sidebar-background: 0 0% 5%;
-    --sidebar-foreground: 40 33% 95%;
-    --sidebar-primary: 221 100% 55%;
+    --brand-navy: #243E6B;
+    --brand-coral: #D88C7A;
+    --brand-accent: #A9C3D6;
+    --brand-wave: #6F98C2;
+    --brand-bg: #F2F1EE;
+    --brand-heading: #3A4A5A;
+    --brand-body: #4A5B6B;
+    --brand-divider: #E7DED2;
+
+    --radius: 9999px;
+    --chart-1: 13 52% 65%;
+    --chart-2: 205 35% 76%;
+    --chart-3: 222 48% 27%;
+    --chart-4: 205 30% 58%;
+    --chart-5: 28 24% 75%;
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 210 20% 27%;
+    --sidebar-primary: 13 52% 65%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 0 0% 15%;
-    --sidebar-accent-foreground: 40 33% 95%;
-    --sidebar-border: 0 0% 18%;
-    --sidebar-ring: 221 100% 55%;
+    --sidebar-accent: 28 24% 92%;
+    --sidebar-accent-foreground: 210 20% 27%;
+    --sidebar-border: 28 24% 89%;
+    --sidebar-ring: 13 52% 65%;
   }
 }
 
@@ -86,6 +61,15 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-[#F2F1EE] text-[#3A4A5A] font-sans;
+  }
+}
+
+@layer utilities {
+  .font-serif {
+    font-family: var(--font-serif);
+  }
+  .font-sans {
+    font-family: var(--font-sans);
   }
 }
