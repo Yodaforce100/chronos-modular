@@ -2,14 +2,11 @@ import React from "react";
 
 function ShepherdLogoSmall() {
   return (
-    <div className="flex items-center gap-2.5">
-      <svg width="28" height="28" viewBox="0 0 36 36" fill="none" aria-label="Shepherd Verses logo mark">
-        <circle cx="18" cy="18" r="17" stroke="#243E6B" strokeWidth="1.5" fill="none" />
-        <path d="M18 8 C12 8 8 12 8 17 C8 22 12 25 18 25 C18 25 18 28 14 30" stroke="#243E6B" strokeWidth="1.5" strokeLinecap="round" fill="none" />
-        <circle cx="18" cy="17" r="3" fill="#A9C3D6" />
-      </svg>
-      <span className="font-serif text-[15px] text-[#243E6B]">Shepherd Verses</span>
-    </div>
+    <img
+      src="https://media.base44.com/images/public/69e96f879840c600a93d0ce5/fa7c06e06_Shepherd_Verses_herologo_sound_blue_1500.png"
+      alt="Shepherd Verses"
+      className="h-8 w-auto"
+    />
   );
 }
 
