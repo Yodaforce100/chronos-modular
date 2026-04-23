@@ -61,7 +61,7 @@ export default function SVHowItWorks() {
                 <img
                   src={step.image}
                   alt=""
-                  className="w-full h-full object-contain bg-white"
+                  className="w-full h-full object-cover"
                 />
                 {i !== 0 && (
                   <>
