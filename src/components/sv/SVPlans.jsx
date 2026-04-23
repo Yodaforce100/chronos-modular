@@ -49,7 +49,7 @@ export default function SVPlans({ onSelectPlan }) {
           <span className="font-sans text-xs font-medium text-[#6F98C2] tracking-widest uppercase block mb-4">
             The Practical Specs
           </span>
-          <h2 className="font-serif text-3xl md:text-4xl lg:text-[44px] leading-[1.25] text-[#3A4A5A]">
+          <h2 className="font-serif text-3xl md:text-4xl lg:text-[44px] leading-[1.25] text-[#2E5FA3]">
             Choose Your Subscription
           </h2>
           <p className="font-sans text-[16px] text-[#4A5B6B] mt-4">

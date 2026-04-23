@@ -68,7 +68,7 @@ export default function SVConnection() {
             <span className="font-sans text-xs font-medium text-[#6F98C2] tracking-widest uppercase block mb-5">
               The Why
             </span>
-            <h2 className="font-serif text-3xl md:text-4xl lg:text-[42px] leading-[1.25] text-[#3A4A5A]">
+            <h2 className="font-serif text-3xl md:text-4xl lg:text-[42px] leading-[1.25] text-[#2E5FA3]">
               A companion for every moment of your day
             </h2>
             <div className="w-12 h-[1.5px] bg-[#A9C3D6] my-6" />
