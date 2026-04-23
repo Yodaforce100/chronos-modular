@@ -68,7 +68,7 @@ export default function SVNavbar({ onCTAClick }) {
           <button
             onClick={onCTAClick}
             className="hidden md:inline-flex font-sans text-sm font-medium text-white px-6 py-2.5 rounded-full min-h-[44px] items-center transition-opacity duration-300 hover:opacity-90"
-            style={{ background: "linear-gradient(135deg, #C9A84C 0%, #E8C84A 60%, #C9A84C 100%)" }}
+            style={{ background: "linear-gradient(135deg, #E8C84A 0%, #C9A84C 50%, #E8C84A 100%)" }}
           >
             Begin Free Trial
           </button>
@@ -99,7 +99,7 @@ export default function SVNavbar({ onCTAClick }) {
               <button
                 onClick={() => { onCTAClick(); setMobileOpen(false); }}
                 className="font-sans text-sm font-medium text-white px-6 py-3 rounded-full mt-2 transition-opacity duration-300 hover:opacity-90"
-                style={{ background: "linear-gradient(135deg, #C9A84C 0%, #E8C84A 60%, #C9A84C 100%)" }}
+                style={{ background: "linear-gradient(135deg, #E8C84A 0%, #C9A84C 50%, #E8C84A 100%)" }}
               >
                 Begin Free Trial
               </button>
