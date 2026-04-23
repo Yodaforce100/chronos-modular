@@ -124,7 +124,7 @@ export default function SVPlans({ onSelectPlan }) {
                     ? "text-[#3A3010] shadow-md"
                     : "bg-[#F2F1EE] text-[#3A4A5A] border border-[#E7DED2] hover:bg-[#E7DED2]"
                 }`}
-                style={plan.featured ? { background: "linear-gradient(135deg, #E8D48B 0%, #D4B96A 50%, #E8D48B 100%)" } : {}}
+                style={plan.featured ? { background: "linear-gradient(180deg, #F5E9A4 0%, #E8D48B 35%, #C9A84C 65%, #D4B96A 100%)", boxShadow: "inset 0 1px 1px rgba(255,255,240,0.7), 0 4px 14px rgba(212,185,106,0.4)" } : {}}
               >
                 {plan.cta}
               </button>
