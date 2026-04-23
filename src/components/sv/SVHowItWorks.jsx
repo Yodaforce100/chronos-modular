@@ -57,22 +57,24 @@ export default function SVHowItWorks() {
               className="relative border border-[#E7DED2] h-full flex flex-col rounded-[24px] overflow-hidden"
             >
               {/* Full-bleed image with text overlay */}
-              <div className="relative w-full h-96 overflow-hidden">
-                <img
-                  src={step.image}
-                  alt=""
-                  className="w-full h-full object-cover"
-                />
-                {/* Dark overlay for text readability */}
-                <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/40" />
-                
-                {/* Overlay text */}
-                <div className="absolute inset-0 flex flex-col justify-end p-8">
-                  <h3 className="font-serif text-2xl text-white mb-2 leading-snug drop-shadow-lg">
-                    {step.title}
-                  </h3>
+              {i !== 0 && (
+                <div className="relative w-full h-96 overflow-hidden">
+                  <img
+                    src={step.image}
+                    alt=""
+                    className="w-full h-full object-cover"
+                  />
+                  {/* Dark overlay for text readability */}
+                  <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/40" />
+                  
+                  {/* Overlay text */}
+                  <div className="absolute inset-0 flex flex-col justify-end p-8">
+                    <h3 className="font-serif text-2xl text-white mb-2 leading-snug drop-shadow-lg">
+                      {step.title}
+                    </h3>
+                  </div>
                 </div>
-              </div>
+              )}
 
               {/* Card content below image */}
               <div className="p-6 md:p-8 flex-1 flex flex-col">
