@@ -1,6 +1,15 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Heart, Volume2, MessageCircle } from "lucide-react";
+import { Heart, Volume2 } from "lucide-react";
+
+function HeartSpeechIcon({ color }) {
+  return (
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M10 18c-4.41 0-8-3.59-8-8 0-2.86 1.5-5.36 3.75-6.75-.5.75-.75 1.62-.75 2.5 0 2.76 2.24 5 5 5 .88 0 1.75-.25 2.5-.75 1.39 2.25 3.89 3.75 6.75 3.75-1.5 2.5-4.16 4-7.25 4z" fill={color} opacity="0.7"/>
+      <path d="M10 2c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zm3 4h4v1h-4v-1zm0 2h4v1h-4v-1z" fill={color}/>
+    </svg>
+  );
+}
 
 const STEPS = [
   {
@@ -57,14 +66,11 @@ export default function SVHowItWorks() {
 
               {/* Icon */}
               <div
-                className="w-12 h-12 rounded-full flex items-center justify-center mb-6 relative"
+                className="w-12 h-12 rounded-full flex items-center justify-center mb-6"
                 style={{ backgroundColor: step.accent + "22" }}
               >
                 {i === 0 ? (
-                  <>
-                    <Heart className="w-5 h-5" style={{ color: step.accent }} />
-                    <MessageCircle className="w-3 h-3 absolute bottom-1 right-1" style={{ color: step.accent }} />
-                  </>
+                  <HeartSpeechIcon color={step.accent} />
                 ) : (
                   <step.icon className="w-5 h-5" style={{ color: step.accent }} />
                 )}
