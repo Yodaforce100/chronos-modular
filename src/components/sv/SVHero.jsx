@@ -65,7 +65,7 @@ export default function SVHero({ onCTAClick }) {
 
           <button
             onClick={onCTAClick}
-            className="mt-10 font-sans text-[15px] font-medium text-white bg-[#D88C7A] px-8 py-4 rounded-full hover:bg-[#c47a68] transition-colors duration-300 min-h-[44px] shadow-md"
+            className="mt-10 font-sans text-[15px] font-medium text-white bg-[#6B8F71] px-8 py-4 rounded-full hover:bg-[#5a7a60] transition-colors duration-300 min-h-[44px] shadow-md"
           >
             Start Your Morning with Peace
           </button>
