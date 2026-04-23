@@ -74,7 +74,7 @@ export default function SVPlans({ onSelectPlan }) {
               {/* Badge */}
               {plan.badge && (
                 <div className="absolute -top-3.5 left-1/2 -translate-x-1/2">
-                  <span className="font-sans text-[11px] font-semibold text-white bg-[#C4964A] px-4 py-1.5 rounded-full whitespace-nowrap shadow">
+                  <span className="font-sans text-[11px] font-semibold text-white bg-[#4A8C8C] px-4 py-1.5 rounded-full whitespace-nowrap shadow">
                     {plan.badge}
                   </span>
                 </div>
@@ -103,7 +103,7 @@ export default function SVPlans({ onSelectPlan }) {
                     <li key={feat} className="flex items-start gap-3">
                       <div
                         className={`w-5 h-5 rounded-full flex items-center justify-center shrink-0 mt-0.5 ${
-                          plan.featured ? "bg-[#C4964A]" : "bg-[#A9C3D6]/30"
+                          plan.featured ? "bg-[#4A8C8C]" : "bg-[#A9C3D6]/30"
                         }`}
                       >
                         <Check className={`w-3 h-3 ${plan.featured ? "text-white" : "text-[#6F98C2]"}`} />
