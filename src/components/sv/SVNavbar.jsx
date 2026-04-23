@@ -34,7 +34,7 @@ export default function SVNavbar({ onCTAClick }) {
             <a
               key={link.label}
               href={link.href}
-              className="font-sans text-sm font-medium text-[#243E6B] hover:text-[#243E6B]/80 transition-colors duration-300"
+              className="font-sans text-sm font-medium text-[#2D4A7B] hover:text-[#2D4A7B]/80 transition-colors duration-300"
             >
               {link.label}
             </a>
@@ -91,7 +91,7 @@ export default function SVNavbar({ onCTAClick }) {
                   key={link.label}
                   href={link.href}
                   onClick={() => setMobileOpen(false)}
-                  className="font-sans text-base text-[#243E6B] py-2"
+                  className="font-sans text-base text-[#2D4A7B] py-2"
                 >
                   {link.label}
                 </a>
