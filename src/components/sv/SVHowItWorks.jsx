@@ -13,7 +13,7 @@ function SpeechBubbleIcon({ color }) {
 const STEPS = [
   {
     number: "01",
-    image: "https://media.base44.com/images/public/69e96f879840c600a93d0ce5/37c678379_Screenshot2026-04-21at111033am.png",
+    image: "https://media.base44.com/images/public/69e96f879840c600a93d0ce5/2c2d845cd_screenshotMOBILEwithcomposition.png",
     icon: Heart,
     title: "Share How You Feel",
     body: "Pause and name your current emotion—whether you're anxious, tired, or grateful. Your Shepherd Verses companion listens to where you are in this moment.",
@@ -57,24 +57,26 @@ export default function SVHowItWorks() {
               className="relative border border-[#E7DED2] h-full flex flex-col rounded-[24px] overflow-hidden"
             >
               {/* Full-bleed image with text overlay */}
-              {i !== 0 && (
-                <div className="relative w-full h-96 overflow-hidden">
-                  <img
-                    src={step.image}
-                    alt=""
-                    className="w-full h-full object-cover"
-                  />
-                  {/* Dark overlay for text readability */}
-                  <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/40" />
-                  
-                  {/* Overlay text */}
-                  <div className="absolute inset-0 flex flex-col justify-end p-8">
-                    <h3 className="font-serif text-2xl text-white mb-2 leading-snug drop-shadow-lg">
-                      {step.title}
-                    </h3>
-                  </div>
-                </div>
-              )}
+              <div className="relative w-full h-96 overflow-hidden">
+                <img
+                  src={step.image}
+                  alt=""
+                  className="w-full h-full object-contain bg-white"
+                />
+                {i !== 0 && (
+                  <>
+                    {/* Dark overlay for text readability */}
+                    <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/40" />
+                    
+                    {/* Overlay text */}
+                    <div className="absolute inset-0 flex flex-col justify-end p-8">
+                      <h3 className="font-serif text-2xl text-white mb-2 leading-snug drop-shadow-lg">
+                        {step.title}
+                      </h3>
+                    </div>
+                  </>
+                )}
+              </div>
 
               {/* Card content below image */}
               <div className="p-6 md:p-8 flex-1 flex flex-col">
