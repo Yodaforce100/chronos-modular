@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const BG_IMG = "https://images.unsplash.com/photo-1501630834273-4b5604d2ee31?w=2000&q=80";
+const BG_IMG = "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=2000&q=80";
 
 function SoundwaveBars() {
   const heights = [28, 44, 60, 76, 56, 88, 64, 44, 52, 72, 48, 36];
@@ -30,9 +30,9 @@ export default function SVHero({ onCTAClick }) {
           src={BG_IMG}
           alt=""
           className="w-full h-full object-cover object-center"
-          style={{ opacity: 0.18 }}
+          style={{ opacity: 0.35 }}
         />
-        <div className="absolute inset-0" style={{ background: "linear-gradient(to bottom, #F2F1EE 0%, transparent 20%, transparent 70%, #F2F1EE 100%)" }} />
+        <div className="absolute inset-0" style={{ background: "linear-gradient(to bottom, #f0f5ff 0%, transparent 20%, transparent 70%, #f0f5ff 100%)" }} />
       </div>
 
       <div className="max-w-3xl mx-auto px-6 w-full flex flex-col items-center text-center py-16 relative z-10">
