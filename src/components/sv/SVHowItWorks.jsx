@@ -30,9 +30,7 @@ export default function SVHowItWorks() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16 md:mb-20"
         >
-          <span className="font-sans text-xs font-medium text-[#669eea] tracking-widest uppercase block mb-4">
-            The Experience
-          </span>
+
           <h2 className="font-serif text-3xl md:text-4xl lg:text-[44px] leading-[1.25] text-[#001c5f]">
             Two simple steps.<br />A day transformed.
           </h2>

@@ -65,9 +65,7 @@ export default function SVConnection() {
             viewport={{ once: true }}
             transition={{ duration: 0.7, ease: [0.2, 0, 0, 1], delay: 0.1 }}
           >
-            <span className="font-sans text-xs font-medium text-[#669eea] tracking-widest uppercase block mb-5">
-              The Why
-            </span>
+
             <h2 className="font-serif text-3xl md:text-4xl lg:text-[42px] leading-[1.25] text-[#001c5f]">
               A companion for every moment of your day
             </h2>
