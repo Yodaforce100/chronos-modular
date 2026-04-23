@@ -8,14 +8,14 @@ const STEPS = [
     icon: Heart,
     title: "Share How You Feel",
     body: "Pause and name your current emotion—whether you're anxious, tired, or grateful. Your Shepherd Verses companion listens to where you are in this moment.",
-    accent: "#4A8C8C",
+    accent: "#669eea",
   },
   {
     number: "02",
     icon: Volume2,
     title: "Hear a Caring Voice",
     body: "Listen as your companion shares spoken scripture and affirmations tailored to your feelings, carefully chosen to guide and support you all day.",
-    accent: "#4A8C8C",
+    accent: "#669eea",
   },
 ];
 
@@ -30,7 +30,7 @@ export default function SVHowItWorks() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16 md:mb-20"
         >
-          <span className="font-sans text-xs font-medium text-[#4A8C8C] tracking-widest uppercase block mb-4">
+          <span className="font-sans text-xs font-medium text-[#669eea] tracking-widest uppercase block mb-4">
             The Experience
           </span>
           <h2 className="font-serif text-3xl md:text-4xl lg:text-[44px] leading-[1.25] text-[#243E6B]">
