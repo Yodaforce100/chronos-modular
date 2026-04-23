@@ -68,7 +68,7 @@ export default function SVNavbar({ onCTAClick }) {
           <button
             onClick={onCTAClick}
             className="hidden md:inline-flex font-sans text-sm font-medium text-white px-6 py-2.5 rounded-full min-h-[44px] items-center transition-opacity duration-300 hover:opacity-90"
-            style={{ background: "linear-gradient(90deg, #C9A84C 0%, #F5E9A4 35%, #E8D48B 60%, #C9A84C 100%)", boxShadow: "0 4px 14px rgba(212,185,106,0.4)", textShadow: "0 1px 3px rgba(0,0,0,0.35)" }}
+            style={{ background: "linear-gradient(90deg, #F5E9A4 0%, #C9A84C 40%, #C9A84C 60%, #F5E9A4 100%)", boxShadow: "0 4px 14px rgba(212,185,106,0.4)", textShadow: "0 1px 3px rgba(0,0,0,0.35)" }}
           >
             Begin Free Trial
           </button>
@@ -99,7 +99,7 @@ export default function SVNavbar({ onCTAClick }) {
               <button
                 onClick={() => { onCTAClick(); setMobileOpen(false); }}
                 className="font-sans text-sm font-medium text-white px-6 py-3 rounded-full mt-2 transition-opacity duration-300 hover:opacity-90"
-                style={{ background: "linear-gradient(90deg, #C9A84C 0%, #F5E9A4 35%, #E8D48B 60%, #C9A84C 100%)", boxShadow: "0 4px 14px rgba(212,185,106,0.4)", textShadow: "0 1px 3px rgba(0,0,0,0.35)" }}
+                style={{ background: "linear-gradient(90deg, #F5E9A4 0%, #C9A84C 40%, #C9A84C 60%, #F5E9A4 100%)", boxShadow: "0 4px 14px rgba(212,185,106,0.4)", textShadow: "0 1px 3px rgba(0,0,0,0.35)" }}
               >
                 Begin Free Trial
               </button>
