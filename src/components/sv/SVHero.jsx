@@ -25,16 +25,20 @@ function SoundwaveBars() {
 export default function SVHero({ onCTAClick }) {
   return (
     <section className="relative min-h-screen flex flex-col justify-center overflow-hidden pt-20">
-      {/* Subtle warm radial glow behind hero */}
-      <div
-        className="absolute top-[-10%] right-[-5%] w-[700px] h-[700px] rounded-full pointer-events-none"
-        style={{
-          background: "radial-gradient(circle, rgba(169,195,214,0.18) 0%, transparent 70%)",
-        }}
-        aria-hidden="true"
-      />
+      {/* Full-width background image at low opacity */}
+      <div className="absolute inset-0 pointer-events-none" aria-hidden="true">
+        <img
+          src={HERO_IMG}
+          alt=""
+          className="w-full h-full object-cover object-top"
+          style={{ opacity: 0.12 }}
+        />
+        {/* Fade edges so text stays readable */}
+        <div className="absolute inset-0" style={{ background: "linear-gradient(to right, #F2F1EE 30%, transparent 60%, #F2F1EE 100%)" }} />
+        <div className="absolute inset-0" style={{ background: "linear-gradient(to bottom, transparent 60%, #F2F1EE 100%)" }} />
+      </div>
 
-      <div className="max-w-5xl mx-auto px-6 w-full grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center py-16">
+      <div className="max-w-5xl mx-auto px-6 w-full grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center py-16 relative z-10">
         {/* Left: Copy */}
         <motion.div
           initial={{ opacity: 0, y: 32 }}
