@@ -146,7 +146,7 @@ export default function SVPlans({ onSelectPlan }) {
         </motion.div>
 
         {/* Subheadline */}
-        <p className="font-sans text-[17px] text-[#4A5568] leading-[1.7] text-center italic mt-6">
+        <p className="font-serif text-[17px] text-[#001C5F] leading-[1.7] text-center italic mt-6">
           Wake up supported. Start your day guided.
         </p>
       </div>
