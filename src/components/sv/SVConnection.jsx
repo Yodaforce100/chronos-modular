@@ -25,8 +25,8 @@ export default function SVConnection() {
             transition={{ duration: 0.7, ease: [0.2, 0, 0, 1] }}
             className="relative"
           >
-            {/* Main card with parchment texture */}
-            <div className="rounded-[20px] border border-[#C5B49A] p-4 shadow-sm overflow-hidden relative" style={{ background: "#F5E9D0" }}>
+            {/* Main card */}
+            <div className="rounded-[20px] border border-[#E7DED2] p-4 shadow-sm overflow-hidden relative bg-white">
               
               {/* Golden light overlay */}
               <div className="absolute inset-0 opacity-20" style={{ background: "radial-gradient(circle at 40% 40%, rgba(217,184,106,0.3) 0%, transparent 70%)" }} />
