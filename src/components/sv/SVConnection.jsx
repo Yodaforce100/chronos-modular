@@ -14,7 +14,7 @@ export default function SVConnection() {
   return (
     <section className="relative py-6 pb-14 md:py-10 md:pb-20">
       {/* Bible pages background */}
-      <div className="absolute inset-0 opacity-8 pointer-events-none" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=1600&q=80')", backgroundSize: "cover", backgroundPosition: "center" }} />
+      <div className="absolute inset-0 opacity-8 pointer-events-none" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1456885284447-8d2b5b00226c?w=1600&q=80')", backgroundSize: "cover", backgroundPosition: "center" }} />
       <div className="max-w-3xl mx-auto px-6 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-20 items-center">
           {/* Left: Mood illustration */}
