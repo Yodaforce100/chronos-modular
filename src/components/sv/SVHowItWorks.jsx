@@ -35,7 +35,7 @@ const STEPS = [
 
 export default function SVHowItWorks() {
   return (
-    <section id="how-it-works" className="relative pt-2 pb-10 md:pt-8 md:pb-20" style={{ background: "linear-gradient(to bottom, #FFFFFF 0%, #FFFFFF 40%)" }}>
+    <section id="how-it-works" className="relative pt-2 pb-10 md:pt-8 md:pb-20" style={{ background: "linear-gradient(to bottom, #F2F1EE 0%, #FFFFFF 30%)" }}>
       <div className="max-w-5xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
