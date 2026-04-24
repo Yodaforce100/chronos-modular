@@ -24,11 +24,11 @@ export default function SVConnection() {
             className="relative"
           >
             {/* Main card */}
-            <div className="bg-white rounded-[24px] border border-[#E7DED2] p-4 md:p-6 shadow-sm">
-              <p className="font-sans text-xs font-medium text-[#5E8DBF] tracking-widest uppercase mb-5 whitespace-nowrap">
+            <div className="bg-white rounded-[20px] border border-[#E7DED2] p-4 shadow-sm">
+              <p className="font-sans text-[10px] font-medium text-[#5E8DBF] tracking-widest uppercase mb-3">
                 How are you feeling this morning?
               </p>
-              <div className="grid grid-cols-3 gap-3">
+              <div className="grid grid-cols-3 gap-1.5">
                 {MOODS.map((mood, i) => (
                   <motion.div
                     key={mood.label}
@@ -36,24 +36,24 @@ export default function SVConnection() {
                     whileInView={{ opacity: 1, scale: 1 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.4, delay: i * 0.07 }}
-                    className="flex flex-col items-center gap-2 p-3 rounded-[12px] cursor-pointer hover:bg-[#F2F1EE] transition-colors"
+                    className="flex flex-col items-center gap-1 p-2 rounded-[10px] cursor-pointer hover:bg-[#F2F1EE] transition-colors"
                   >
-                    <span className="text-2xl">{mood.emoji}</span>
-                    <span className="font-sans text-[11px] font-medium text-[#334455]">
+                    <span className="text-xl">{mood.emoji}</span>
+                    <span className="font-sans text-[10px] font-medium text-[#334455]">
                       {mood.label}
                     </span>
                   </motion.div>
                 ))}
               </div>
               {/* Response preview */}
-              <div className="mt-6 pt-6 border-t border-[#E7DED2]">
-                <p className="font-sans text-xs text-[#5E8DBF] tracking-wide mb-2">
+              <div className="mt-3 pt-3 border-t border-[#E7DED2]">
+                <p className="font-sans text-[10px] text-[#5E8DBF] tracking-wide mb-1.5">
                   ✦ Your companion responds…
                 </p>
-                <p className="font-serif text-[15px] text-[#3A4A5A] leading-snug italic">
+                <p className="font-serif text-[13px] text-[#3A4A5A] leading-snug italic">
                   "Cast all your anxiety on him because he cares for you."
                 </p>
-                <p className="font-sans text-xs text-[#334455] mt-1">— 1 Peter 5:7</p>
+                <p className="font-sans text-[10px] text-[#334455] mt-1">— 1 Peter 5:7</p>
               </div>
             </div>
           </motion.div>
