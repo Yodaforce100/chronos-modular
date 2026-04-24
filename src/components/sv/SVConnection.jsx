@@ -25,7 +25,7 @@ export default function SVConnection() {
           >
             {/* Main card */}
             <div className="bg-white rounded-[20px] border border-[#E7DED2] p-4 shadow-sm">
-              <p className="font-sans text-[10px] font-medium text-[#5E8DBF] tracking-widest uppercase mb-3">
+              <p className="font-sans text-[10px] font-medium text-[#5E8DBF] tracking-widest uppercase mb-3 text-center">
                 How are you feeling this morning?
               </p>
               <div className="grid grid-cols-3 gap-1">
