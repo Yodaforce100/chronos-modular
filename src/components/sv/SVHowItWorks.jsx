@@ -63,6 +63,14 @@ export default function SVHowItWorks() {
                   alt=""
                   className="w-full h-full object-cover"
                 />
+                {/* Dark overlay for text readability */}
+                <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/40" />
+                {/* Overlay text */}
+                <div className="absolute inset-0 flex flex-col justify-end p-8">
+                  <h3 className="font-serif text-2xl text-white mb-2 leading-snug drop-shadow-lg">
+                    {step.title}
+                  </h3>
+                </div>
 
               </div>
 
@@ -71,9 +79,6 @@ export default function SVHowItWorks() {
                 <p className="font-sans text-xs font-medium tracking-widest uppercase mb-2" style={{ color: step.accent }}>
                   Step {step.number}
                 </p>
-                <h3 className="font-serif text-xl text-[#2A4B7C] mb-2 leading-snug">
-                  {step.title}
-                </h3>
                 <p className="font-sans text-[15px] text-[#4A5568] leading-[1.6]">
                   {step.body}
                 </p>
