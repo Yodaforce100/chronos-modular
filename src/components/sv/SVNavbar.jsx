@@ -53,12 +53,12 @@ export default function SVNavbar({ onCTAClick }) {
         </div>
 
         {/* Center: logo */}
-        <div className="flex justify-center">
-          <a href="#" aria-label="Shepherd Verses home">
+        <div className="flex justify-center items-center min-w-0">
+          <a href="#" aria-label="Shepherd Verses home" className="flex items-center">
             <img
               src="https://media.base44.com/images/public/69e96f879840c600a93d0ce5/39f2abf45_Shepherd_verses_herologo_GOLD_STAR_2500_TRANSPARENTBGpng-2.png"
               alt="Shepherd Verses"
-              className="h-24 sm:h-24 md:h-28 w-auto"
+              className="h-28 sm:h-32 md:h-36 w-auto"
             />
           </a>
         </div>
