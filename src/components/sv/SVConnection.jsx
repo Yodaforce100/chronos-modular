@@ -25,10 +25,8 @@ export default function SVConnection() {
             transition={{ duration: 0.7, ease: [0.2, 0, 0, 1] }}
             className="relative"
           >
-            {/* Main card with parchment/bible texture */}
-            <div className="rounded-[20px] border border-[#C5B49A] p-4 shadow-sm overflow-hidden" style={{ background: "linear-gradient(135deg, #F5E9D0 0%, #E8D9BE 50%, #F5E9D0 100%)" }}>
-              {/* Parchment texture overlay */}
-              <div className="absolute inset-0 opacity-40" style={{ backgroundImage: "repeating-linear-gradient(0deg, rgba(139,115,85,0.08) 0px, transparent 1px, transparent 2px, rgba(139,115,85,0.05) 3px), repeating-linear-gradient(90deg, rgba(139,115,85,0.08) 0px, transparent 1px, transparent 2px, rgba(139,115,85,0.05) 3px)", pointerEvents: "none" }} />
+            {/* Main card */}
+            <div className="rounded-[20px] border border-[#C5B49A] p-4 shadow-sm overflow-hidden" style={{ background: "#F5E9D0" }}>
               
               <div className="relative z-10">
                 <p className="font-sans text-[10px] font-medium text-[#5E8DBF] tracking-widest uppercase mb-4 text-center">
