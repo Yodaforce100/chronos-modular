@@ -12,7 +12,7 @@ function ShepherdLogoSmall() {
 
 export default function SVFooter() {
   return (
-    <footer className="bg-white border-t border-[#E7DED2] py-12 md:py-16">
+    <footer className="bg-white border-t border-[#E7DED2] py-6 md:py-10">
       <div className="max-w-5xl mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
           <div>
