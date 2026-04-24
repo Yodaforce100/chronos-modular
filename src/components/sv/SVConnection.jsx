@@ -13,7 +13,7 @@ const MOODS = [
 export default function SVConnection() {
   return (
     <section className="relative py-8 md:py-14">
-      <div className="max-w-5xl mx-auto px-6">
+      <div className="max-w-3xl mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-20 items-center">
           {/* Left: Mood illustration */}
           <motion.div
