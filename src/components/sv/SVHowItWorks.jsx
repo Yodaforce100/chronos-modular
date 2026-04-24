@@ -107,10 +107,7 @@ export default function SVHowItWorks() {
           ))}
         </div>
 
-        {/* Connector line on desktop */}
-        <div className="hidden md:flex justify-center mt-6">
-          <div className="h-[1px] w-1/2 bg-[#E7DED2]" />
-        </div>
+
       </div>
 
 
