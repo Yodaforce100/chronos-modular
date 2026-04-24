@@ -28,7 +28,10 @@ export default function SVHero({ onCTAClick }) {
       <motion.div
         className="absolute inset-0 pointer-events-none"
         aria-hidden="true"
-        animate={{ scale: [1, 1.05, 1] }}
+        animate={{ 
+          x: [0, 8, 0, -8, 0],
+          y: [0, 8, 12, 8, 0]
+        }}
         transition={{ duration: 12, repeat: Infinity, ease: "easeInOut" }}
       >
         <img
