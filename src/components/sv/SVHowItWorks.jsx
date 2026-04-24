@@ -17,6 +17,7 @@ const STEPS = [
     icon: Heart,
     title: "Share How You Feel",
     body: "PAUSE and name your current emotion—whether you're anxious, tired, or grateful. Your Shepherd Verses companion listens to where you are in this moment.",
+    boldPhrase: "Shepherd Verses",
     accent: "#669eea",
     objectPosition: "center top",
   },
@@ -82,10 +83,20 @@ export default function SVHowItWorks() {
                 <p className="font-sans text-[15px] text-[#4A5568] leading-[1.6]">
                   {(() => {
                     const [first, ...rest] = step.body.split(" ");
+                    const remaining = rest.join(" ");
+                    if (step.boldPhrase) {
+                      const parts = remaining.split(step.boldPhrase);
+                      return (
+                        <>
+                          <span className="font-semibold tracking-wide" style={{ color: step.accent }}>{first}</span>
+                          {" "}{parts[0]}<strong className="font-bold text-[#3A4A5A]">{step.boldPhrase}</strong>{parts[1]}
+                        </>
+                      );
+                    }
                     return (
                       <>
                         <span className="font-semibold tracking-wide" style={{ color: step.accent }}>{first}</span>
-                        {" "}{rest.join(" ")}
+                        {" "}{remaining}
                       </>
                     );
                   })()}
