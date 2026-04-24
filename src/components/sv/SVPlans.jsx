@@ -38,7 +38,7 @@ const PLANS = [
 export default function SVPlans({ onSelectPlan }) {
   return (
     <section id="plans" className="relative py-10 md:py-20">
-      <div className="max-w-5xl mx-auto px-6">
+      <div className="max-w-3xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -63,7 +63,7 @@ export default function SVPlans({ onSelectPlan }) {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: i * 0.1 }}
-              className={`relative flex flex-col rounded-[24px] border p-5 md:p-10 ${
+              className={`relative flex flex-col rounded-[24px] border p-5 md:p-6 ${
                 plan.featured
                   ? "bg-[#243E6B] border-[#243E6B] text-white shadow-xl"
                   : "bg-white border-[#E7DED2] text-[#3A4A5A]"
@@ -85,7 +85,7 @@ export default function SVPlans({ onSelectPlan }) {
 
               {/* Price */}
               <div className="flex items-end gap-1.5 mb-6">
-                <span className={`font-serif text-5xl md:text-6xl ${plan.featured ? "text-white" : "text-[#3A4A5A]"}`}>
+                <span className={`font-serif text-4xl md:text-5xl ${plan.featured ? "text-white" : "text-[#3A4A5A]"}`}>
                   {plan.price}
                 </span>
                 <span className={`font-sans text-sm mb-2 ${plan.featured ? "text-[#5E8DBF]" : "text-[#4A5B6B]"}`}>
