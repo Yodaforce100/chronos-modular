@@ -25,7 +25,7 @@ const STEPS = [
     image: "https://media.base44.com/images/public/69e96f879840c600a93d0ce5/ae7a0db6e_istockphoto-2257561497-1024x1024.jpg",
     icon: Volume2,
     title: "Hear a Caring Voice",
-    body: "LISTEN as your companion shares spoken scripture and affirmations tailored to your feelings, carefully chosen to guide and support you all day.",
+    body: "LISTEN as your companion shares spoken scripture and affirmations tailored to your feelings, carefully chosen to guide and support you.",
     accent: "#669eea",
     objectPosition: "center 30%",
   },
