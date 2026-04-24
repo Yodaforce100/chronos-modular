@@ -34,7 +34,7 @@ export default function SVNavbar({ onCTAClick }) {
             <a
               key={link.label}
               href={link.href}
-              className="font-sans text-sm font-medium text-[#AFC3DA] hover:text-[#AFC3DA]/80 transition-colors duration-300"
+              className="font-sans text-sm font-medium text-[#4A8C8C] hover:text-[#4A8C8C]/80 transition-colors duration-300"
             >
               {link.label}
             </a>
