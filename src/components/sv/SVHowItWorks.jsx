@@ -18,7 +18,7 @@ const STEPS = [
     title: "Share How You Feel",
     body: "PAUSE and name your current emotion—whether you're anxious, tired, or grateful. Your Shepherd Verses companion listens to where you are in this moment.",
     boldPhrase: "Shepherd Verses companion",
-    accent: "#669eea",
+    accent: "#5C7EA8",
     objectPosition: "center top",
   },
   {
@@ -27,7 +27,7 @@ const STEPS = [
     icon: Volume2,
     title: "Hear a Caring Voice",
     body: "LISTEN as your companion shares spoken scripture and affirmations tailored to your feelings, carefully chosen to guide and support you.",
-    accent: "#669eea",
+    accent: "#5C7EA8",
     objectPosition: "center 30%",
   },
 ];
