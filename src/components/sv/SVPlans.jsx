@@ -79,7 +79,7 @@ export default function SVPlans({ onSelectPlan }) {
               )}
 
               {/* Label */}
-              <p className={`font-sans text-xs font-medium tracking-widest uppercase mb-6 ${plan.featured ? "text-[#5C7EA8]" : "text-[#5C7EA8]"}`}>
+              <p className={`font-sans text-xs font-medium tracking-widest uppercase mb-6 ${plan.featured ? "text-[#AFC3DA]" : "text-[#AFC3DA]"}`}>
                 {plan.label}
               </p>
 
@@ -104,7 +104,7 @@ export default function SVPlans({ onSelectPlan }) {
                           plan.featured ? "bg-[#4A8C8C]" : "bg-[#4A8C8C]/20"
                         }`}
                       >
-                        <Check className={`w-3 h-3 ${plan.featured ? "text-white" : "text-[#5C7EA8]"}`} />
+                        <Check className={`w-3 h-3 ${plan.featured ? "text-white" : "text-[#AFC3DA]"}`} />
                       </div>
                       <span className={`font-sans text-[15px] leading-snug ${plan.featured ? "text-white/90" : "text-[#334455]"}`}>
                         {rest.length > 0 ? rest.join(": ") : feat}

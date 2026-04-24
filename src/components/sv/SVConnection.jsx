@@ -2,12 +2,12 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const MOODS = [
-  { emoji: "😔", label: "Heavy", color: "#5C7EA8" },
-  { emoji: "😟", label: "Anxious", color: "#5C7EA8" },
-  { emoji: "😌", label: "Peaceful", color: "#5C7EA8" },
-  { emoji: "😴", label: "Tired", color: "#5C7EA8" },
+  { emoji: "😔", label: "Heavy", color: "#AFC3DA" },
+  { emoji: "😟", label: "Anxious", color: "#AFC3DA" },
+  { emoji: "😌", label: "Peaceful", color: "#AFC3DA" },
+  { emoji: "😴", label: "Tired", color: "#AFC3DA" },
   { emoji: "🙏", label: "Grateful", color: "#001c5f" },
-  { emoji: "😊", label: "Hopeful", color: "#5C7EA8" },
+  { emoji: "😊", label: "Hopeful", color: "#AFC3DA" },
 ];
 
 export default function SVConnection() {
@@ -25,7 +25,7 @@ export default function SVConnection() {
           >
             {/* Main card */}
             <div className="bg-white rounded-[24px] border border-[#E7DED2] p-4 md:p-8 shadow-sm">
-              <p className="font-sans text-xs font-medium text-[#5C7EA8] tracking-widest uppercase mb-5">
+              <p className="font-sans text-xs font-medium text-[#AFC3DA] tracking-widest uppercase mb-5">
                 How are you feeling this morning?
               </p>
               <div className="grid grid-cols-3 gap-3">
@@ -47,7 +47,7 @@ export default function SVConnection() {
               </div>
               {/* Response preview */}
               <div className="mt-6 pt-6 border-t border-[#E7DED2]">
-                <p className="font-sans text-xs text-[#5C7EA8] tracking-wide mb-2">
+                <p className="font-sans text-xs text-[#AFC3DA] tracking-wide mb-2">
                   ✦ Your companion responds…
                 </p>
                 <p className="font-serif text-[15px] text-[#3A4A5A] leading-snug italic">
@@ -69,7 +69,7 @@ export default function SVConnection() {
             <h2 className="font-serif text-xl md:text-3xl lg:text-[34px] leading-[1.25] text-[#2A4B7C]">
               A companion for every moment of your day
             </h2>
-            <div className="w-12 h-[1.5px] bg-[#5C7EA8] my-6" />
+            <div className="w-12 h-[1.5px] bg-[#AFC3DA] my-6" />
             <p className="font-sans text-[15px] md:text-[17px] text-[#4A5568] leading-[1.7]">
               Some days begin with calm. Others begin with uncertainty, heaviness,
               or quiet worry.{" "}
