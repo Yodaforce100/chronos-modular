@@ -24,9 +24,9 @@ export default function SVConnection() {
             className="relative"
           >
             {/* Main card with parchment/bible texture */}
-            <div className="rounded-[20px] border border-[#C5B49A] p-4 shadow-sm overflow-hidden" style={{ backgroundImage: "linear-gradient(135deg, #F5E9D0 0%, #E8D9BE 50%, #F5E9D0 100%)", backgroundSize: "400% 400%" }}>
-              {/* Subtle texture overlay for parchment effect */}
-              <div className="absolute inset-0 opacity-5" style={{ backgroundImage: "radial-gradient(circle at 20% 50%, #8B7355 0%, transparent 50%)", pointerEvents: "none" }} />
+            <div className="rounded-[20px] border border-[#C5B49A] p-4 shadow-sm overflow-hidden" style={{ background: "linear-gradient(135deg, #F5E9D0 0%, #E8D9BE 50%, #F5E9D0 100%)" }}>
+              {/* Parchment texture overlay */}
+              <div className="absolute inset-0 opacity-40" style={{ backgroundImage: "repeating-linear-gradient(0deg, rgba(139,115,85,0.08) 0px, transparent 1px, transparent 2px, rgba(139,115,85,0.05) 3px), repeating-linear-gradient(90deg, rgba(139,115,85,0.08) 0px, transparent 1px, transparent 2px, rgba(139,115,85,0.05) 3px)", pointerEvents: "none" }} />
               
               {/* Golden light overlay */}
               <div className="absolute inset-0 opacity-20" style={{ background: "radial-gradient(circle at 40% 40%, rgba(217,184,106,0.3) 0%, transparent 70%)" }} />
