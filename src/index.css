@@ -16,7 +16,7 @@
     --card-foreground: 215 100% 18%;
     --popover: 0 0% 100%;
     --popover-foreground: 215 100% 18%;
-    --primary: 214 100% 55%;         /* #CF9D3E darker button gold */
+    --primary: 214 100% 55%;         /* #D9B86A button gold - keeping gold */
     --primary-foreground: 0 0% 100%;
     --secondary: 213 49% 60%;        /* #669eea light blue */
     --secondary-foreground: 215 100% 18%;
@@ -32,7 +32,7 @@
 
     --brand-navy: #001c5f;
     --brand-blue: #669eea;
-    --brand-gold: #CF9D3E;
+    --brand-gold: #D9B86A;
     --brand-white: #FFFFFF;
     --brand-stone: #F2F1EE;
     --brand-text-primary: #001c5f;
