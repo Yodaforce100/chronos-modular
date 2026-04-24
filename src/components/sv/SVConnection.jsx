@@ -25,12 +25,10 @@ export default function SVConnection() {
             transition={{ duration: 0.7, ease: [0.2, 0, 0, 1] }}
             className="relative"
           >
-            {/* Main card with bible background */}
-            <div className="rounded-[20px] border border-[#C5B49A] p-4 shadow-sm overflow-hidden relative" style={{ background: "#F5E9D0" }}>
-              {/* Bible image background with reduced opacity */}
-              <div className="absolute inset-0 opacity-50" style={{ backgroundImage: "url('https://media.base44.com/images/public/69e96f879840c600a93d0ce5/115a2afc0_generated_image.png')", backgroundSize: "cover", backgroundPosition: "center", pointerEvents: "none" }} />
-              {/* White overlay to soften and lighten */}
-              <div className="absolute inset-0 bg-white/20 pointer-events-none" />
+            {/* Main card with parchment/bible texture */}
+            <div className="rounded-[20px] border border-[#C5B49A] p-4 shadow-sm overflow-hidden" style={{ background: "linear-gradient(135deg, #F5E9D0 0%, #E8D9BE 50%, #F5E9D0 100%)" }}>
+              {/* Parchment texture overlay */}
+              <div className="absolute inset-0 opacity-40" style={{ backgroundImage: "repeating-linear-gradient(0deg, rgba(139,115,85,0.08) 0px, transparent 1px, transparent 2px, rgba(139,115,85,0.05) 3px), repeating-linear-gradient(90deg, rgba(139,115,85,0.08) 0px, transparent 1px, transparent 2px, rgba(139,115,85,0.05) 3px)", pointerEvents: "none" }} />
               
               <div className="relative z-10">
                 <p className="font-sans text-[10px] font-medium text-[#5E8DBF] tracking-widest uppercase mb-4 text-center">
