@@ -67,8 +67,8 @@ export default function SVNavbar({ onCTAClick }) {
         <div className="flex justify-end">
           <button
             onClick={onCTAClick}
-            className="hidden md:inline-flex font-sans text-sm font-medium text-white px-6 py-2.5 rounded-full min-h-[44px] items-center transition-opacity duration-300 hover:opacity-90"
-            style={{ background: "linear-gradient(90deg, #D9B86A 0%, #F5E9A4 35%, #E8D48B 60%, #D9B86A 100%)", boxShadow: "0 4px 14px rgba(212,185,106,0.4)", textShadow: "0 1px 3px rgba(0,0,0,0.35)", border: "1px solid rgba(255,255,255,0.4)" }}
+            className="hidden md:inline-flex font-sans text-sm font-medium text-[#001C5F] px-6 py-2.5 rounded-full min-h-[44px] items-center transition-opacity duration-300 hover:opacity-90"
+            style={{ background: "linear-gradient(90deg, #D9B86A 0%, #F5E9A4 35%, #E8D48B 60%, #D9B86A 100%)", boxShadow: "0 4px 14px rgba(212,185,106,0.4)", border: "1px solid rgba(255,255,255,0.4)" }}
           >
             Begin Free Trial
           </button>
@@ -98,8 +98,8 @@ export default function SVNavbar({ onCTAClick }) {
               ))}
               <button
                 onClick={() => { onCTAClick(); setMobileOpen(false); }}
-                className="font-sans text-sm font-medium text-white px-6 py-3 rounded-full mt-2 transition-opacity duration-300 hover:opacity-90"
-                style={{ background: "linear-gradient(90deg, #D9B86A 0%, #F5E9A4 35%, #E8D48B 60%, #D9B86A 100%)", boxShadow: "0 4px 14px rgba(212,185,106,0.4)", textShadow: "0 1px 3px rgba(0,0,0,0.35)", border: "1px solid rgba(255,255,255,0.4)" }}
+                className="font-sans text-sm font-medium text-[#001C5F] px-6 py-3 rounded-full mt-2 transition-opacity duration-300 hover:opacity-90"
+                style={{ background: "linear-gradient(90deg, #D9B86A 0%, #F5E9A4 35%, #E8D48B 60%, #D9B86A 100%)", boxShadow: "0 4px 14px rgba(212,185,106,0.4)", border: "1px solid rgba(255,255,255,0.4)" }}
               >
                 Begin Free Trial
               </button>

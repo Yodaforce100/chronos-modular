@@ -119,10 +119,10 @@ export default function SVPlans({ onSelectPlan }) {
                 onClick={() => onSelectPlan(plan)}
                 className={`w-full font-sans text-[15px] font-medium py-4 rounded-full min-h-[44px] transition-opacity duration-300 hover:opacity-90 ${
                   plan.featured
-                    ? "text-white shadow-md"
+                    ? "text-[#001C5F] shadow-md"
                     : "bg-[#F2F1EE] text-[#3A4A5A] border border-[#E7DED2] hover:bg-[#E7DED2]"
                 }`}
-                style={plan.featured ? { background: "linear-gradient(90deg, #D9B86A 0%, #F5E9A4 35%, #E8D48B 60%, #D9B86A 100%)", boxShadow: "0 4px 14px rgba(212,185,106,0.4)", textShadow: "0 1px 3px rgba(0,0,0,0.35)", border: "1px solid rgba(255,255,255,0.4)" } : {}}
+                style={plan.featured ? { background: "linear-gradient(90deg, #D9B86A 0%, #F5E9A4 35%, #E8D48B 60%, #D9B86A 100%)", boxShadow: "0 4px 14px rgba(212,185,106,0.4)", border: "1px solid rgba(255,255,255,0.4)" } : {}}
               >
                 {plan.cta}
               </button>
