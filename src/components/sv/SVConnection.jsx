@@ -12,7 +12,7 @@ const MOODS = [
 
 export default function SVConnection() {
   return (
-    <section className="relative py-6 pb-14 md:py-10 md:pb-20" style={{ backgroundImage: "linear-gradient(to bottom, transparent 0%, rgba(255,255,255,0.3) 80%, rgba(255,255,255,0.7) 100%), url('https://media.base44.com/images/public/69e96f879840c600a93d0ce5/115a2afc0_generated_image.png')", backgroundSize: "cover, cover", backgroundPosition: "center, center" }}>
+    <section className="relative py-6 pb-14 md:py-10 md:pb-20" style={{ backgroundImage: "linear-gradient(to bottom, transparent 0%, rgba(255,255,255,0.5) 85%, #FFFFFF 100%), url('https://media.base44.com/images/public/69e96f879840c600a93d0ce5/115a2afc0_generated_image.png')", backgroundSize: "cover, cover", backgroundPosition: "center, center" }}>
       {/* Bible background overlay for better readability */}
       <div className="absolute inset-0 bg-white/70 pointer-events-none" />
       <div className="max-w-3xl mx-auto px-6 relative z-10">
