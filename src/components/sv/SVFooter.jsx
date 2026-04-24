@@ -17,7 +17,7 @@ export default function SVFooter() {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
           <div>
             <ShepherdLogoSmall />
-            <p className="font-sans text-sm text-[#5C7EA8] mt-3 max-w-xs leading-relaxed">
+            <p className="font-sans text-sm text-[#4A5568] mt-3 max-w-xs leading-relaxed">
               Daily scripture and affirmations, spoken just for you. Every morning, without fail.
             </p>
           </div>

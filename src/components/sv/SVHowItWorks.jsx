@@ -41,7 +41,7 @@ export default function SVHowItWorks() {
           className="text-center mb-10 md:mb-20"
         >
 
-          <h2 className="font-serif text-3xl md:text-4xl lg:text-[44px] leading-[1.25] text-[#001c5f]">
+          <h2 className="font-serif text-3xl md:text-4xl lg:text-[44px] leading-[1.25] text-[#2A4B7C]">
             Two simple steps.<br /><span className="text-2xl md:text-3xl lg:text-[32px]">A day transformed.</span>
           </h2>
         </motion.div>
@@ -83,7 +83,7 @@ export default function SVHowItWorks() {
                 <p className="font-sans text-xs font-medium tracking-widest uppercase mb-2" style={{ color: step.accent }}>
                   Step {step.number}
                 </p>
-                <p className="font-sans text-[15px] text-[#5C7EA8] leading-[1.6]">
+                <p className="font-sans text-[15px] text-[#4A5568] leading-[1.6]">
                   {step.body}
                 </p>
               </div>
