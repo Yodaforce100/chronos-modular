@@ -23,7 +23,7 @@ function SoundwaveBars() {
 
 export default function SVHero({ onCTAClick }) {
   return (
-    <section className="relative min-h-[80vh] flex flex-col justify-center overflow-hidden pt-20">
+    <section className="relative min-h-[70vh] flex flex-col justify-center overflow-hidden pt-20 pb-8">
       {/* Full-width background image at low opacity */}
       <div className="absolute inset-0 pointer-events-none" aria-hidden="true">
         <img
