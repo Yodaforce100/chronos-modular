@@ -21,11 +21,11 @@ const PLANS = [
   {
     id: "annual",
     label: "Annual Journey",
-    price: "$79.95",
+    price: "$78.80",
     period: "/ year",
     cta: "Start Annual Journey",
     featured: true,
-    badge: "12 Months for the Price of 10",
+    badge: "Just $6.65/month — Best Value",
     features: [
       "12 Months for the Price of 10: Our best value for daily encouragement",
       "Continuous Access: All features included for a full year",
