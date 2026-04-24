@@ -38,13 +38,13 @@ export default function SVTrialModal({ isOpen, onClose, selectedPlan }) {
                 >
                   <X className="w-5 h-5" />
                 </button>
-                <p className="font-sans text-xs font-medium text-[#A9C3D6] tracking-widest uppercase mb-1">
+                <p className="font-sans text-xs font-medium text-[#5E8DBF] tracking-widest uppercase mb-1">
                   Begin Your Free Trial
                 </p>
                 <h3 className="font-serif text-2xl text-white leading-snug">
                   {plan.label}
                 </h3>
-                <p className="font-sans text-[#A9C3D6] mt-1">
+                <p className="font-sans text-[#5E8DBF] mt-1">
                   {plan.price}<span className="text-sm"> {plan.period}</span>
                   {" "}· 7 days free
                 </p>
@@ -62,7 +62,7 @@ export default function SVTrialModal({ isOpen, onClose, selectedPlan }) {
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder="you@email.com"
-                    className="w-full border border-[#E7DED2] rounded-full px-5 py-3 font-sans text-sm text-[#3A4A5A] placeholder:text-[#4A5B6B]/40 focus:outline-none focus:border-[#A9C3D6] transition-colors min-h-[44px] bg-[#F2F1EE]"
+                    className="w-full border border-[#E7DED2] rounded-full px-5 py-3 font-sans text-sm text-[#3A4A5A] placeholder:text-[#4A5B6B]/40 focus:outline-none focus:border-[#5E8DBF] transition-colors min-h-[44px] bg-[#F2F1EE]"
                   />
                 </div>
 
@@ -83,7 +83,7 @@ export default function SVTrialModal({ isOpen, onClose, selectedPlan }) {
                         className={`flex-1 font-sans text-sm py-2.5 rounded-full border transition-all duration-200 min-h-[44px] ${
                           platform === p.id
                             ? "bg-[#243E6B] text-white border-[#243E6B]"
-                            : "bg-[#F2F1EE] text-[#4A5B6B] border-[#E7DED2] hover:border-[#A9C3D6]"
+                            : "bg-[#F2F1EE] text-[#4A5B6B] border-[#E7DED2] hover:border-[#5E8DBF]"
                         }`}
                       >
                         {p.label}
