@@ -22,8 +22,8 @@ export default function ShepherdVersesLanding() {
     <div className="min-h-screen bg-[#F2F1EE] font-sans">
       <SVNavbar onCTAClick={handleOpenModal} />
       <SVHero onCTAClick={handleOpenModal} />
-      <SVConnection />
       <SVHowItWorks />
+      <SVConnection />
       <SVPlans onSelectPlan={handleSelectPlan} />
       <SVFooter />
       <SVTrialModal
