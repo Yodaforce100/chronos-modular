@@ -12,9 +12,9 @@ const MOODS = [
 
 export default function SVConnection() {
   return (
-    <section className="relative py-6 pb-14 md:py-10 md:pb-20">
+    <section className="relative py-6 pb-14 md:py-10 md:pb-20 bg-[#F2F1EE]">
       {/* Bible pages background */}
-      <div className="absolute inset-0 opacity-20 pointer-events-none" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1507842217343-583f20270319?w=1600&q=80')", backgroundSize: "cover", backgroundPosition: "center" }} />
+      <div className="absolute inset-0 opacity-10 pointer-events-none" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1507842217343-583f20270319?w=1600&q=80')", backgroundSize: "cover", backgroundPosition: "center" }} />
       <div className="max-w-3xl mx-auto px-6 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-20 items-center">
           {/* Left: Mood illustration */}
