@@ -17,7 +17,7 @@ const STEPS = [
     icon: Heart,
     title: "Share How You Feel",
     body: "PAUSE and name your current emotion—whether you're anxious, tired, or grateful. Your Shepherd Verses companion listens to where you are in this moment.",
-    boldPhrase: "Shepherd Verses",
+    boldPhrase: "Shepherd Verses companion",
     accent: "#669eea",
     objectPosition: "center top",
   },
