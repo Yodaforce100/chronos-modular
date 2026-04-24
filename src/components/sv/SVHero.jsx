@@ -73,7 +73,7 @@ export default function SVHero({ onCTAClick }) {
           </button>
 
           <p className="font-sans text-xs text-[#4A5568] mt-4 opacity-70">
-            Free 7-day trial · No credit card required · Cancel anytime
+            Free 7-day trial · Cancel anytime
           </p>
         </motion.div>
       </div>

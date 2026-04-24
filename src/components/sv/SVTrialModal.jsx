@@ -99,7 +99,7 @@ export default function SVTrialModal({ isOpen, onClose, selectedPlan }) {
                 </button>
 
                 <p className="font-sans text-xs text-center text-[#334455] opacity-70">
-                  No credit card required · Cancel anytime · One message per morning
+                  Cancel anytime · One message per morning
                 </p>
               </div>
             </div>
