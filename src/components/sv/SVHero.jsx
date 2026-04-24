@@ -43,7 +43,7 @@ export default function SVHero({ onCTAClick }) {
           className="flex flex-col items-center"
         >
           {/* Eyebrow */}
-          <div className="flex items-center gap-0 md:gap-1.5 mb-8">
+          <div className="flex items-center gap-2 mb-8 flex-wrap justify-center">
             <SoundwaveBars />
             <span className="font-sans text-sm font-medium text-[#669eea] tracking-widest uppercase">
               Spoken Scripture & Affirmations
