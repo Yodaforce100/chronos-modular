@@ -79,7 +79,7 @@ export default function SVPlans({ onSelectPlan }) {
               )}
 
               {/* Label */}
-              <p className={`font-sans text-xs font-medium tracking-widest uppercase mb-6 ${plan.featured ? "text-[#669eea]" : "text-[#669eea]"}`}>
+              <p className={`font-sans text-xs font-medium tracking-widest uppercase mb-6 ${plan.featured ? "text-[#A9C3D6]" : "text-[#A9C3D6]"}`}>
                 {plan.label}
               </p>
 
@@ -101,10 +101,10 @@ export default function SVPlans({ onSelectPlan }) {
                     <li key={feat} className="flex items-start gap-3">
                       <div
                         className={`w-5 h-5 rounded-full flex items-center justify-center shrink-0 mt-0.5 ${
-                          plan.featured ? "bg-[#669eea]" : "bg-[#669eea]/20"
+                          plan.featured ? "bg-[#A9C3D6]" : "bg-[#A9C3D6]/20"
                         }`}
                       >
-                        <Check className={`w-3 h-3 ${plan.featured ? "text-white" : "text-[#669eea]"}`} />
+                        <Check className={`w-3 h-3 ${plan.featured ? "text-white" : "text-[#A9C3D6]"}`} />
                       </div>
                       <span className={`font-sans text-[15px] leading-snug ${plan.featured ? "text-white/90" : "text-[#334455]"}`}>
                         {rest.length > 0 ? rest.join(": ") : feat}
