@@ -21,7 +21,7 @@ const PLANS = [
   {
     id: "annual",
     label: "Annual Journey",
-    price: "$78.80",
+    price: "$79.80",
     period: "/ year",
     cta: "Start Annual Journey",
     featured: true,
