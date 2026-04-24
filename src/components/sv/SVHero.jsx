@@ -78,11 +78,12 @@ export default function SVHero({ onCTAClick }) {
         </motion.div>
       </div>
 
-      {/* Divider wave */}
-      <div
-        className="absolute bottom-0 left-0 right-0 h-[1px]"
-        style={{ background: "#E7DED2" }}
-      />
+      {/* Soft wave divider */}
+      <div className="absolute bottom-0 left-0 right-0 overflow-hidden leading-none">
+        <svg viewBox="0 0 1440 40" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" className="w-full h-8 md:h-10">
+          <path d="M0,20 C360,40 1080,0 1440,20 L1440,40 L0,40 Z" fill="#F2F1EE" />
+        </svg>
+      </div>
     </section>
   );
 }
