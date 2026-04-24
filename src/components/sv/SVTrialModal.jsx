@@ -38,13 +38,13 @@ export default function SVTrialModal({ isOpen, onClose, selectedPlan }) {
                 >
                   <X className="w-5 h-5" />
                 </button>
-                <p className="font-sans text-xs font-medium text-[#4A8C8C] tracking-widest uppercase mb-1">
+                <p className="font-sans text-xs font-medium text-[#669eea] tracking-widest uppercase mb-1">
                   Begin Your Free Trial
                 </p>
                 <h3 className="font-serif text-2xl text-white leading-snug">
                   {plan.label}
                 </h3>
-                <p className="font-sans text-[#4A8C8C] mt-1">
+                <p className="font-sans text-[#669eea] mt-1">
                   {plan.price}<span className="text-sm"> {plan.period}</span>
                   {" "}· 7 days free
                 </p>
