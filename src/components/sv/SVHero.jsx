@@ -23,7 +23,7 @@ function SoundwaveBars() {
 
 export default function SVHero({ onCTAClick }) {
   return (
-    <section className="relative min-h-screen flex flex-col justify-center overflow-hidden pt-20">
+    <section className="relative min-h-[80vh] flex flex-col justify-center overflow-hidden pt-20">
       {/* Full-width background image at low opacity */}
       <div className="absolute inset-0 pointer-events-none" aria-hidden="true">
         <img
@@ -35,7 +35,7 @@ export default function SVHero({ onCTAClick }) {
         <div className="absolute inset-0" style={{ background: "linear-gradient(to bottom, rgba(240,245,255,0.4) 0%, transparent 30%, transparent 70%, rgba(240,245,255,0.4) 100%)" }} />
       </div>
 
-      <div className="max-w-3xl mx-auto px-6 w-full flex flex-col items-center text-center py-8 relative z-10">
+      <div className="max-w-3xl mx-auto px-6 w-full flex flex-col items-center text-center py-4 relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 32 }}
           animate={{ opacity: 1, y: 0 }}
@@ -51,11 +51,11 @@ export default function SVHero({ onCTAClick }) {
           </div>
 
           <h1 className="font-serif text-[#2A4B7C]">
-            <span className="block text-3xl sm:text-4xl md:text-[40px] leading-[1.25]">Wake up to a voice that hears you—</span>
+            <span className="block text-2xl sm:text-3xl md:text-[34px] leading-[1.25]">Wake up to a voice that hears you—</span>
             <span className="block text-lg sm:text-xl md:text-[22px] leading-[1.4] mt-1 italic">and guides you with scripture and affirmations.</span>
           </h1>
 
-          <div className="w-12 h-px bg-[#C5B49A] mt-7 mb-7" />
+          <div className="w-12 h-px bg-[#C5B49A] mt-4 mb-4" />
 
           <p className="font-sans text-[17px] text-[#4A5568] leading-[1.7] max-w-xl">
             Share how you're feeling, and your{" "}
@@ -66,7 +66,7 @@ export default function SVHero({ onCTAClick }) {
 
           <button
             onClick={onCTAClick}
-            className="mt-10 font-sans text-[15px] font-medium text-white px-8 py-4 rounded-full min-h-[44px] shadow-md transition-opacity duration-300 hover:opacity-90"
+            className="mt-6 font-sans text-[15px] font-medium text-white px-8 py-4 rounded-full min-h-[44px] shadow-md transition-opacity duration-300 hover:opacity-90"
             style={{ background: "linear-gradient(90deg, #D9B86A 0%, #F5E9A4 35%, #E8D48B 60%, #D9B86A 100%)", boxShadow: "0 6px 18px rgba(212,185,106,0.5)", textShadow: "0 1px 3px rgba(0,0,0,0.35)", border: "1px solid rgba(255,255,255,0.4)" }}
           >
             Start Your Morning with Peace

@@ -31,18 +31,18 @@ const STEPS = [
 
 export default function SVHowItWorks() {
   return (
-    <section id="how-it-works" className="relative py-16 md:py-36 bg-white">
+    <section id="how-it-works" className="relative py-10 md:py-20 bg-white">
       <div className="max-w-5xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="text-center mb-10 md:mb-20"
+          className="text-center mb-8 md:mb-12"
         >
 
-          <h2 className="font-serif text-3xl md:text-4xl lg:text-[44px] leading-[1.25] text-[#2A4B7C]">
-            Two simple steps.<br /><span className="text-2xl md:text-3xl lg:text-[32px]">A day transformed.</span>
+          <h2 className="font-serif text-2xl md:text-3xl lg:text-[36px] leading-[1.25] text-[#2A4B7C]">
+            Two simple steps.<br /><span className="text-xl md:text-2xl lg:text-[26px]">A day transformed.</span>
           </h2>
         </motion.div>
 
@@ -57,7 +57,7 @@ export default function SVHowItWorks() {
               className="relative border border-[#E7DED2] h-full flex flex-col rounded-[24px] overflow-hidden"
             >
               {/* Full-bleed image with text overlay */}
-              <div className="relative w-full h-64 md:h-96 overflow-hidden">
+              <div className="relative w-full h-52 md:h-72 overflow-hidden">
                 <img
                   src={step.image}
                   alt=""

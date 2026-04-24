@@ -12,7 +12,7 @@ const MOODS = [
 
 export default function SVConnection() {
   return (
-    <section className="relative py-10 md:py-20">
+    <section className="relative py-8 md:py-14">
       <div className="max-w-5xl mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-20 items-center">
           {/* Left: Mood illustration */}
@@ -66,7 +66,7 @@ export default function SVConnection() {
             transition={{ duration: 0.7, ease: [0.2, 0, 0, 1], delay: 0.1 }}
           >
 
-            <h2 className="font-serif text-2xl md:text-4xl lg:text-[42px] leading-[1.25] text-[#2A4B7C]">
+            <h2 className="font-serif text-xl md:text-3xl lg:text-[34px] leading-[1.25] text-[#2A4B7C]">
               A companion for every moment of your day
             </h2>
             <div className="w-12 h-[1.5px] bg-[#669eea] my-6" />

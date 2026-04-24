@@ -37,7 +37,7 @@ const PLANS = [
 
 export default function SVPlans({ onSelectPlan }) {
   return (
-    <section id="plans" className="relative py-16 md:py-36">
+    <section id="plans" className="relative py-10 md:py-20">
       <div className="max-w-5xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -47,7 +47,7 @@ export default function SVPlans({ onSelectPlan }) {
           className="text-center mb-4"
         >
 
-          <h2 className="font-serif text-3xl md:text-4xl lg:text-[44px] leading-[1.25] text-[#2A4B7C]">
+          <h2 className="font-serif text-2xl md:text-3xl lg:text-[36px] leading-[1.25] text-[#2A4B7C]">
             Choose Your Subscription
           </h2>
           <p className="font-sans text-[16px] text-[#4A5568] mt-4">
