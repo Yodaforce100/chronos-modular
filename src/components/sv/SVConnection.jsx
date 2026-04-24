@@ -14,7 +14,7 @@ export default function SVConnection() {
   return (
     <section className="relative py-6 pb-14 md:py-10 md:pb-20" style={{ backgroundImage: "url('https://media.base44.com/images/public/69e96f879840c600a93d0ce5/115a2afc0_generated_image.png')", backgroundSize: "cover", backgroundPosition: "center" }}>
       {/* Bible background overlay for better readability */}
-      <div className="absolute inset-0 bg-white/70 pointer-events-none" />
+      <div className="absolute inset-0 bg-white/40 pointer-events-none" />
       <div className="max-w-3xl mx-auto px-6 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-20 items-center">
           {/* Left: Mood illustration */}
