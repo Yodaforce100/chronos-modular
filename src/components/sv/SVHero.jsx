@@ -61,7 +61,7 @@ export default function SVHero({ onCTAClick }) {
             Share how you're feeling, and your{" "}
             <span className="font-medium text-[#3A4A5A]">Shepherd Verses</span>{" "}
             companion delivers calming, spoken scripture and affirmations—helping
-            you find clarity, reassurance, and peace throughout your day.
+            you find clarity and reassurance throughout your day.
           </p>
 
           <button
