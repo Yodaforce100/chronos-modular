@@ -12,7 +12,7 @@ const MOODS = [
 
 export default function SVConnection() {
   return (
-    <section className="relative py-6 pb-14 md:py-10 md:pb-20" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1521302552117-dda643cecf45?w=1600&q=80')", backgroundSize: "cover", backgroundPosition: "center" }}>
+    <section className="relative py-6 pb-14 md:py-10 md:pb-20">
       <div className="max-w-3xl mx-auto px-6 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-20 items-center">
           {/* Left: Mood illustration */}
@@ -23,9 +23,10 @@ export default function SVConnection() {
             transition={{ duration: 0.7, ease: [0.2, 0, 0, 1] }}
             className="relative"
           >
-            {/* Main card */}
-            <div className="rounded-[20px] border border-[#C5B49A] p-4 shadow-sm overflow-hidden" style={{ background: "#F2F1EE" }}>
-              
+            {/* Main card with bible pages background */}
+            <div className="rounded-[20px] border border-[#C5B49A] p-4 shadow-sm overflow-hidden relative" style={{ background: "#F2F1EE" }}>
+              {/* Bible pages background */}
+              <div className="absolute inset-0 opacity-5 pointer-events-none" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1507842217343-583f20270319?w=600&q=80')", backgroundSize: "cover", backgroundPosition: "center" }} />
               <div className="relative z-10">
                 <p className="font-sans text-[10px] font-medium text-[#5E8DBF] tracking-widest uppercase mb-4 text-center">
                   How are you feeling this morning?
