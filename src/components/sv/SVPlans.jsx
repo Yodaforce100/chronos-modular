@@ -12,7 +12,7 @@ const PLANS = [
     featured: false,
     badge: null,
     features: [
-      "Daily Delivery: 1 spoken & written message every morning",
+      "Daily Delivery: A spoken & written message every morning",
       "Custom Timing: Receive your prompt at a time that suits your routine",
       "Platform Choice: Delivered via Telegram, WhatsApp, or Email",
       "No Commitment: Manage or cancel your subscription at any time",
