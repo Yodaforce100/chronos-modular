@@ -67,7 +67,7 @@ export default function SVConnection() {
           >
 
             <h2 className="font-serif text-2xl md:text-3xl lg:text-[32px] leading-[1.25] text-[#001C5F] text-center lg:text-left">
-              A companion<br />for every moment of your day
+              A companion<br /><span className="text-xl md:text-2xl lg:text-[26px]">for every moment of your day</span>
             </h2>
             <div className="w-12 h-[1.5px] bg-[#5E8DBF] my-6 mx-auto lg:mx-0" />
             <p className="font-sans text-[15px] md:text-[17px] text-[#4A5568] leading-[1.7] text-center lg:text-left">
