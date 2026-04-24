@@ -80,6 +80,11 @@ export default function SVHero({ onCTAClick }) {
           <p className="font-sans text-xs text-[#4A5568] mt-6 opacity-70">
             Free 7-day trial · Cancel anytime
           </p>
+          <p className="font-serif text-[15px] text-[#001C5F] mt-8 max-w-xl leading-relaxed italic">
+            "Come to me, all you who are weary and burdened, and I will give you rest."
+            <br />
+            <span className="text-sm font-normal">— Matthew 11:28</span>
+          </p>
         </motion.div>
       </div>
 
