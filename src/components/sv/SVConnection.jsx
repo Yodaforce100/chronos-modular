@@ -26,7 +26,7 @@ export default function SVConnection() {
             className="relative"
           >
             {/* Main card */}
-            <div className="rounded-[20px] border border-[#C5B49A] p-4 shadow-sm overflow-hidden" style={{ background: "#F5E9D0" }}>
+            <div className="rounded-[20px] border border-[#C5B49A] p-4 shadow-sm overflow-hidden" style={{ background: "#F2F1EE" }}>
               
               <div className="relative z-10">
                 <p className="font-sans text-[10px] font-medium text-[#5E8DBF] tracking-widest uppercase mb-4 text-center">
