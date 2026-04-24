@@ -27,7 +27,7 @@ export default function SVNavbar({ onCTAClick }) {
       }`}
     >
       {/* Single row: nav link left | logo center | button right */}
-      <div className="max-w-5xl mx-auto px-6 h-auto md:h-20 py-3 md:py-0 grid grid-cols-3 items-center">
+      <div className="max-w-5xl mx-auto px-6 h-16 md:h-20 grid grid-cols-3 items-center">
         {/* Left: nav links */}
         <div className="hidden md:flex items-center gap-6">
           {links.map((link) => (
@@ -53,12 +53,12 @@ export default function SVNavbar({ onCTAClick }) {
         </div>
 
         {/* Center: logo */}
-        <div className="flex justify-center items-center min-w-0">
-          <a href="#" aria-label="Shepherd Verses home" className="flex items-center">
+        <div className="flex justify-center">
+          <a href="#" aria-label="Shepherd Verses home">
             <img
               src="https://media.base44.com/images/public/69e96f879840c600a93d0ce5/39f2abf45_Shepherd_verses_herologo_GOLD_STAR_2500_TRANSPARENTBGpng-2.png"
               alt="Shepherd Verses"
-              className="h-28 sm:h-32 md:h-36 w-auto"
+              className="h-20 sm:h-20 md:h-24 w-auto"
             />
           </a>
         </div>
