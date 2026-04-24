@@ -20,6 +20,7 @@ const STEPS = [
     boldPhrase: "Shepherd Verses companion",
     accent: "#5E8DBF",
     objectPosition: "center top",
+    scale: "1.15",
   },
   {
     number: "02",
@@ -65,13 +66,13 @@ export default function SVHowItWorks() {
                   src={step.image}
                   alt=""
                   className="w-full h-full object-cover"
-                  style={{ objectPosition: step.objectPosition || "center center" }}
+                  style={{ objectPosition: step.objectPosition || "center center", transform: step.scale ? `scale(${step.scale})` : undefined, transformOrigin: "center top" }}
                 />
                 {/* Dark overlay for text readability */}
                 <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/40" />
                 {/* Overlay text */}
-                <div className="absolute inset-0 flex flex-col justify-end p-8">
-                  <h3 className="font-serif text-2xl text-white mb-2 leading-snug drop-shadow-lg">
+                <div className="absolute inset-0 flex flex-col justify-end p-4 pb-3">
+                  <h3 className="font-serif text-2xl text-white mb-1 leading-snug drop-shadow-lg">
                     {step.title}
                   </h3>
                 </div>
