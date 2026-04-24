@@ -20,7 +20,7 @@ const STEPS = [
     boldPhrase: "Shepherd Verses companion",
     accent: "#5E8DBF",
     objectPosition: "center top",
-    scale: "1.15",
+    scale: "0.85",
   },
   {
     number: "02",
