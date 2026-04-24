@@ -28,7 +28,7 @@ export default function SVConnection() {
               <p className="font-sans text-[10px] font-medium text-[#5E8DBF] tracking-widest uppercase mb-3">
                 How are you feeling this morning?
               </p>
-              <div className="grid grid-cols-3 gap-1.5">
+              <div className="grid grid-cols-3 gap-1">
                 {MOODS.map((mood, i) => (
                   <motion.div
                     key={mood.label}
@@ -36,10 +36,10 @@ export default function SVConnection() {
                     whileInView={{ opacity: 1, scale: 1 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.4, delay: i * 0.07 }}
-                    className="flex flex-col items-center gap-1 p-2 rounded-[10px] cursor-pointer hover:bg-[#F2F1EE] transition-colors"
+                    className="flex flex-col items-center gap-1 py-2 rounded-[10px] cursor-pointer hover:bg-[#F2F1EE] transition-colors"
                   >
                     <span className="text-xl">{mood.emoji}</span>
-                    <span className="font-sans text-[10px] font-medium text-[#334455]">
+                    <span className="font-sans text-[11px] font-medium text-[#334455]">
                       {mood.label}
                     </span>
                   </motion.div>
