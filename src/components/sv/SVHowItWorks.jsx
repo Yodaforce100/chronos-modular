@@ -60,7 +60,7 @@ export default function SVHowItWorks() {
               className="relative border border-[#E7DED2] h-full flex flex-col rounded-[24px] overflow-hidden"
             >
               {/* Full-bleed image with text overlay */}
-              <div className="relative w-full h-52 md:h-72 overflow-hidden">
+              <div className="relative w-full h-40 md:h-52 overflow-hidden">
                 <img
                   src={step.image}
                   alt=""
@@ -79,7 +79,7 @@ export default function SVHowItWorks() {
               </div>
 
               {/* Card content below image */}
-              <div className="p-4 md:p-8 flex-1 flex flex-col">
+              <div className="p-4 md:p-6 flex-1 flex flex-col">
                 <p className="font-sans text-[15px] text-[#4A5568] leading-[1.6]">
                   {(() => {
                     const [first, ...rest] = step.body.split(" ");
