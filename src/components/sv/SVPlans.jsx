@@ -50,8 +50,8 @@ export default function SVPlans({ onSelectPlan }) {
           <h2 className="font-serif text-2xl md:text-3xl lg:text-[32px] leading-[1.25] text-[#001C5F]">
             Choose Your Subscription
           </h2>
-          <p className="font-sans text-[16px] text-[#4A5568] mt-4">
-            One message every morning. Cancel anytime.
+          <p className="font-serif text-[16px] text-[#001C5F] italic mt-4">
+            Wake up supported. Start your day guided.
           </p>
         </motion.div>
 
@@ -145,10 +145,7 @@ export default function SVPlans({ onSelectPlan }) {
           ))}
         </motion.div>
 
-        {/* Subheadline */}
-        <p className="font-serif text-[17px] text-[#001C5F] leading-[1.7] text-center italic mt-6">
-          Wake up supported. Start your day guided.
-        </p>
+
       </div>
 
       <div className="absolute bottom-0 left-0 right-0 h-[1px] bg-[#E7DED2]" />
