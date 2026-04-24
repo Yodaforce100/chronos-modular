@@ -70,7 +70,7 @@ export default function SVConnection() {
               A companion for every moment of your day
             </h2>
             <div className="w-12 h-[1.5px] bg-[#669eea] my-6" />
-            <p className="font-sans text-[15px] md:text-[17px] text-[#334455] leading-[1.7]">
+            <p className="font-sans text-[15px] md:text-[17px] text-[#5C7EA8] leading-[1.7]">
               Some days begin with calm. Others begin with uncertainty, heaviness,
               or quiet worry.{" "}
               <span className="font-medium text-[#3A4A5A]">Shepherd Verses</span>{" "}

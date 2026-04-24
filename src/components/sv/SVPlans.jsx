@@ -50,7 +50,7 @@ export default function SVPlans({ onSelectPlan }) {
           <h2 className="font-serif text-3xl md:text-4xl lg:text-[44px] leading-[1.25] text-[#001c5f]">
             Choose Your Subscription
           </h2>
-          <p className="font-sans text-[16px] text-[#334455] mt-4">
+          <p className="font-sans text-[16px] text-[#5C7EA8] mt-4">
             One message every morning. Cancel anytime.
           </p>
         </motion.div>
