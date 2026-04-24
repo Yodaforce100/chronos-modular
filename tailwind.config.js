@@ -14,7 +14,7 @@ module.exports = {
         'body-text': '#334455',
         'brand-navy': '#001c5f',
         'brand-blue': '#669eea',
-        'brand-gold': '#D9B86A',
+        'brand-gold': '#CF9D3E',
         'brand-divider': '#E8E8E8',
         card: {
           DEFAULT: '#FFFFFF',
@@ -25,7 +25,7 @@ module.exports = {
           foreground: '#3A4A5A',
         },
         primary: {
-          DEFAULT: '#D9B86A',
+          DEFAULT: '#CF9D3E',
           foreground: '#FFFFFF',
         },
         secondary: {
