@@ -66,11 +66,11 @@ export default function SVConnection() {
             transition={{ duration: 0.7, ease: [0.2, 0, 0, 1], delay: 0.1 }}
           >
 
-            <h2 className="font-serif text-lg md:text-xl lg:text-[24px] leading-[1.25] text-[#001C5F]">
+            <h2 className="font-serif text-lg md:text-xl lg:text-[24px] leading-[1.25] text-[#001C5F] text-center lg:text-left">
               A companion for every moment of your day
             </h2>
-            <div className="w-12 h-[1.5px] bg-[#5E8DBF] my-6" />
-            <p className="font-sans text-[15px] md:text-[17px] text-[#4A5568] leading-[1.7]">
+            <div className="w-12 h-[1.5px] bg-[#5E8DBF] my-6 mx-auto lg:mx-0" />
+            <p className="font-sans text-[15px] md:text-[17px] text-[#4A5568] leading-[1.7] text-center lg:text-left">
               Some days begin with calm. Others begin with uncertainty, heaviness,
               or quiet worry.{" "}
               <span className="font-medium text-[#3A4A5A]">Shepherd Verses</span>{" "}
