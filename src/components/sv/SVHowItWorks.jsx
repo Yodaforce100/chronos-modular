@@ -50,7 +50,7 @@ export default function SVHowItWorks() {
           </h2>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-6">
           {STEPS.map((step, i) => (
             <motion.div
               key={step.number}
@@ -80,7 +80,7 @@ export default function SVHowItWorks() {
               </div>
 
               {/* Card content below image */}
-              <div className="p-4 md:p-6 flex-1 flex flex-col">
+              <div className="p-3 md:p-4 flex-1 flex flex-col">
                 <p className="font-sans text-[15px] text-[#4A5568] leading-[1.6]">
                   {(() => {
                     const [first, ...rest] = step.body.split(" ");
