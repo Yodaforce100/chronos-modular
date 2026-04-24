@@ -38,8 +38,8 @@ export default function SVConnection() {
                     transition={{ duration: 0.4, delay: i * 0.07 }}
                     className="flex flex-col items-center gap-1 py-2 rounded-[10px] cursor-pointer hover:bg-[#F2F1EE] transition-colors"
                   >
-                    <span className="text-xl">{mood.emoji}</span>
-                    <span className="font-sans text-[11px] font-medium text-[#334455]">
+                    <span className="text-2xl">{mood.emoji}</span>
+                    <span className="font-sans text-[12px] font-medium text-[#334455]">
                       {mood.label}
                     </span>
                   </motion.div>
