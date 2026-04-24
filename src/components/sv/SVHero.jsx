@@ -37,7 +37,7 @@ export default function SVHero({ onCTAClick }) {
           className="w-full h-full object-cover object-center"
           style={{ opacity: 0.6, filter: "contrast(1.15) saturate(1.1)" }}
         />
-        <div className="absolute inset-0" style={{ background: "linear-gradient(to bottom, rgba(240,245,255,0.4) 0%, transparent 30%, transparent 60%, rgba(249,248,246,0.7) 85%, rgba(249,248,246,1) 100%)" }} />
+        <div className="absolute inset-0" style={{ background: "linear-gradient(to bottom, rgba(240,245,255,0.4) 0%, transparent 30%, transparent 60%, rgba(255,255,255,0.6) 85%, rgba(255,255,255,1) 100%)" }} />
       </motion.div>
 
       <div className="max-w-3xl mx-auto px-6 w-full flex flex-col items-center text-center py-4 relative z-10">
