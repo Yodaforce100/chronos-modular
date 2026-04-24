@@ -23,10 +23,12 @@ export default function SVConnection() {
             transition={{ duration: 0.7, ease: [0.2, 0, 0, 1] }}
             className="relative"
           >
-            {/* Main card with parchment/bible texture */}
-            <div className="rounded-[20px] border border-[#C5B49A] p-4 shadow-sm overflow-hidden" style={{ background: "linear-gradient(135deg, #F5E9D0 0%, #E8D9BE 50%, #F5E9D0 100%)" }}>
-              {/* Parchment texture overlay */}
-              <div className="absolute inset-0 opacity-40" style={{ backgroundImage: "repeating-linear-gradient(0deg, rgba(139,115,85,0.08) 0px, transparent 1px, transparent 2px, rgba(139,115,85,0.05) 3px), repeating-linear-gradient(90deg, rgba(139,115,85,0.08) 0px, transparent 1px, transparent 2px, rgba(139,115,85,0.05) 3px)", pointerEvents: "none" }} />
+            {/* Main card with bible background */}
+            <div className="rounded-[20px] border border-[#C5B49A] p-4 shadow-sm overflow-hidden relative" style={{ background: "#F5E9D0" }}>
+              {/* Bible image background with reduced opacity */}
+              <div className="absolute inset-0 opacity-25" style={{ backgroundImage: "url('https://media.base44.com/images/public/69e96f879840c600a93d0ce5/115a2afc0_generated_image.png')", backgroundSize: "cover", backgroundPosition: "center", pointerEvents: "none" }} />
+              {/* White overlay to soften and lighten */}
+              <div className="absolute inset-0 bg-white/30 pointer-events-none" />
               
               {/* Golden light overlay */}
               <div className="absolute inset-0 opacity-20" style={{ background: "radial-gradient(circle at 40% 40%, rgba(217,184,106,0.3) 0%, transparent 70%)" }} />
