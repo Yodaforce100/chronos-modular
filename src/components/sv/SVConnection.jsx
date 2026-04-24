@@ -26,7 +26,7 @@ export default function SVConnection() {
             className="relative"
           >
             {/* Main card */}
-            <div className="rounded-[20px] border border-[#E7DED2] p-4 shadow-sm overflow-hidden relative bg-white">
+            <div className="rounded-[20px] border border-[#C5B49A] p-4 shadow-sm overflow-hidden relative" style={{ background: "#F5E9D0" }}>
               
               {/* Golden light overlay */}
               <div className="absolute inset-0 opacity-20" style={{ background: "radial-gradient(circle at 40% 40%, rgba(217,184,106,0.3) 0%, transparent 70%)" }} />
