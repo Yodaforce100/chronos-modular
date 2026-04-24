@@ -44,7 +44,7 @@ export default function SVHowItWorks() {
           className="text-center mb-8 md:mb-12"
         >
 
-          <h2 className="font-serif text-2xl md:text-3xl lg:text-[36px] leading-[1.25] text-[#001C5F]">
+          <h2 className="font-serif text-xl md:text-2xl lg:text-[26px] leading-[1.25] text-[#001C5F]">
             Two simple steps.<br /><span className="text-xl md:text-2xl lg:text-[26px]">A day transformed.</span>
           </h2>
         </motion.div>
