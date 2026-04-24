@@ -18,14 +18,16 @@ const STEPS = [
     title: "Share How You Feel",
     body: "Pause and name your current emotion—whether you're anxious, tired, or grateful. Your Shepherd Verses companion listens to where you are in this moment.",
     accent: "#669eea",
+    objectPosition: "center top",
   },
   {
     number: "02",
-    image: "https://media.base44.com/images/public/69e96f879840c600a93d0ce5/d5542c284_oldladycuppa.jpg",
+    image: "https://media.base44.com/images/public/69e96f879840c600a93d0ce5/ae7a0db6e_istockphoto-2257561497-1024x1024.jpg",
     icon: Volume2,
     title: "Hear a Caring Voice",
     body: "Listen as your companion shares spoken scripture and affirmations tailored to your feelings, carefully chosen to guide and support you all day.",
     accent: "#669eea",
+    objectPosition: "center 30%",
   },
 ];
 
@@ -62,6 +64,7 @@ export default function SVHowItWorks() {
                   src={step.image}
                   alt=""
                   className="w-full h-full object-cover"
+                  style={{ objectPosition: step.objectPosition || "center center" }}
                 />
                 {/* Dark overlay for text readability */}
                 <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/40" />
