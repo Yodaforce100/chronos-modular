@@ -66,7 +66,7 @@ export default function SVConnection() {
             transition={{ duration: 0.7, ease: [0.2, 0, 0, 1], delay: 0.1 }}
           >
 
-            <h2 className="font-serif text-xl md:text-3xl lg:text-[34px] leading-[1.25] text-[#2A4B7C]">
+            <h2 className="font-serif text-lg md:text-xl lg:text-[24px] leading-[1.25] text-[#001C5F]">
               A companion for every moment of your day
             </h2>
             <div className="w-12 h-[1.5px] bg-[#5E8DBF] my-6" />
