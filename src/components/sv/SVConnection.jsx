@@ -25,11 +25,12 @@ export default function SVConnection() {
             transition={{ duration: 0.7, ease: [0.2, 0, 0, 1] }}
             className="relative"
           >
-            {/* Main card */}
+            {/* Main card with bible background */}
             <div className="rounded-[20px] border border-[#C5B49A] p-4 shadow-sm overflow-hidden relative" style={{ background: "#F5E9D0" }}>
-              
-              {/* Golden light overlay */}
-              <div className="absolute inset-0 opacity-20" style={{ background: "radial-gradient(circle at 40% 40%, rgba(217,184,106,0.3) 0%, transparent 70%)" }} />
+              {/* Bible image background with reduced opacity */}
+              <div className="absolute inset-0 opacity-50" style={{ backgroundImage: "url('https://media.base44.com/images/public/69e96f879840c600a93d0ce5/115a2afc0_generated_image.png')", backgroundSize: "cover", backgroundPosition: "center", pointerEvents: "none" }} />
+              {/* White overlay to soften and lighten */}
+              <div className="absolute inset-0 bg-white/20 pointer-events-none" />
               
               <div className="relative z-10">
                 <p className="font-sans text-[10px] font-medium text-[#5E8DBF] tracking-widest uppercase mb-4 text-center">
