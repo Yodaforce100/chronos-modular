@@ -35,7 +35,7 @@ const STEPS = [
 
 export default function SVHowItWorks() {
   return (
-    <section id="how-it-works" className="relative py-10 md:py-20 bg-white">
+    <section id="how-it-works" className="relative py-10 md:py-20 bg-[#F2F1EE]">
       <div className="max-w-3xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
