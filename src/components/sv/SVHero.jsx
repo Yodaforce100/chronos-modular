@@ -67,7 +67,7 @@ export default function SVHero({ onCTAClick }) {
           <button
             onClick={onCTAClick}
             className="mt-10 font-sans text-[15px] font-medium text-white px-8 py-4 rounded-full min-h-[44px] shadow-md transition-opacity duration-300 hover:opacity-90"
-            style={{ background: "linear-gradient(90deg, #D9B86A 0%, #F5E9A4 35%, #E8D48B 60%, #D9B86A 100%)", boxShadow: "0 6px 18px rgba(212,185,106,0.5)", textShadow: "0 1px 3px rgba(0,0,0,0.35)" }}
+            style={{ background: "linear-gradient(90deg, #D9B86A 0%, #F5E9A4 35%, #E8D48B 60%, #D9B86A 100%)", boxShadow: "0 6px 18px rgba(212,185,106,0.5)", textShadow: "0 1px 3px rgba(0,0,0,0.35)", border: "1px solid rgba(255,255,255,0.4)" }}
           >
             Start Your Morning with Peace
           </button>
