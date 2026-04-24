@@ -12,8 +12,10 @@ const MOODS = [
 
 export default function SVConnection() {
   return (
-    <section className="relative py-6 pb-14 md:py-10 md:pb-20 bg-[#F9F8F6]">
-      <div className="max-w-3xl mx-auto px-6">
+    <section className="relative py-6 pb-14 md:py-10 md:pb-20 bg-[#F9F8F6]" style={{ backgroundImage: "url('https://media.base44.com/images/public/69e96f879840c600a93d0ce5/115a2afc0_generated_image.png')", backgroundSize: "cover", backgroundPosition: "center" }}>
+      {/* Bible background overlay for better readability */}
+      <div className="absolute inset-0 bg-white/70 pointer-events-none" />
+      <div className="max-w-3xl mx-auto px-6 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-20 items-center">
           {/* Left: Mood illustration */}
           <motion.div
@@ -23,12 +25,8 @@ export default function SVConnection() {
             transition={{ duration: 0.7, ease: [0.2, 0, 0, 1] }}
             className="relative"
           >
-            {/* Main card with bible background */}
+            {/* Main card with parchment texture */}
             <div className="rounded-[20px] border border-[#C5B49A] p-4 shadow-sm overflow-hidden relative" style={{ background: "#F5E9D0" }}>
-              {/* Bible image background with reduced opacity */}
-              <div className="absolute inset-0 opacity-50" style={{ backgroundImage: "url('https://media.base44.com/images/public/69e96f879840c600a93d0ce5/115a2afc0_generated_image.png')", backgroundSize: "cover", backgroundPosition: "center", pointerEvents: "none" }} />
-              {/* White overlay to soften and lighten */}
-              <div className="absolute inset-0 bg-white/20 pointer-events-none" />
               
               {/* Golden light overlay */}
               <div className="absolute inset-0 opacity-20" style={{ background: "radial-gradient(circle at 40% 40%, rgba(217,184,106,0.3) 0%, transparent 70%)" }} />
