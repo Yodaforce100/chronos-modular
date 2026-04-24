@@ -26,7 +26,7 @@ export default function SVConnection() {
             {/* Main card with bible pages background */}
             <div className="rounded-[20px] border border-[#C5B49A] p-4 shadow-sm overflow-hidden relative" style={{ background: "#F2F1EE" }}>
               {/* Bible pages background */}
-              <div className="absolute inset-0 opacity-5 pointer-events-none" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1507842217343-583f20270319?w=600&q=80')", backgroundSize: "cover", backgroundPosition: "center" }} />
+              <div className="absolute inset-0 opacity-8 pointer-events-none" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=600&q=80')", backgroundSize: "cover", backgroundPosition: "center" }} />
               <div className="relative z-10">
                 <p className="font-sans text-[10px] font-medium text-[#5E8DBF] tracking-widest uppercase mb-4 text-center">
                   How are you feeling this morning?
