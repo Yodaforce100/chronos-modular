@@ -1,53 +1,70 @@
 export default function ColorPalette() {
-  const colors = [
-    { name: "Dark Navy", hex: "#001c5f", category: "Primary Brand Colors", usage: "headings, primary text" },
-    { name: "Brand Gold", hex: "#D9B86A", category: "Primary Brand Colors", usage: "buttons, accents, gradients" },
-    { name: "Light Blue", hex: "#669eea", category: "Primary Brand Colors", usage: "secondary text, accent, icons" },
-    { name: "Stone/Off-white", hex: "#F2F1EE", category: "Primary Brand Colors", usage: "background" },
-    { name: "Text Primary", hex: "#001c5f", category: "Text Colors", usage: "headings" },
-    { name: "Text Secondary", hex: "#334455", category: "Text Colors", usage: "secondary/muted text" },
-    { name: "Foreground", hex: "#3A4A5A", category: "Text Colors", usage: "general text" },
-    { name: "Body Text", hex: "#4A5B6B", category: "Text Colors", usage: "paragraph text, descriptions" },
-    { name: "White", hex: "#FFFFFF", category: "UI & Structural", usage: "card backgrounds" },
-    { name: "Divider Light", hex: "#E8E8E8", category: "UI & Structural", usage: "borders and separators" },
-    { name: "Divider", hex: "#E7DED2", category: "UI & Structural", usage: "borders and separators" },
-    { name: "Subtle divider", hex: "#C5B49A", category: "UI & Structural", usage: "accent lines" },
-    { name: "Dark blue", hex: "#243E6B", category: "Interactive & Component", usage: "featured plan card background" },
-    { name: "Teal", hex: "#4A8C8C", category: "Interactive & Component", usage: "check marks, accents" },
-    { name: "Muted gold", hex: "#C9A84C", category: "Interactive & Component", usage: "badges" },
-    { name: "Light blue secondary", hex: "#A9C3D6", category: "Interactive & Component", usage: "secondary text on dark backgrounds" },
-    { name: "Gold gradient light", hex: "#F5E9A4", category: "Interactive & Component", usage: "button gradients" },
-    { name: "Gold gradient dark", hex: "#E8D48B", category: "Interactive & Component", usage: "button gradients" },
+  const groups = [
+    {
+      name: "Navy Tonal System",
+      colors: [
+        { name: "Primary Navy", hex: "#001C5F" },
+        { name: "Secondary Blue", hex: "#2A4B7C" },
+        { name: "Body Text Blue", hex: "#5C7EA8" },
+        { name: "Supporting Blue", hex: "#AFC3DA" },
+        { name: "Stone", hex: "#F2F1EE" },
+      ],
+    },
+    {
+      name: "Gold Button Colours",
+      colors: [
+        { name: "Light Gold", hex: "#F5E9A4" },
+        { name: "Mid Gold", hex: "#E8D48B" },
+        { name: "Brand Gold", hex: "#D9B86A" },
+      ],
+    },
+    {
+      name: "Neutral Colours",
+      colors: [
+        { name: "White", hex: "#FFFFFF" },
+        { name: "Light Divider", hex: "#E8E8E8" },
+        { name: "Warm Divider", hex: "#E7DED2" },
+        { name: "Accent Divider", hex: "#C5B49A" },
+        { name: "Text Grey", hex: "#4A5568" },
+      ],
+    },
+    {
+      name: "Accent Colours",
+      colors: [
+        { name: "Teal Accent", hex: "#4A8C8C" },
+        { name: "Light Accent Blue", hex: "#A9C3D6" },
+        { name: "Mid Accent Blue (NEW)", hex: "#5E8DBF" },
+      ],
+    },
   ];
-
-  const categories = ["Primary Brand Colors", "Text Colors", "UI & Structural", "Interactive & Component"];
 
   return (
     <div className="p-8 bg-[#F2F1EE] min-h-screen">
-      <h1 className="font-serif text-4xl text-[#001c5f] mb-12">Color Palette</h1>
-      
-      {categories.map((category) => (
-        <div key={category} className="mb-12">
-          <h2 className="font-serif text-2xl text-[#001c5f] mb-6">{category}</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {colors
-              .filter((color) => color.category === category)
-              .map((color) => (
-                <div key={color.hex} className="flex items-start gap-4 bg-white p-4 rounded-lg border border-[#E7DED2]">
+      <h1 className="font-serif text-4xl text-[#001C5F] mb-2">Shepherd Verses — Master Colour Palette</h1>
+      <p className="font-sans text-sm text-[#4A5568] mb-12">Clean Layout · Current as of April 2026</p>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+        {groups.map((group) => (
+          <div key={group.name}>
+            <h2 className="font-serif text-xl text-[#001C5F] mb-4 italic">{group.name}</h2>
+            <div className="border border-[#E8E8E8] rounded-[12px] overflow-hidden bg-white">
+              {group.colors.map((color, i) => (
+                <div
+                  key={color.hex}
+                  className={`flex items-center gap-4 px-5 py-3 ${i !== group.colors.length - 1 ? "border-b border-[#E8E8E8]" : ""}`}
+                >
                   <div
-                    className="w-16 h-16 rounded-md flex-shrink-0 border border-[#E7DED2]"
+                    className="w-12 h-8 rounded flex-shrink-0 border border-[#E8E8E8]"
                     style={{ backgroundColor: color.hex }}
                   />
-                  <div className="flex-1">
-                    <p className="font-sans font-semibold text-[#001c5f]">{color.name}</p>
-                    <p className="font-mono text-sm text-[#4A5B6B] font-medium">{color.hex}</p>
-                    <p className="font-sans text-xs text-[#669eea] mt-1">{color.usage}</p>
-                  </div>
+                  <span className="font-sans text-sm text-[#3A4A5A] flex-1">{color.name}</span>
+                  <span className="font-mono text-sm text-[#5C7EA8] font-medium">{color.hex}</span>
                 </div>
               ))}
+            </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 }
