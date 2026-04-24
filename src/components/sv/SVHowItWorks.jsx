@@ -16,7 +16,7 @@ const STEPS = [
     image: "https://media.base44.com/images/public/69e96f879840c600a93d0ce5/2c2d845cd_screenshotMOBILEwithcomposition.png",
     icon: Heart,
     title: "Share How You Feel",
-    body: "Pause and name your current emotion—whether you're anxious, tired, or grateful. Your Shepherd Verses companion listens to where you are in this moment.",
+    body: "PAUSE and name your current emotion—whether you're anxious, tired, or grateful. Your Shepherd Verses companion listens to where you are in this moment.",
     accent: "#669eea",
     objectPosition: "center top",
   },
@@ -25,7 +25,7 @@ const STEPS = [
     image: "https://media.base44.com/images/public/69e96f879840c600a93d0ce5/ae7a0db6e_istockphoto-2257561497-1024x1024.jpg",
     icon: Volume2,
     title: "Hear a Caring Voice",
-    body: "Listen as your companion shares spoken scripture and affirmations tailored to your feelings, carefully chosen to guide and support you all day.",
+    body: "LISTEN as your companion shares spoken scripture and affirmations tailored to your feelings, carefully chosen to guide and support you all day.",
     accent: "#669eea",
     objectPosition: "center 30%",
   },
@@ -79,11 +79,16 @@ export default function SVHowItWorks() {
 
               {/* Card content below image */}
               <div className="p-4 md:p-8 flex-1 flex flex-col">
-                <p className="font-sans text-xs font-medium tracking-widest uppercase mb-2" style={{ color: step.accent }}>
-                  Step {step.number}
-                </p>
                 <p className="font-sans text-[15px] text-[#4A5568] leading-[1.6]">
-                  {step.body}
+                  {(() => {
+                    const [first, ...rest] = step.body.split(" ");
+                    return (
+                      <>
+                        <span className="font-semibold tracking-wide" style={{ color: step.accent }}>{first}</span>
+                        {" "}{rest.join(" ")}
+                      </>
+                    );
+                  })()}
                 </p>
               </div>
             </motion.div>
