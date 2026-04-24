@@ -17,30 +17,9 @@ export default function SVConnection() {
       <div className="absolute inset-0 bg-gradient-to-b from-white/60 via-white/70 to-white pointer-events-none" />
       <div className="max-w-3xl mx-auto px-6 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-20 items-center">
-          {/* Left: Copy */}
+          {/* Left: Mood illustration */}
           <motion.div
-            initial={{ opacity: 0, y: 24 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.7, ease: [0.2, 0, 0, 1], delay: 0.1 }}
-          >
-
-            <h2 className="font-serif text-2xl md:text-3xl lg:text-[32px] leading-[1.25] text-[#001C5F] text-center">
-              A companion<br /><span className="text-xl md:text-2xl lg:text-[26px] whitespace-nowrap">for every moment of your day</span>
-            </h2>
-            <div className="w-12 h-[1.5px] bg-[#5E8DBF] my-6 mx-auto" />
-            <p className="font-sans text-[15px] md:text-[17px] text-[#4A5568] leading-[1.7] text-center">
-              Some days begin with calm. Others begin with uncertainty, heaviness,
-              or quiet worry.{" "}
-              <span className="font-medium text-[#3A4A5A]">Shepherd Verses</span>{" "}
-              meets you in those moments—listening to how you feel and responding
-              with spoken scripture and affirmations chosen just for you.
-            </p>
-          </motion.div>
-
-          {/* Right: Mood illustration */}
-          <motion.div
-            initial={{ opacity: 0, x: 24 }}
+            initial={{ opacity: 0, x: -24 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7, ease: [0.2, 0, 0, 1] }}
@@ -82,6 +61,27 @@ export default function SVConnection() {
                 </div>
               </div>
             </div>
+          </motion.div>
+
+          {/* Right: Copy */}
+          <motion.div
+            initial={{ opacity: 0, y: 24 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.7, ease: [0.2, 0, 0, 1], delay: 0.1 }}
+          >
+
+            <h2 className="font-serif text-2xl md:text-3xl lg:text-[32px] leading-[1.25] text-[#001C5F] text-center">
+              A companion<br /><span className="text-xl md:text-2xl lg:text-[26px] whitespace-nowrap">for every moment of your day</span>
+            </h2>
+            <div className="w-12 h-[1.5px] bg-[#5E8DBF] my-6 mx-auto" />
+            <p className="font-sans text-[15px] md:text-[17px] text-[#4A5568] leading-[1.7] text-center">
+              Some days begin with calm. Others begin with uncertainty, heaviness,
+              or quiet worry.{" "}
+              <span className="font-medium text-[#3A4A5A]">Shepherd Verses</span>{" "}
+              meets you in those moments—listening to how you feel and responding
+              with spoken scripture and affirmations chosen just for you.
+            </p>
           </motion.div>
         </div>
       </div>
