@@ -148,7 +148,7 @@ export default function SVPlans({ onSelectPlan }) {
 
       </div>
 
-      <div className="absolute bottom-0 left-0 right-0 h-[1px] bg-[#E7DED2]" />
+
     </section>
   );
 }

@@ -24,23 +24,9 @@ function SoundwaveBars() {
 export default function SVHero({ onCTAClick }) {
   return (
     <section className="relative min-h-[70vh] flex flex-col justify-center overflow-hidden pt-20 pb-8">
-      {/* Full-width background image at low opacity */}
-      <motion.div
-        className="absolute inset-0 pointer-events-none"
-        aria-hidden="true"
-        animate={{ scale: [1, 1.05, 1] }}
-        transition={{ duration: 12, repeat: Infinity, ease: "easeInOut" }}
-      >
-        <img
-          src={BG_IMG}
-          alt=""
-          className="w-full h-full object-cover object-center"
-          style={{ opacity: 0.6, filter: "contrast(1.15) saturate(1.1)" }}
-        />
-        <div className="absolute inset-0" style={{ background: "linear-gradient(to bottom, rgba(240,245,255,0.4) 0%, transparent 30%, transparent 60%, rgba(249,248,246,0.7) 85%, rgba(249,248,246,1) 100%)" }} />
-      </motion.div>
 
-      <div className="max-w-3xl mx-auto px-6 w-full flex flex-col items-center text-center py-4 relative z-10">
+
+      <div className="max-w-3xl mx-auto px-6 w-full flex flex-col items-center text-center py-4 relative z-10" style={{ backgroundColor: "#F2F1EE" }}>
         <motion.div
           initial={{ opacity: 0, y: 32 }}
           animate={{ opacity: 1, y: 0 }}
