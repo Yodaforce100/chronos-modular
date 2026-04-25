@@ -33,7 +33,7 @@ export default function SVHowItWorks() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="text-center mb-8 md:mb-12"
+          className="text-center mb-8 md:mb-12 mt-6"
         >
           <h2 className="font-serif text-2xl md:text-3xl lg:text-[32px] leading-[1.25] text-[#001C5F]">
             Two simple steps<br /><span className="text-xl md:text-2xl lg:text-[26px]">A day transformed</span>
