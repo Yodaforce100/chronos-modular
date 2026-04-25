@@ -18,7 +18,7 @@ export default function SVFooter() {
           <div className="hidden md:block w-40" />
           <div className="flex flex-col items-center">
             <ShepherdLogoSmall />
-            <p className="font-sans text-sm text-[#001C5F] mt-3 max-w-xs leading-relaxed text-center">
+            <p className="font-sans text-sm text-[#001C5F] mt-3 max-w-xs leading-relaxed text-left">
               Daily scripture and affirmations, spoken just for you. Every morning, without fail.
             </p>
           </div>
