@@ -24,18 +24,6 @@ export default function SVFooter() {
           <div className="flex flex-col md:flex-row gap-8">
             <div>
               <p className="font-sans text-xs font-semibold text-[#3A4A5A] tracking-widest uppercase mb-3">
-                Product
-              </p>
-              <ul className="space-y-2">
-                {["How It Works", "Pricing", "Free Trial"].map((l) => (
-                  <li key={l}>
-                    <a href="#" className="font-sans text-sm text-[#334455] hover:text-[#3A4A5A] transition-colors">{l}</a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div>
-              <p className="font-sans text-xs font-semibold text-[#3A4A5A] tracking-widest uppercase mb-3">
                 Legal
               </p>
               <ul className="space-y-2">
