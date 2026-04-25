@@ -27,7 +27,7 @@ export default function SVConnection() {
             transition={{ duration: 0.7, ease: [0.2, 0, 0, 1] }}
             className="relative flex justify-center lg:justify-start"
           >
-            <div className="w-full max-w-[260px]">
+            <div className="w-full max-w-[260px] scale-90 origin-top">
             {/* Main card */}
             <div className="rounded-[20px] border border-[#C5B49A] p-4 shadow-sm overflow-hidden" style={{ background: "#F2F1EE" }}>
               <div className="relative z-10">
