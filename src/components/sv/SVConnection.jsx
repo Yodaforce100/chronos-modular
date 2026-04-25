@@ -12,7 +12,7 @@ const MOODS = [
 
 export default function SVConnection() {
   return (
-    <section className="relative py-6 pb-14 md:py-10 md:pb-20 bg-white">
+    <section className="relative py-6 pb-20 md:py-10 md:pb-32 bg-white">
       {/* Bible pages background */}
       <div className="absolute inset-0 opacity-40 pointer-events-none" style={{ backgroundImage: "url('https://media.base44.com/images/public/69e96f879840c600a93d0ce5/50cdbf00f_istockphoto-2235714260-1024x1024.jpg')", backgroundSize: "cover", backgroundPosition: "center", filter: "saturate(0.3) hue-rotate(180deg) brightness(1.15) grayscale(0.3)" }} />
       {/* Fade in from top */}
