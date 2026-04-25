@@ -5,7 +5,7 @@ function ShepherdLogoSmall() {
     <img
       src="https://media.base44.com/images/public/69e96f879840c600a93d0ce5/39f2abf45_Shepherd_verses_herologo_GOLD_STAR_2500_TRANSPARENTBGpng-2.png"
       alt="Shepherd Verses"
-      className="h-12 w-auto"
+      className="h-20 w-auto"
     />
   );
 }
