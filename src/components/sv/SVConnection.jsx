@@ -106,12 +106,12 @@ export default function SVConnection() {
               A companion for every<br /><span className="text-xl md:text-2xl lg:text-[24px] whitespace-nowrap">moment of your day</span>
             </h2>
             <div className="w-12 h-[1.5px] bg-[#5E8DBF] my-6 mx-auto" />
-            <p className="font-sans text-[15px] md:text-[17px] text-[#2D3748] leading-[1.7] text-center">
+            <p className="font-sans text-[15px] md:text-[16px] text-[#2D3748] leading-[1.7] text-center">
               Some days begin with calm. Others begin with uncertainty, heaviness,
               or quiet worry.{" "}
               <span className="font-medium text-[#3A4A5A]">Shepherd Verses</span>{" "}
               meets you in those moments—listening to how you feel and responding
-              with spoken scripture and affirmations chosen just for you.
+              with spoken scripture and affirmations, chosen just for you.
             </p>
           </motion.div>
         </div>
