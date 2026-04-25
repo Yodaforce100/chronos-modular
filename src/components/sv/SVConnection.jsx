@@ -18,16 +18,16 @@ export default function SVConnection() {
       {/* Fade in from top */}
       <div className="absolute top-0 left-0 right-0 h-32 pointer-events-none z-10" style={{ background: "linear-gradient(to bottom, white, transparent)" }} />
       <div className="max-w-3xl mx-auto px-6 relative z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-20 items-center">
+        <div className="flex flex-col lg:flex-row gap-8 lg:gap-16 items-center justify-center">
           {/* Left: Mood illustration */}
           <motion.div
             initial={{ opacity: 0, x: -24 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7, ease: [0.2, 0, 0, 1] }}
-            className="relative flex justify-center lg:justify-start"
+            className="relative flex-shrink-0"
           >
-            <div className="w-full max-w-[260px] scale-90 origin-top">
+            <div className="w-[220px]">
             {/* Main card */}
             <div className="rounded-[20px] border border-[#C5B49A] p-4 shadow-sm overflow-hidden" style={{ background: "#F2F1EE" }}>
               <div className="relative z-10">
@@ -72,6 +72,7 @@ export default function SVConnection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7, ease: [0.2, 0, 0, 1], delay: 0.1 }}
+            className="flex-1 max-w-sm"
           >
 
             <h2 className="font-serif text-2xl md:text-3xl lg:text-[32px] leading-[1.25] text-[#001C5F] text-center">
