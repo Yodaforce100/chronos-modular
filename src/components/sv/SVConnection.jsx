@@ -12,7 +12,7 @@ const MOODS = [
 
 export default function SVConnection() {
   return (
-    <section className="relative py-6 pb-14 md:py-10 md:pb-20 bg-[#F2F1EE]">
+    <section className="relative py-6 pb-14 md:py-10 md:pb-20 bg-white">
       {/* Bible pages background */}
       <div className="absolute inset-0 opacity-20 pointer-events-none" style={{ backgroundImage: "url('https://media.base44.com/images/public/69e96f879840c600a93d0ce5/50cdbf00f_istockphoto-2235714260-1024x1024.jpg')", backgroundSize: "cover", backgroundPosition: "center" }} />
       <div className="max-w-3xl mx-auto px-6 relative z-10">
