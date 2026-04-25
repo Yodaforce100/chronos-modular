@@ -25,8 +25,9 @@ export default function SVConnection() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7, ease: [0.2, 0, 0, 1] }}
-            className="relative"
+            className="relative flex justify-center lg:justify-start"
           >
+            <div className="w-full max-w-[260px]">
             {/* Main card */}
             <div className="rounded-[20px] border border-[#C5B49A] p-4 shadow-sm overflow-hidden" style={{ background: "#F2F1EE" }}>
               <div className="relative z-10">
@@ -61,6 +62,7 @@ export default function SVConnection() {
                   <p className="font-sans text-[10px] text-[#334455] mt-1">— 1 Peter 5:7</p>
                 </div>
               </div>
+            </div>
             </div>
           </motion.div>
 
