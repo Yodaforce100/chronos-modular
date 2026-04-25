@@ -19,6 +19,19 @@ export default function SVConnection() {
       <div className="absolute top-0 left-0 right-0 h-32 pointer-events-none z-10" style={{ background: "linear-gradient(to bottom, white, transparent)" }} />
       <div className="max-w-3xl mx-auto px-6 relative z-10">
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-16 items-center justify-center">
+          {/* Mobile-only: heading above card */}
+          <motion.div
+            initial={{ opacity: 0, y: 24 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.7, ease: [0.2, 0, 0, 1] }}
+            className="lg:hidden text-center"
+          >
+            <h2 className="font-serif text-2xl leading-[1.25] text-[#001C5F]">
+              A companion<br /><span className="text-xl whitespace-nowrap">for every moment of your day</span>
+            </h2>
+          </motion.div>
+
           {/* Left: Mood illustration */}
           <motion.div
             initial={{ opacity: 0, x: -24 }}
@@ -89,7 +102,7 @@ export default function SVConnection() {
             className="flex-1 max-w-sm"
           >
 
-            <h2 className="font-serif text-2xl md:text-3xl lg:text-[32px] leading-[1.25] text-[#001C5F] text-center">
+            <h2 className="hidden lg:block font-serif text-2xl md:text-3xl lg:text-[32px] leading-[1.25] text-[#001C5F] text-center">
               A companion<br /><span className="text-xl md:text-2xl lg:text-[26px] whitespace-nowrap">for every moment of your day</span>
             </h2>
             <div className="w-12 h-[1.5px] bg-[#5E8DBF] my-6 mx-auto" />
