@@ -23,7 +23,6 @@ export default function ShepherdVersesLanding() {
       <SVNavbar onCTAClick={handleOpenModal} />
       <SVHero onCTAClick={handleOpenModal} />
       <SVHowItWorks />
-      <div className="border-b border-[#E7DED2]" />
       <SVConnection />
       <div className="border-b border-[#E7DED2]" />
       <SVPlans onSelectPlan={handleSelectPlan} />
