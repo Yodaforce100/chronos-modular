@@ -53,9 +53,23 @@ export default function SVConnection() {
                 </div>
                 {/* Response preview */}
                 <div className="mt-4 pt-3 border-t border-[#D4B896]/40">
-                  <p className="font-sans text-[10px] text-[#5E8DBF] tracking-wide mb-1.5">
-                    ✦ Your companion responds…
-                  </p>
+                  <div className="flex items-center gap-1.5 mb-1.5">
+                    <div className="flex items-center gap-[2px]" aria-hidden="true">
+                      {[1,2,3,4,5].map((i) => (
+                        <div
+                          key={i}
+                          className="w-[2px] bg-[#5E8DBF] rounded-full animate-soundwave"
+                          style={{
+                            height: i === 3 ? '10px' : i % 2 === 0 ? '8px' : '6px',
+                            animationDelay: `${(i - 3) * 0.08}s`,
+                          }}
+                        />
+                      ))}
+                    </div>
+                    <p className="font-sans text-[10px] text-[#5E8DBF] tracking-wide">
+                      Your companion responds…
+                    </p>
+                  </div>
                   <p className="font-serif text-[13px] text-[#3A4A5A] leading-snug italic">
                     "Cast all your anxiety on him because he cares for you."
                   </p>
