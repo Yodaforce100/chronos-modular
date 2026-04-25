@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 // Previous version (beach/ocean): "https://media.base44.com/images/public/69e96f879840c600a93d0ce5/eeb901bc6_generated_image.png"
-const BG_IMG = "https://media.base44.com/images/public/69e96f879840c600a93d0ce5/eb11a10a5_istockphoto-1470973831-1024x1024.jpg";
+const BG_IMG = "https://media.base44.com/images/public/69e96f879840c600a93d0ce5/fb6efc5bb_iStock-1470973831.jpg";
 
 function SoundwaveBars() {
   return (
