@@ -65,7 +65,7 @@ export default function SVPlans({ onSelectPlan }) {
               transition={{ duration: 0.6, delay: i * 0.1 }}
               className={`relative flex flex-col rounded-[24px] border p-5 md:p-6 ${
                 plan.featured
-                  ? "bg-[#A9C3D6] border-[#A9C3D6] text-white shadow-xl"
+                  ? "bg-[#5E8DBF] border-[#5E8DBF] text-white shadow-xl"
                   : "bg-white border-[#E7DED2] text-[#3A4A5A]"
               }`}
             >
