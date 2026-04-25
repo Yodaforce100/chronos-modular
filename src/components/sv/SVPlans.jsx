@@ -37,7 +37,7 @@ const PLANS = [
 
 export default function SVPlans({ onSelectPlan }) {
   return (
-    <section id="plans" className="relative py-10 md:py-20 bg-[#E8E8E8]">
+    <section id="plans" className="relative py-10 md:py-20 bg-white">
       <div className="max-w-3xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
