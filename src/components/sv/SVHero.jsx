@@ -62,7 +62,7 @@ export default function SVHero({ onCTAClick }) {
 
           <div className="w-12 h-px bg-[#C5B49A] mt-4 mb-8" />
 
-          <p className="font-sans text-[17px] text-[#4A5568] leading-[1.7] max-w-xl">
+          <p className="font-sans text-[15px] text-[#4A5568] leading-[1.7] max-w-xl">
             Share how you're feeling, and your{" "}
             <span className="font-medium text-[#3A4A5A]">Shepherd Verses</span>{" "}
             companion delivers calming, spoken scripture and affirmations—helping
