@@ -14,9 +14,8 @@ export default function SVFooter() {
   return (
     <footer className="bg-white border-t border-[#E7DED2] py-2 md:py-4">
       <div className="max-w-5xl mx-auto px-6">
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
-          <div className="hidden md:block w-40" />
-          <div className="flex flex-col items-center">
+        <div className="flex flex-col md:flex-row justify-between items-start gap-8">
+          <div className="flex flex-col items-start">
             <ShepherdLogoSmall />
             <p className="font-sans text-sm text-[#001C5F] mt-3 max-w-xs leading-relaxed text-left">
               Daily scripture and affirmations, spoken just for you. Every morning, without fail.
