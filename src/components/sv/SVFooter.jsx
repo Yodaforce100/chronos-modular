@@ -5,7 +5,7 @@ function ShepherdLogoSmall() {
     <img
       src="https://media.base44.com/images/public/69e96f879840c600a93d0ce5/39f2abf45_Shepherd_verses_herologo_GOLD_STAR_2500_TRANSPARENTBGpng-2.png"
       alt="Shepherd Verses"
-      className="h-20 w-auto"
+      className="h-12 w-auto"
     />
   );
 }
@@ -36,7 +36,7 @@ export default function SVFooter() {
             </div>
           </div>
         </div>
-        <div className="mt-10 pt-8 border-t border-[#E7DED2]">
+        <div className="mt-4 pt-4 border-t border-[#E7DED2]">
           <p className="font-sans text-xs text-[#334455] text-center">
             © 2026 Shepherd Verses. Made with care for your peace of mind.
           </p>
