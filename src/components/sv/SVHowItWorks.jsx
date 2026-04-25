@@ -26,22 +26,22 @@ const STEPS = [
 
 export default function SVHowItWorks() {
   return (
-    <section id="how-it-works" className="relative pt-8 pb-10 md:pt-14 md:pb-16 bg-white" style={{ backgroundImage: "none" }}>
+    <section id="how-it-works" className="relative pt-8 pb-10 md:pt-14 md:pb-20 bg-white" style={{ backgroundImage: "none" }}>
       <div className="max-w-5xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="text-center mb-6 md:mb-10"
+          className="text-center mb-8 md:mb-12"
         >
           <h2 className="font-serif text-2xl md:text-3xl lg:text-[32px] leading-[1.25] text-[#001C5F]">
             Two simple steps<br /><span className="text-xl md:text-2xl lg:text-[26px]">A day transformed</span>
           </h2>
         </motion.div>
 
-        <div className="max-w-2xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+        <div className="max-w-3xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
             {STEPS.map((step, i) => (
               <motion.div
                 key={step.number}
@@ -49,10 +49,10 @@ export default function SVHowItWorks() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: i * 0.12 }}
-                className="relative border border-[#E7DED2] h-full flex flex-col rounded-[20px] overflow-hidden"
+                className="relative border border-[#E7DED2] h-full flex flex-col rounded-[24px] overflow-hidden"
               >
                 {/* Full-bleed image with text overlay */}
-                <div className="relative w-full h-40 md:h-44 overflow-hidden">
+                <div className="relative w-full h-56 md:h-64 overflow-hidden">
                   <img
                     src={step.image}
                     alt=""
@@ -62,16 +62,16 @@ export default function SVHowItWorks() {
                   {/* Dark overlay for text readability */}
                   <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/40" />
                   {/* Overlay text */}
-                  <div className="absolute inset-0 flex flex-col justify-end p-3 pb-2">
-                    <h3 className="font-serif text-xl text-white mb-1 leading-snug drop-shadow-lg">
+                  <div className="absolute inset-0 flex flex-col justify-end p-4 pb-3">
+                    <h3 className="font-serif text-2xl text-white mb-1 leading-snug drop-shadow-lg">
                       {step.title}
                     </h3>
                   </div>
                 </div>
 
                 {/* Card content below image */}
-                <div className="p-3 md:p-4 flex-1 flex flex-col">
-                  <p className="font-sans text-[14px] text-[#4A5568] leading-[1.6]">
+                <div className="p-4 md:p-6 flex-1 flex flex-col">
+                  <p className="font-sans text-[15px] text-[#4A5568] leading-[1.6]">
                     {(() => {
                       const [first, ...rest] = step.body.split(" ");
                       const remaining = rest.join(" ");
