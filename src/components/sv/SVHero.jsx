@@ -35,7 +35,7 @@ export default function SVHero({ onCTAClick }) {
           src={BG_IMG}
           alt=""
           className="w-full h-full object-cover object-center"
-          style={{ opacity: 0.6, filter: "contrast(1.15) saturate(1.1)" }}
+          style={{ opacity: 0.75, filter: "contrast(1.2) saturate(1.4)" }}
         />
         <div className="absolute inset-0" style={{ background: "linear-gradient(to bottom, rgba(240,245,255,0.4) 0%, transparent 30%, transparent 60%, rgba(255,255,255,0.6) 85%, rgba(255,255,255,1) 100%)" }} />
       </motion.div>
