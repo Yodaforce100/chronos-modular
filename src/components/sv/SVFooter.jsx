@@ -28,10 +28,10 @@ export default function SVFooter() {
           {/* Right: legal links */}
           <div className="flex justify-end">
             <div>
-              <p className="font-sans text-xs font-semibold text-[#3A4A5A] tracking-widest uppercase mb-3">
+              <p className="font-sans text-xs font-semibold text-[#3A4A5A] tracking-widest uppercase mb-1">
                 Legal
               </p>
-              <ul className="space-y-2">
+              <ul className="space-y-1">
                 {["Privacy Policy", "Terms of Service"].map((l) => (
                   <li key={l}>
                     <a href="#" className="font-sans text-sm text-[#001C5F] hover:text-[#3A4A5A] transition-colors">{l}</a>
