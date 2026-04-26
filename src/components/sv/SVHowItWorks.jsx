@@ -80,7 +80,7 @@ export default function SVHowItWorks() {
                         return (
                           <>
                             <span className="font-semibold tracking-wide" style={{ color: step.accent }}>{first}</span>
-                            {" "}{parts[0]}<strong className="font-bold text-[#3A4A5A]">{step.boldPhrase}</strong>{parts[1]}
+                            {" "}{parts[0]}<strong className="font-bold text-[#2A4B7C]">{step.boldPhrase}</strong>{parts[1]}
                           </>
                         );
                       }
