@@ -1,0 +1,80 @@
+import React from "react";
+import { motion } from "framer-motion";
+
+const REVIEWS = [
+  {
+    name: "Margaret T.",
+    location: "Tennessee",
+    quote: "Every morning I used to reach for my phone and feel anxious before the day even started. Now I start with Shepherd Verses and it genuinely changes my whole outlook. The scripture it chooses always feels like it was written just for me.",
+    stars: 5,
+  },
+  {
+    name: "David R.",
+    location: "Texas",
+    quote: "I was sceptical at first — I've been a Christian for thirty years and wondered what an app could offer me. But the way it listens and responds with such relevant scripture surprised me deeply. It's become part of my morning prayer time.",
+    stars: 5,
+  },
+  {
+    name: "Joanne M.",
+    location: "Georgia",
+    quote: "I shared that I was feeling overwhelmed one morning and the verse it gave me brought me to tears — in the best way. It felt like being heard. I've recommended it to everyone in my small group.",
+    stars: 5,
+  },
+];
+
+function Stars({ count }) {
+  return (
+    <div className="flex items-center gap-0.5 mb-4">
+      {Array.from({ length: count }).map((_, i) => (
+        <span key={i} className="text-[#C9A84C] text-base">★</span>
+      ))}
+    </div>
+  );
+}
+
+export default function SVReviews() {
+  return (
+    <section className="relative py-10 md:py-20 bg-white">
+      <div className="max-w-5xl mx-auto px-6">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="text-center mb-10"
+        >
+          <div className="flex items-center justify-center gap-3 mb-3">
+            <div className="h-px w-8 bg-[#C9A84C] opacity-60" />
+            <span className="font-sans text-[11px] font-medium text-[#C9A84C] tracking-widest uppercase">What People Are Saying</span>
+            <div className="h-px w-8 bg-[#C9A84C] opacity-60" />
+          </div>
+          <h2 className="font-serif text-2xl md:text-3xl lg:text-[32px] leading-[1.25] text-[#001C5F]">
+            Voices from the community
+          </h2>
+        </motion.div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {REVIEWS.map((review, i) => (
+            <motion.div
+              key={review.name}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: i * 0.1 }}
+              className="bg-[#F7F6F4] rounded-[20px] border border-[#E7DED2] p-6 flex flex-col"
+            >
+              <Stars count={review.stars} />
+              <p className="font-serif text-[15px] text-[#2A4B7C] leading-[1.7] italic flex-1">
+                "{review.quote}"
+              </p>
+              <div className="mt-5 pt-4 border-t border-[#E7DED2]">
+                <p className="font-sans text-sm font-semibold text-[#001C5F]">{review.name}</p>
+                <p className="font-sans text-xs text-[#5E8DBF]">{review.location}</p>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
