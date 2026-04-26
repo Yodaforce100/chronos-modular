@@ -27,9 +27,9 @@ export default function ShepherdVersesLanding() {
       <SVConnection />
       <SVHowItWorks />
       <div className="border-b border-[#E7DED2]" />
-      <SVReviews />
-      <div className="border-b border-[#E7DED2]" />
       <SVPlans onSelectPlan={handleSelectPlan} />
+      <div className="border-b border-[#E7DED2]" />
+      <SVReviews />
       <div className="border-b border-[#E7DED2]" />
       <SVFaq />
       <div className="border-b border-[#E7DED2]" />
