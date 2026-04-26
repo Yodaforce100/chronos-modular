@@ -77,7 +77,7 @@ export default function SVHero({ onCTAClick }) {
             Start Your Morning with Peace
           </button>
 
-          <p className="font-sans text-xs text-[#4A5568] mt-6 opacity-70">
+          <p className="font-sans text-xs text-[#2A4B7C] mt-6 opacity-70">
             Free 7-day trial · Cancel anytime
           </p>
           <p className="font-serif text-[15px] text-[#001C5F] mt-8 max-w-xl leading-relaxed italic">

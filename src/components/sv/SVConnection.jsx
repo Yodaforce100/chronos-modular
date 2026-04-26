@@ -63,7 +63,7 @@ export default function SVConnection() {
                       className="flex flex-col items-center gap-1 py-2.5 rounded-[10px] cursor-pointer bg-white/40 hover:bg-white/60 transition-colors backdrop-blur-sm"
                     >
                       <span className="text-2xl">{mood.emoji}</span>
-                      <span className="font-sans text-[11px] font-medium text-[#3A4A5A]">
+                      <span className="font-sans text-[11px] font-medium text-[#2A4B7C]">
                         {mood.label}
                       </span>
                     </motion.div>
@@ -88,10 +88,10 @@ export default function SVConnection() {
                       Your companion responds…
                     </p>
                   </div>
-                  <p className="font-serif text-[13px] text-[#3A4A5A] leading-snug italic">
+                  <p className="font-serif text-[13px] text-[#001C5F] leading-snug italic">
                     "Cast all your anxiety on him because he cares for you."
                   </p>
-                  <p className="font-sans text-[10px] text-[#334455] mt-1">— 1 Peter 5:7</p>
+                  <p className="font-serif text-[10px] text-[#001C5F] mt-1 italic">— 1 Peter 5:7</p>
                 </div>
               </div>
             </div>
