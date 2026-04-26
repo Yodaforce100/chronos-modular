@@ -88,10 +88,10 @@ export default function SVConnection() {
                       Your companion responds…
                     </p>
                   </div>
-                  <p className="font-serif text-[13px] text-[#3A4A5A] leading-snug italic">
+                  <p className="font-serif text-[13px] text-[#001C5F] leading-snug italic">
                     "Cast all your anxiety on him because he cares for you."
                   </p>
-                  <p className="font-sans text-[10px] text-[#334455] mt-1">— 1 Peter 5:7</p>
+                  <p className="font-serif text-[10px] text-[#5E8DBF] mt-1 italic">— 1 Peter 5:7</p>
                 </div>
               </div>
             </div>
