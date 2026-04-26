@@ -14,7 +14,7 @@ export default function SVConnection() {
   return (
     <section className="relative py-6 pb-16 md:py-16 md:pb-32 bg-white">
       {/* Bible pages background */}
-      <div className="absolute inset-0 opacity-40 pointer-events-none" style={{ backgroundImage: "url('https://media.base44.com/images/public/69e96f879840c600a93d0ce5/50cdbf00f_istockphoto-2235714260-1024x1024.jpg')", backgroundSize: "cover", backgroundPosition: "center", filter: "saturate(0.3) hue-rotate(180deg) brightness(1.15) grayscale(0.3)" }} />
+      <div className="absolute inset-0 opacity-40 pointer-events-none" style={{ backgroundImage: "url('https://media.base44.com/images/public/69e96f879840c600a93d0ce5/583f3e10d_iStock-2235714260.jpg')", backgroundSize: "cover", backgroundPosition: "center", filter: "saturate(0.3) hue-rotate(180deg) brightness(1.15) grayscale(0.3)" }} />
       {/* Fade in from top */}
       <div className="absolute top-0 left-0 right-0 h-32 pointer-events-none z-10" style={{ background: "linear-gradient(to bottom, white, transparent)" }} />
       <div className="max-w-3xl mx-auto px-6 relative z-10">
