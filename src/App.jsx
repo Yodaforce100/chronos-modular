@@ -7,6 +7,7 @@ import { AuthProvider, useAuth } from '@/lib/AuthContext';
 import UserNotRegisteredError from '@/components/UserNotRegisteredError';
 import Landing from './pages/Landing';
 import ShepherdVersesLanding from './pages/ShepherdVersesLanding';
+import ColorPalette from './pages/ColorPalette';
 // Add page imports here
 
 const AuthenticatedApp = () => {
@@ -37,6 +38,7 @@ const AuthenticatedApp = () => {
     <Routes>
       <Route path="/" element={<ShepherdVersesLanding />} />
       <Route path="/chronos" element={<Landing />} />
+      <Route path="/color-palette" element={<ColorPalette />} />
       <Route path="*" element={<PageNotFound />} />
     </Routes>
   );
