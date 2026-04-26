@@ -79,15 +79,15 @@ export default function SVHowItWorks() {
                         const parts = remaining.split(step.boldPhrase);
                         return (
                           <>
-                            <span className="font-semibold tracking-wide" style={{ color: step.accent }}>{first}</span>
-                            {" "}{parts[0]}<strong className="font-bold text-[#2A4B7C]">{step.boldPhrase}</strong>{parts[1]}
+                            <span className="font-semibold tracking-wide" style={{ color: "#C9A84C" }}>{first}</span>
+                                {" "}{parts[0]}<strong className="font-bold text-[#2A4B7C]">{step.boldPhrase}</strong>{parts[1]}
                           </>
                         );
                       }
                       return (
                         <>
-                          <span className="font-semibold tracking-wide" style={{ color: step.accent }}>{first}</span>
-                          {" "}{remaining}
+                          <span className="font-semibold tracking-wide" style={{ color: "#C9A84C" }}>{first}</span>
+                            {" "}{remaining}
                         </>
                       );
                     })()}
