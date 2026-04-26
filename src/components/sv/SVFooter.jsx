@@ -14,16 +14,16 @@ export default function SVFooter() {
   return (
     <footer className="bg-white border-t border-[#E7DED2] py-2 md:py-4">
       <div className="max-w-5xl mx-auto px-6">
-        <div className="grid grid-cols-1 md:grid-cols-3 items-center gap-8">
+        {/* Logo on top */}
+        <div className="flex justify-center mb-8">
+          <ShepherdLogoSmall />
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
           {/* Left: body text */}
           <div className="text-center md:text-left">
             <p className="font-sans text-sm text-[#001C5F] leading-relaxed">
               Daily scripture and affirmations, spoken just for you. Every morning, without fail.
             </p>
-          </div>
-          {/* Centre: logo */}
-          <div className="flex justify-center">
-            <ShepherdLogoSmall />
           </div>
           {/* Right: legal links */}
           <div className="flex justify-center md:justify-end">
