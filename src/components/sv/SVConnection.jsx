@@ -76,7 +76,7 @@ export default function SVConnection() {
                       {[1,2,3,4,5].map((i) => (
                         <div
                           key={i}
-                          className="w-[2px] bg-[#5E8DBF] rounded-full animate-soundwave"
+                          className="w-[2px] bg-[#CF9D3E] rounded-full animate-soundwave"
                           style={{
                             height: i === 3 ? '10px' : i % 2 === 0 ? '8px' : '6px',
                             animationDelay: `${(i - 3) * 0.08}s`,
@@ -84,7 +84,7 @@ export default function SVConnection() {
                         />
                       ))}
                     </div>
-                    <p className="font-sans text-[10px] text-[#5E8DBF] tracking-wide">
+                    <p className="font-sans text-[10px] text-[#CF9D3E] tracking-wide">
                       Your companion responds…
                     </p>
                   </div>
