@@ -12,7 +12,6 @@ const STEPS = [
     boldPhrase: "Shepherd Verses companion",
     accent: "#5E8DBF",
     objectPosition: "center top",
-    overlayImage: "https://media.base44.com/images/public/69e96f879840c600a93d0ce5/89dfbea61_generated_image.png",
   },
   {
     number: "02",
@@ -60,15 +59,6 @@ export default function SVHowItWorks() {
                     className="w-full h-full object-cover"
                     style={{ objectPosition: step.objectPosition || "center center" }}
                   />
-                  {/* App UI overlay on phone screen (step 1 only) */}
-                  {step.overlayImage && (
-                    <img
-                      src={step.overlayImage}
-                      alt=""
-                      className="absolute"
-                      style={{ top: "8%", left: "32%", width: "38%", borderRadius: "8px", pointerEvents: "none" }}
-                    />
-                  )}
                   {/* Dark overlay for text readability */}
                   <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/40" />
                   {/* Overlay text */}
