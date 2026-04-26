@@ -36,7 +36,7 @@ export default function SVReviews() {
   return (
     <section className="relative pt-8 pb-8 md:pt-12 md:pb-12 bg-white">
       <div className="max-w-5xl mx-auto px-6">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {REVIEWS.map((review, i) => (
             <motion.div
               key={review.name}
@@ -44,10 +44,10 @@ export default function SVReviews() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: i * 0.1 }}
-              className="bg-[#F7F6F4] rounded-[20px] border border-[#E7DED2] p-4 flex flex-col"
+              className="bg-[#F7F6F4] rounded-[20px] border border-[#E7DED2] p-3 flex flex-col"
             >
               <Stars count={review.stars} />
-              <p className="font-serif text-[13px] text-[#2A4B7C] leading-[1.65] italic flex-1">
+              <p className="font-serif text-[12px] text-[#2A4B7C] leading-[1.6] italic flex-1">
                 "{review.quote}"
               </p>
               <div className="mt-3 pt-3 border-t border-[#E7DED2]">
