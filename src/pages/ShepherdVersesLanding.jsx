@@ -26,25 +26,15 @@ export default function ShepherdVersesLanding() {
       <SVHero onCTAClick={handleOpenModal} />
       <SVConnection />
       <SVHowItWorks />
-      <div className="relative w-full h-36 md:h-44 overflow-hidden">
-        <img
-          src="https://media.base44.com/images/public/69e96f879840c600a93d0ce5/583f3e10d_iStock-2235714260.jpg"
-          alt=""
-          className="w-full h-full object-cover"
-          style={{ objectPosition: "center 40%", filter: "saturate(0.3) hue-rotate(180deg) brightness(1.15) grayscale(0.3)", opacity: 0.4 }}
-        />
-        <div className="absolute inset-0" style={{ background: "linear-gradient(to bottom, white 0%, transparent 40%, transparent 60%, white 100%)" }} />
-        {/* Heading overlay */}
-        <div className="absolute inset-0 flex flex-col items-center justify-center">
-          <div className="flex items-center gap-3 mb-2">
-            <div className="h-px w-8 bg-[#C9A84C] opacity-60" />
-            <span className="font-sans text-[11px] font-medium text-[#C9A84C] tracking-widest uppercase">What People Are Saying</span>
-            <div className="h-px w-8 bg-[#C9A84C] opacity-60" />
-          </div>
-          <h2 className="font-serif text-2xl md:text-3xl lg:text-[32px] leading-[1.25] text-[#001C5F]">
-            Voices from the community
-          </h2>
+      <div className="relative w-full h-36 md:h-44 flex flex-col items-center justify-center" style={{ background: "linear-gradient(to bottom, white 0%, #F2F1EE 50%, white 100%)" }}>
+        <div className="flex items-center gap-3 mb-2">
+          <div className="h-px w-8 bg-[#C9A84C] opacity-60" />
+          <span className="font-sans text-[11px] font-medium text-[#C9A84C] tracking-widest uppercase">What People Are Saying</span>
+          <div className="h-px w-8 bg-[#C9A84C] opacity-60" />
         </div>
+        <h2 className="font-serif text-2xl md:text-3xl lg:text-[32px] leading-[1.25] text-[#001C5F]">
+          Voices from the community
+        </h2>
       </div>
       <SVReviews />
       <div className="border-b border-[#E7DED2]" />
