@@ -47,10 +47,16 @@ export default function SVPlans({ onSelectPlan }) {
           className="text-center mb-4"
         >
 
+          <div className="flex items-center justify-center gap-3 mb-3">
+            <div className="h-px w-8 bg-[#C9A84C] opacity-60" />
+            <span className="font-sans text-[11px] font-medium text-[#C9A84C] tracking-widest uppercase">Your Journey</span>
+            <div className="h-px w-8 bg-[#C9A84C] opacity-60" />
+          </div>
           <h2 className="font-serif text-2xl md:text-3xl lg:text-[32px] leading-[1.25] text-[#001C5F]">
             Choose Your Subscription
           </h2>
-          <p className="font-sans text-sm text-[#334455] mt-4">
+          <div className="w-10 h-[1.5px] bg-[#5E8DBF] mx-auto mt-4 mb-3 opacity-60" />
+          <p className="font-sans text-sm text-[#334455]">
             Wake up supported. Start your day guided.
           </p>
         </motion.div>
