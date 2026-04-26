@@ -28,7 +28,7 @@ export default function SVFooter() {
           {/* Right: legal links */}
           <div className="flex justify-center md:justify-end">
             <div>
-              <p className="font-sans text-xs font-semibold text-[#3A4A5A] tracking-widest uppercase mb-1">
+              <p className="font-sans text-xs font-semibold text-[#3A4A5A] tracking-widest uppercase mb-1 text-center">
                 Legal
               </p>
               <ul className="flex gap-4">
