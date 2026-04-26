@@ -35,13 +35,8 @@ export default function SVHowItWorks() {
           transition={{ duration: 0.6 }}
           className="text-center mb-8 md:mb-12"
         >
-          <div className="flex items-center justify-center gap-3 mb-4">
-            <div className="h-px w-10 bg-[#C9A84C] opacity-70" />
-            <span className="text-[#C9A84C] text-lg" style={{ fontFamily: 'serif' }}>✝</span>
-            <div className="h-px w-10 bg-[#C9A84C] opacity-70" />
-          </div>
           <h2 className="font-serif text-2xl md:text-3xl lg:text-[32px] leading-[1.25] text-[#001C5F]">
-            Two simple steps<br /><span className="text-xl md:text-2xl lg:text-[24px] text-[#5E8DBF]">A day transformed</span>
+            <span className="text-[#C9A84C] text-xl mr-3" style={{ fontFamily: 'serif' }}>✝</span>Two simple steps<br /><span className="text-xl md:text-2xl lg:text-[24px] text-[#5E8DBF]">A day transformed</span>
           </h2>
         </motion.div>
 
