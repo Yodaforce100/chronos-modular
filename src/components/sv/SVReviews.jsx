@@ -34,25 +34,8 @@ function Stars({ count }) {
 
 export default function SVReviews() {
   return (
-    <section className="relative py-6 md:py-12 bg-white">
+    <section className="relative pt-2 pb-8 md:pb-12 bg-white">
       <div className="max-w-5xl mx-auto px-6">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className="text-center mb-6"
-        >
-          <div className="flex items-center justify-center gap-3 mb-3">
-            <div className="h-px w-8 bg-[#C9A84C] opacity-60" />
-            <span className="font-sans text-[11px] font-medium text-[#C9A84C] tracking-widest uppercase">What People Are Saying</span>
-            <div className="h-px w-8 bg-[#C9A84C] opacity-60" />
-          </div>
-          <h2 className="font-serif text-2xl md:text-3xl lg:text-[32px] leading-[1.25] text-[#001C5F]">
-            Voices from the community
-          </h2>
-        </motion.div>
-
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {REVIEWS.map((review, i) => (
             <motion.div
