@@ -33,7 +33,7 @@ export default function SVConnection() {
               <div className="h-px w-10 bg-[#C9A84C] opacity-70" />
             </div>
             <h2 className="font-serif text-2xl leading-[1.25] text-[#001C5F]">
-              A companion<br /><span className="text-xl whitespace-nowrap">for every moment of your day</span>
+              A companion<br /><span className="text-xl whitespace-nowrap text-[#5E8DBF]">for every moment of your day</span>
             </h2>
           </motion.div>
 
