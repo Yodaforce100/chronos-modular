@@ -54,7 +54,7 @@ export default function SVTrialModal({ isOpen, onClose, selectedPlan }) {
               <div className="px-8 py-8 space-y-5">
                 {/* Email */}
                 <div>
-                  <label className="font-sans text-xs font-medium text-[#2A4B7C] tracking-wider uppercase block mb-2">
+                  <label className="font-sans text-xs font-medium text-[#3A4A5A] tracking-wider uppercase block mb-2">
                     Your Email
                   </label>
                   <input
@@ -68,7 +68,7 @@ export default function SVTrialModal({ isOpen, onClose, selectedPlan }) {
 
                 {/* Platform choice */}
                 <div>
-                  <label className="font-sans text-xs font-medium text-[#2A4B7C] tracking-wider uppercase block mb-3">
+                  <label className="font-sans text-xs font-medium text-[#3A4A5A] tracking-wider uppercase block mb-3">
                     Deliver messages via
                   </label>
                   <div className="flex gap-3">
@@ -98,7 +98,7 @@ export default function SVTrialModal({ isOpen, onClose, selectedPlan }) {
                   Start My Free 7-Day Trial
                 </button>
 
-                <p className="font-sans text-xs text-center text-[#2A4B7C] opacity-70">
+                <p className="font-sans text-xs text-center text-[#334455] opacity-70">
                   Cancel anytime · One message per morning
                 </p>
               </div>
