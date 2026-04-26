@@ -51,7 +51,7 @@ export default function SVHero({ onCTAClick }) {
           <div className="flex items-center gap-2 mb-8 flex-wrap justify-center mt-[-2rem]">
             <SoundwaveBars />
             <span className="font-sans text-base font-medium text-[#CF9D3E] tracking-widest uppercase">
-              Spoken Scripture ✝
+              Spoken Scripture <span style={{ fontSize: '1.1em' }}>✝</span>
             </span>
           </div>
 
