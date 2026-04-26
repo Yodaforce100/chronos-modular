@@ -65,7 +65,7 @@ export default function SVFaq() {
   const [openIndex, setOpenIndex] = useState(null);
 
   return (
-    <section className="relative py-10 md:py-20 bg-[#F7F6F4]">
+    <section className="relative py-10 md:py-20 bg-white">
       <div className="max-w-2xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
