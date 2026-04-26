@@ -55,8 +55,7 @@ export default function SVPlans({ onSelectPlan }) {
           <h2 className="font-serif text-2xl md:text-3xl lg:text-[32px] leading-[1.25] text-[#001C5F]">
             Choose Your Subscription
           </h2>
-          <div className="w-10 h-[1.5px] bg-[#5E8DBF] mx-auto mt-4 mb-3 opacity-60" />
-          <p className="font-sans text-sm text-[#334455]">
+          <p className="font-sans text-xs text-[#334455] mt-4">
             Wake up supported. Start your day guided.
           </p>
         </motion.div>
