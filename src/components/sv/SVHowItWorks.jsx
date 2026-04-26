@@ -40,7 +40,7 @@ export default function SVHowItWorks() {
           </h2>
         </motion.div>
 
-        <div className="max-w-3xl mx-auto">
+        <div className="max-w-3xl mx-auto md:px-16 lg:px-0">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
             {STEPS.map((step, i) => (
               <motion.div
