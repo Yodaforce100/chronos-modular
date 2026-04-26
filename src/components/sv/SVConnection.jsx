@@ -27,6 +27,11 @@ export default function SVConnection() {
             transition={{ duration: 0.7, ease: [0.2, 0, 0, 1] }}
             className="lg:hidden text-center"
           >
+            <div className="flex items-center justify-center gap-3 mb-4">
+              <div className="h-px w-10 bg-[#C9A84C] opacity-70" />
+              <span className="text-[#C9A84C] text-lg" style={{ fontFamily: 'serif' }}>✝</span>
+              <div className="h-px w-10 bg-[#C9A84C] opacity-70" />
+            </div>
             <h2 className="font-serif text-2xl leading-[1.25] text-[#001C5F]">
               A companion<br /><span className="text-xl whitespace-nowrap">for every moment of your day</span>
             </h2>
@@ -102,6 +107,11 @@ export default function SVConnection() {
             className="flex-1 max-w-sm"
           >
 
+            <div className="hidden lg:flex items-center justify-center gap-3 mb-4">
+              <div className="h-px w-10 bg-[#C9A84C] opacity-70" />
+              <span className="text-[#C9A84C] text-lg" style={{ fontFamily: 'serif' }}>✝</span>
+              <div className="h-px w-10 bg-[#C9A84C] opacity-70" />
+            </div>
             <h2 className="hidden lg:block font-serif text-2xl md:text-3xl lg:text-[28px] leading-[1.25] text-[#001C5F] text-center">
               A companion for every<br /><span className="text-xl md:text-2xl lg:text-[24px] whitespace-nowrap">moment of your day</span>
             </h2>
