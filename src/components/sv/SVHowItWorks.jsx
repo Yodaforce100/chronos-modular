@@ -66,7 +66,7 @@ export default function SVHowItWorks() {
                       src={step.overlayImage}
                       alt=""
                       className="absolute"
-                      style={{ top: "4%", left: "33%", width: "36%", borderRadius: "6px", pointerEvents: "none" }}
+                      style={{ top: "8%", left: "32%", width: "38%", borderRadius: "8px", pointerEvents: "none" }}
                     />
                   )}
                   {/* Dark overlay for text readability */}
