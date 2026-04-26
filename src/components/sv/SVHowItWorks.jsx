@@ -5,13 +5,13 @@ import { Heart, Volume2 } from "lucide-react";
 const STEPS = [
   {
     number: "01",
-    image: "https://media.base44.com/images/public/69e96f879840c600a93d0ce5/f02c0fdeb_iStock-1322157897.jpg",
+    image: "https://media.base44.com/images/public/69e96f879840c600a93d0ce5/637e627fe_HeroMobilephoneimageApr26.png",
     icon: Heart,
     title: "Share How You Feel",
     body: "PAUSE and name your current emotion—whether you're anxious, tired, or grateful. Your Shepherd Verses companion listens to where you are in this moment.",
     boldPhrase: "Shepherd Verses companion",
     accent: "#5E8DBF",
-    objectPosition: "center top",
+    objectPosition: "center center",
   },
   {
     number: "02",
