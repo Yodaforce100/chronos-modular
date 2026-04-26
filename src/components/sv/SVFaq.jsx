@@ -94,7 +94,7 @@ export default function SVFaq() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.1 }}
-          className="bg-white rounded-[24px] border border-[#E7DED2] px-6 md:px-8"
+          className="bg-white rounded-[24px] border border-[#E7DED2] px-6 md:px-8 max-w-xl md:max-w-2xl mx-auto"
         >
           {FAQS.map((faq, i) => (
             <FaqItem

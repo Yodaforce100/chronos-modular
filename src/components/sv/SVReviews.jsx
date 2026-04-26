@@ -39,7 +39,7 @@ export default function SVReviews() {
         <h2 className="font-serif text-lg md:text-3xl text-[#001C5F] text-center mb-8 whitespace-nowrap">
           What Our Members Are Saying
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-xl md:max-w-2xl mx-auto">
           {REVIEWS.map((review, i) => (
             <motion.div
               key={review.name}
