@@ -26,7 +26,16 @@ export default function ShepherdVersesLanding() {
       <SVHero onCTAClick={handleOpenModal} />
       <SVConnection />
       <SVHowItWorks />
-      <div className="border-b border-[#E7DED2]" />
+      <div
+        className="w-full h-24 md:h-32"
+        style={{
+          backgroundImage: "url('https://media.base44.com/images/public/69e96f879840c600a93d0ce5/583f3e10d_iStock-2235714260.jpg')",
+          backgroundSize: "cover",
+          backgroundPosition: "center 40%",
+          opacity: 0.55,
+          filter: "grayscale(0.3) brightness(1.1)",
+        }}
+      />
       <SVReviews />
       <div className="border-b border-[#E7DED2]" />
       <SVPlans onSelectPlan={handleSelectPlan} />
