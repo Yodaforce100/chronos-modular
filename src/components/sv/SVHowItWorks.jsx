@@ -27,7 +27,7 @@ const STEPS = [
 export default function SVHowItWorks() {
   return (
     <section id="how-it-works" className="relative pt-8 pb-10 md:pt-14 md:pb-20 bg-white" style={{ backgroundImage: "none" }}>
-      <div className="max-w-5xl mx-auto px-6 md:px-20 lg:px-6">
+      <div className="max-w-5xl mx-auto px-6 md:px-40 lg:px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
