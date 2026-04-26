@@ -18,7 +18,7 @@ export default function SVFooter() {
         <div className="flex justify-center mb-3 md:hidden">
           <ShepherdLogoSmall />
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 items-center gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 items-center gap-3 md:gap-2 lg:gap-8">
           {/* Left: body text */}
           <div className="text-center md:text-left">
             <p className="font-sans text-sm text-[#001C5F] leading-relaxed">
