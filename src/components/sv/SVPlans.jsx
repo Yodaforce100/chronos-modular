@@ -55,7 +55,7 @@ export default function SVPlans({ onSelectPlan }) {
           <h2 className="font-serif text-2xl md:text-3xl lg:text-[32px] leading-[1.25] text-[#001C5F]">
             Choose Your Subscription
           </h2>
-          <p className="font-sans text-xs text-[#334455] mt-4">
+          <p className="font-sans text-xs text-[#2A4B7C] mt-4">
             Wake up supported. Start your day guided.
           </p>
         </motion.div>
@@ -111,7 +111,7 @@ export default function SVPlans({ onSelectPlan }) {
                       >
                         <Check className={`w-3 h-3 ${plan.featured ? "text-white" : "text-[#5E8DBF]"}`} />
                       </div>
-                      <span className={`font-sans text-[15px] leading-snug ${plan.featured ? "text-white/90" : "text-[#334455]"}`}>
+                      <span className={`font-sans text-[15px] leading-snug ${plan.featured ? "text-white/90" : "text-[#2A4B7C]"}`}>
                         {rest.length > 0 ? rest.join(": ") : feat}
                       </span>
                     </li>
@@ -141,7 +141,7 @@ export default function SVPlans({ onSelectPlan }) {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.3 }}
-          className="flex flex-wrap justify-center items-center gap-6 mt-12 text-[#334455]"
+          className="flex flex-wrap justify-center items-center gap-6 mt-12 text-[#2A4B7C]"
         >
           {["🔒 Secure Payment", "✦ Cancel Anytime", "🎁 7-Day Free Trial"].map((badge) => (
             <span key={badge} className="font-sans text-sm">

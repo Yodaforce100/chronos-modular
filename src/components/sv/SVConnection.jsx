@@ -33,7 +33,7 @@ export default function SVConnection() {
               <div className="h-px w-10 bg-[#C9A84C] opacity-70" />
             </div>
             <h2 className="font-serif text-2xl leading-[1.25] text-[#001C5F]">
-              A companion<br /><span className="text-xl whitespace-nowrap text-[#2A4B7C]">for every moment of your day</span>
+              A companion<br /><span className="text-xl whitespace-nowrap text-[#5E8DBF]">for every moment of your day</span>
             </h2>
           </motion.div>
 
@@ -113,10 +113,10 @@ export default function SVConnection() {
               <div className="h-px w-10 bg-[#C9A84C] opacity-70" />
             </div>
             <h2 className="hidden lg:block font-serif text-2xl md:text-3xl lg:text-[28px] leading-[1.25] text-[#001C5F] text-center">
-              A companion for every<br /><span className="text-xl md:text-2xl lg:text-[24px] whitespace-nowrap">moment of your day</span>
+              A companion for every<br /><span className="text-xl md:text-2xl lg:text-[24px] whitespace-nowrap text-[#5E8DBF]">moment of your day</span>
             </h2>
             <div className="w-12 h-[1.5px] bg-[#5E8DBF] my-6 mx-auto" />
-            <p className="font-sans text-[15px] md:text-[16px] text-[#2D3748] leading-[1.7] text-center">
+            <p className="font-sans text-[15px] md:text-[16px] text-[#2A4B7C] leading-[1.7] text-center">
               Some days begin with calm. Others begin with uncertainty, heaviness,
               or quiet worry.{" "}
               <span className="font-medium text-[#3A4A5A]">Shepherd Verses</span>{" "}

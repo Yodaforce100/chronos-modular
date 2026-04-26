@@ -36,7 +36,7 @@ export default function SVHowItWorks() {
           className="text-center mb-8 md:mb-12"
         >
           <h2 className="font-serif text-2xl md:text-3xl lg:text-[32px] leading-[1.25] text-[#001C5F]">
-            Two simple steps<br /><span className="text-xl md:text-2xl lg:text-[24px] text-[#2A4B7C]">A day transformed</span>
+            Two simple steps<br /><span className="text-xl md:text-2xl lg:text-[24px] text-[#5E8DBF]">A day transformed</span>
           </h2>
         </motion.div>
 
@@ -71,7 +71,7 @@ export default function SVHowItWorks() {
 
                 {/* Card content below image */}
                 <div className="p-4 md:p-6 flex-1 flex flex-col">
-                  <p className="font-sans text-[15px] text-[#4A5568] leading-[1.6]">
+                  <p className="font-sans text-[15px] text-[#2A4B7C] leading-[1.6]">
                     {(() => {
                       const [first, ...rest] = step.body.split(" ");
                       const remaining = rest.join(" ");
