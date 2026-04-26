@@ -27,7 +27,7 @@ const STEPS = [
 export default function SVHowItWorks() {
   return (
     <section id="how-it-works" className="relative pt-8 pb-10 md:pt-14 md:pb-20 bg-white" style={{ backgroundImage: "none" }}>
-      <div className="max-w-5xl mx-auto px-6 md:px-40 lg:px-6">
+      <div className="max-w-5xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -40,7 +40,7 @@ export default function SVHowItWorks() {
           </h2>
         </motion.div>
 
-        <div className="max-w-3xl mx-auto">
+        <div className="max-w-xl mx-auto md:max-w-2xl">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
             {STEPS.map((step, i) => (
               <motion.div
