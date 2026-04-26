@@ -60,7 +60,7 @@ export default function SVPlans({ onSelectPlan }) {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 mt-10 max-w-xl md:max-w-2xl mx-auto">
           {PLANS.map((plan, i) => (
             <motion.div
               key={plan.id}
