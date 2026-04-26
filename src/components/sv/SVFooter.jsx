@@ -31,7 +31,7 @@ export default function SVFooter() {
               <p className="font-sans text-xs font-semibold text-[#3A4A5A] tracking-widest uppercase mb-1">
                 Legal
               </p>
-              <ul className="space-y-1">
+              <ul className="flex gap-4">
                 {["Privacy Policy", "Terms of Service"].map((l) => (
                   <li key={l}>
                     <a href="#" className="font-sans text-sm text-[#001C5F] hover:text-[#3A4A5A] transition-colors">{l}</a>
