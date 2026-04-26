@@ -31,7 +31,7 @@ export default function ShepherdVersesLanding() {
           src="https://media.base44.com/images/public/69e96f879840c600a93d0ce5/583f3e10d_iStock-2235714260.jpg"
           alt=""
           className="w-full h-full object-cover"
-          style={{ objectPosition: "center 40%", filter: "grayscale(0.4) brightness(1.05) saturate(0.7)", opacity: 0.6 }}
+          style={{ objectPosition: "center 40%", filter: "saturate(0.3) hue-rotate(180deg) brightness(1.15) grayscale(0.3)", opacity: 0.4 }}
         />
         <div className="absolute inset-0" style={{ background: "linear-gradient(to bottom, white 0%, transparent 40%, transparent 60%, white 100%)" }} />
         {/* Heading overlay */}
