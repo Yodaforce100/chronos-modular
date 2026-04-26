@@ -15,7 +15,7 @@ export default function SVFooter() {
     <footer className="bg-white border-t border-[#E7DED2] py-2 md:py-1 lg:py-4">
       <div className="max-w-5xl mx-auto px-6">
         {/* Logo on top (mobile only) */}
-        <div className="flex justify-center mb-8 md:hidden">
+        <div className="flex justify-center mb-3 md:hidden">
           <ShepherdLogoSmall />
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 items-center gap-8">
