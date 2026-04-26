@@ -49,7 +49,7 @@ export default function SVPlans({ onSelectPlan }) {
 
           <div className="flex items-center justify-center gap-3 mb-3">
             <div className="h-px w-8 bg-[#C9A84C] opacity-60" />
-            <span className="font-sans text-[11px] font-medium text-[#C9A84C] tracking-widest uppercase">Your Journey</span>
+            <span className="font-sans text-[11px] font-medium text-[#C9A84C] tracking-widest uppercase">Begin Today</span>
             <div className="h-px w-8 bg-[#C9A84C] opacity-60" />
           </div>
           <h2 className="font-serif text-2xl md:text-3xl lg:text-[32px] leading-[1.25] text-[#001C5F]">
