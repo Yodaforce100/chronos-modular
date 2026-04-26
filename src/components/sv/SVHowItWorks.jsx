@@ -5,7 +5,7 @@ import { Heart, Volume2 } from "lucide-react";
 const STEPS = [
   {
     number: "01",
-    image: "https://media.base44.com/images/public/69e96f879840c600a93d0ce5/2c2d845cd_screenshotMOBILEwithcomposition.png",
+    image: "https://media.base44.com/images/public/69e96f879840c600a93d0ce5/f02c0fdeb_iStock-1322157897.jpg",
     icon: Heart,
     title: "Share How You Feel",
     body: "PAUSE and name your current emotion—whether you're anxious, tired, or grateful. Your Shepherd Verses companion listens to where you are in this moment.",
@@ -15,7 +15,7 @@ const STEPS = [
   },
   {
     number: "02",
-    image: "https://media.base44.com/images/public/69e96f879840c600a93d0ce5/ae7a0db6e_istockphoto-2257561497-1024x1024.jpg",
+    image: "https://media.base44.com/images/public/69e96f879840c600a93d0ce5/5f6aba3ca_iStock-2257561497.jpg",
     icon: Volume2,
     title: "Hear a Caring Voice",
     body: "LISTEN as your companion shares spoken scripture and affirmations tailored to your feelings, carefully chosen to guide and support you.",
