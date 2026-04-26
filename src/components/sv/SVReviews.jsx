@@ -34,7 +34,7 @@ function Stars({ count }) {
 
 export default function SVReviews() {
   return (
-    <section className="relative py-6 md:py-12 bg-[#F7F6F4]">
+    <section className="relative py-6 md:py-12 bg-white">
       <div className="max-w-5xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
