@@ -27,14 +27,11 @@ export default function ShepherdVersesLanding() {
       <SVConnection />
       <SVHowItWorks />
       <div className="relative w-full h-36 md:h-44 flex flex-col items-center justify-center" style={{ background: "linear-gradient(to bottom, white 0%, #F2F1EE 50%, white 100%)" }}>
-        <div className="flex items-center gap-3 mb-2">
-          <div className="h-px w-8 bg-[#C9A84C] opacity-60" />
+        <div className="flex items-center gap-3">
+          <div className="h-px w-16 bg-[#C9A84C] opacity-60" />
           <span className="font-sans text-[11px] font-medium text-[#C9A84C] tracking-widest uppercase">What People Are Saying</span>
-          <div className="h-px w-8 bg-[#C9A84C] opacity-60" />
+          <div className="h-px w-16 bg-[#C9A84C] opacity-60" />
         </div>
-        <h2 className="font-serif text-2xl md:text-3xl lg:text-[32px] leading-[1.25] text-[#001C5F]">
-          Voices from the community
-        </h2>
       </div>
       <SVReviews />
       <div className="border-b border-[#E7DED2]" />
