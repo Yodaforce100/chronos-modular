@@ -35,7 +35,7 @@ function Stars({ count }) {
 export default function SVReviews() {
   return (
     <section className="relative pt-8 pb-8 md:pt-12 md:pb-12 bg-white">
-      <div className="max-w-3xl mx-auto px-10 md:px-6">
+      <div className="max-w-3xl mx-auto px-10 md:px-16 lg:px-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {REVIEWS.map((review, i) => (
             <motion.div
