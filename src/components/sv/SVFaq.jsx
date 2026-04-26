@@ -67,7 +67,7 @@ export default function SVFaq() {
   return (
     <section className="relative py-10 md:py-20 bg-white">
       {/* Background image with overlay */}
-      <div className="absolute inset-0 opacity-40 pointer-events-none" style={{ backgroundImage: "url('https://media.base44.com/images/public/69e96f879840c600a93d0ce5/a7773bfcc_istockphoto-1164883816-1024x1024.jpg')", backgroundSize: "cover", backgroundPosition: "center", filter: "saturate(0.3) hue-rotate(180deg) brightness(1.15) grayscale(0.3)" }} />
+      <div className="absolute inset-0 opacity-40 pointer-events-none" style={{ backgroundImage: "url('https://media.base44.com/images/public/69e96f879840c600a93d0ce5/a7773bfcc_istockphoto-1164883816-1024x1024.jpg')", backgroundSize: "cover", backgroundPosition: "center", filter: "saturate(0.7) brightness(1.05)" }} />
       {/* Fade in from top */}
       <div className="absolute top-0 left-0 right-0 h-32 pointer-events-none z-10" style={{ background: "linear-gradient(to bottom, white, transparent)" }} />
 
