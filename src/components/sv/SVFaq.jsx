@@ -77,7 +77,7 @@ export default function SVFaq() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="text-center mb-10"
+          className="text-center mb-10 max-w-xl md:max-w-2xl mx-auto"
         >
           <div className="flex items-center justify-center gap-3 mb-3">
             <div className="h-px w-16 bg-[#C9A84C] opacity-60" />
