@@ -119,7 +119,7 @@ export default function SVConnection() {
             <p className="font-sans text-[15px] md:text-[16px] text-[#2A4B7C] leading-[1.7] text-center">
               Some days begin with calm. Others begin with uncertainty, heaviness,
               or quiet worry.{" "}
-              <span className="font-medium text-[#3A4A5A]">Shepherd Verses</span>{" "}
+              <span className="font-medium text-[#2A4B7C]">Shepherd Verses</span>{" "}
               meets you in those moments—listening to how you feel and responding
               with spoken scripture and affirmations, chosen just for you.
             </p>
