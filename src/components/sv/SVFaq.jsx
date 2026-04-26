@@ -77,7 +77,7 @@ export default function SVFaq() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="text-center mb-10 max-w-xl mx-auto"
+          className="text-center mb-10 md:max-w-xl lg:max-w-none mx-auto"
         >
           <div className="flex items-center justify-center gap-3 mb-3">
             <div className="h-px w-16 bg-[#C9A84C] opacity-60" />
@@ -94,7 +94,7 @@ export default function SVFaq() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.1 }}
-          className="bg-white rounded-[24px] border border-[#E7DED2] px-6 md:px-8 max-w-xl mx-auto"
+          className="bg-white rounded-[24px] border border-[#E7DED2] px-6 md:px-8 md:max-w-xl lg:max-w-none mx-auto"
         >
           {FAQS.map((faq, i) => (
             <FaqItem
