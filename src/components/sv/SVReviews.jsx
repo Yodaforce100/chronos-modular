@@ -34,14 +34,14 @@ function Stars({ count }) {
 
 export default function SVReviews() {
   return (
-    <section className="relative py-10 md:py-20 bg-white">
+    <section className="relative py-6 md:py-12 bg-white">
       <div className="max-w-5xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="text-center mb-10"
+          className="text-center mb-6"
         >
           <div className="flex items-center justify-center gap-3 mb-3">
             <div className="h-px w-8 bg-[#C9A84C] opacity-60" />
@@ -61,13 +61,13 @@ export default function SVReviews() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: i * 0.1 }}
-              className="bg-[#F7F6F4] rounded-[20px] border border-[#E7DED2] p-6 flex flex-col"
+              className="bg-[#F7F6F4] rounded-[20px] border border-[#E7DED2] p-4 flex flex-col"
             >
               <Stars count={review.stars} />
-              <p className="font-serif text-[15px] text-[#2A4B7C] leading-[1.7] italic flex-1">
+              <p className="font-serif text-[13px] text-[#2A4B7C] leading-[1.65] italic flex-1">
                 "{review.quote}"
               </p>
-              <div className="mt-5 pt-4 border-t border-[#E7DED2]">
+              <div className="mt-3 pt-3 border-t border-[#E7DED2]">
                 <p className="font-sans text-sm font-semibold text-[#001C5F]">{review.name}</p>
                 <p className="font-sans text-xs text-[#5E8DBF]">{review.location}</p>
               </div>
