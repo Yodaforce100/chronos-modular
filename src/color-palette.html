@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shepherd Verses — Colour Palette</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #ffffff;
+      color: #001C5F;
+      padding: 2rem;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
+    h1 {
+      font-family: 'Marcellus', Georgia, serif;
+      font-size: 2.25rem;
+      margin-bottom: 0.5rem;
+      color: #001C5F;
+    }
+    
+    .subtitle {
+      font-size: 0.875rem;
+      color: #4A5B6B;
+      margin-bottom: 3rem;
+    }
+    
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 3rem;
+    }
+    
+    .color-card {
+      border: 1px solid #E7DED2;
+      border-radius: 0.5rem;
+      overflow: hidden;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    }
+    
+    .swatch {
+      width: 100%;
+      height: 120px;
+      border-bottom: 1px solid #E7DED2;
+    }
+    
+    .card-content {
+      padding: 1rem;
+    }
+    
+    .color-name {
+      font-weight: 600;
+      color: #001C5F;
+      margin-bottom: 0.25rem;
+      font-size: 0.95rem;
+    }
+    
+    .hex-code {
+      font-family: 'Monaco', 'Courier New', monospace;
+      font-size: 0.875rem;
+      color: #2A4B7C;
+      font-weight: 500;
+      margin-bottom: 0.5rem;
+      letter-spacing: 0.5px;
+    }
+    
+    .usage {
+      font-size: 0.8rem;
+      color: #4A5B6B;
+      line-height: 1.4;
+    }
+    
+    .footer {
+      border-top: 1px solid #E7DED2;
+      padding-top: 2rem;
+      text-align: center;
+      font-size: 0.75rem;
+      color: #4A5B6B;
+    }
+    
+    @media print {
+      body {
+        padding: 1rem;
+      }
+      h1 {
+        font-size: 1.75rem;
+      }
+      .grid {
+        gap: 1rem;
+      }
+      .color-card {
+        page-break-inside: avoid;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Shepherd Verses</h1>
+    <h2 style="font-family: 'Marcellus', Georgia, serif; font-size: 1.5rem; font-weight: 400; color: #5E8DBF; margin-bottom: 0.25rem;">Working Colour Palette</h2>
+    <p class="subtitle">All colours currently used on the website</p>
+
+    <div class="grid">
+      <div class="color-card">
+        <div class="swatch" style="background-color: #001C5F;"></div>
+        <div class="card-content">
+          <div class="color-name">Primary Navy</div>
+          <div class="hex-code">#001C5F</div>
+          <div class="usage">Main headings, primary text</div>
+        </div>
+      </div>
+
+      <div class="color-card">
+        <div class="swatch" style="background-color: #5E8DBF;"></div>
+        <div class="card-content">
+          <div class="color-name">Body Text Blue</div>
+          <div class="hex-code">#5E8DBF</div>
+          <div class="usage">Body copy, accent text</div>
+        </div>
+      </div>
+
+      <div class="color-card">
+        <div class="swatch" style="background-color: #2A4B7C;"></div>
+        <div class="card-content">
+          <div class="color-name">Dark Blue</div>
+          <div class="hex-code">#2A4B7C</div>
+          <div class="usage">Body text, secondary headings</div>
+        </div>
+      </div>
+
+      <div class="color-card">
+        <div class="swatch" style="background-color: #D9B86A;"></div>
+        <div class="card-content">
+          <div class="color-name">Brand Gold</div>
+          <div class="hex-code">#D9B86A</div>
+          <div class="usage">Buttons, CTA elements</div>
+        </div>
+      </div>
+
+      <div class="color-card">
+        <div class="swatch" style="background-color: #C9A84C;"></div>
+        <div class="card-content">
+          <div class="color-name">Darker Gold</div>
+          <div class="hex-code">#C9A84C</div>
+          <div class="usage">Dividers, accents</div>
+        </div>
+      </div>
+
+      <div class="color-card">
+        <div class="swatch" style="background-color: #CF9D3E;"></div>
+        <div class="card-content">
+          <div class="color-name">Dark Gold</div>
+          <div class="hex-code">#CF9D3E</div>
+          <div class="usage">Soundwave animation bars</div>
+        </div>
+      </div>
+
+      <div class="color-card">
+        <div class="swatch" style="background-color: #F2F1EE;"></div>
+        <div class="card-content">
+          <div class="color-name">Stone</div>
+          <div class="hex-code">#F2F1EE</div>
+          <div class="usage">Main background</div>
+        </div>
+      </div>
+
+      <div class="color-card">
+        <div class="swatch" style="background-color: #F7F6F4;"></div>
+        <div class="card-content">
+          <div class="color-name">Light Stone</div>
+          <div class="hex-code">#F7F6F4</div>
+          <div class="usage">Card backgrounds</div>
+        </div>
+      </div>
+
+      <div class="color-card">
+        <div class="swatch" style="background-color: #FFFFFF; border: 1px solid #E7DED2;"></div>
+        <div class="card-content">
+          <div class="color-name">White</div>
+          <div class="hex-code">#FFFFFF</div>
+          <div class="usage">Card surfaces, overlays</div>
+        </div>
+      </div>
+
+      <div class="color-card">
+        <div class="swatch" style="background-color: #E7DED2;"></div>
+        <div class="card-content">
+          <div class="color-name">Warm Divider</div>
+          <div class="hex-code">#E7DED2</div>
+          <div class="usage">Borders, lines</div>
+        </div>
+      </div>
+
+      <div class="color-card">
+        <div class="swatch" style="background-color: #3A4A5A;"></div>
+        <div class="card-content">
+          <div class="color-name">Neutral Text</div>
+          <div class="hex-code">#3A4A5A</div>
+          <div class="usage">Body text</div>
+        </div>
+      </div>
+
+      <div class="color-card">
+        <div class="swatch" style="background-color: #4A5B6B;"></div>
+        <div class="card-content">
+          <div class="color-name">Muted Text</div>
+          <div class="hex-code">#4A5B6B</div>
+          <div class="usage">Secondary text</div>
+        </div>
+      </div>
+
+      <div class="color-card">
+        <div class="swatch" style="background-color: #334455;"></div>
+        <div class="card-content">
+          <div class="color-name">Neutral Text Dark</div>
+          <div class="hex-code">#334455</div>
+          <div class="usage">Footer text</div>
+        </div>
+      </div>
+
+      <div class="color-card">
+        <div class="swatch" style="background-color: #243E6B;"></div>
+        <div class="card-content">
+          <div class="color-name">Modal Header Blue</div>
+          <div class="hex-code">#243E6B</div>
+          <div class="usage">Modal headers</div>
+        </div>
+      </div>
+
+      <div class="color-card">
+        <div class="swatch" style="background-color: #AFC3DA;"></div>
+        <div class="card-content">
+          <div class="color-name">Light Blue</div>
+          <div class="hex-code">#AFC3DA</div>
+          <div class="usage">Rare accents</div>
+        </div>
+      </div>
+
+      <div class="color-card">
+        <div class="swatch" style="background-color: #4A8C8C;"></div>
+        <div class="card-content">
+          <div class="color-name">Teal Accent</div>
+          <div class="hex-code">#4A8C8C</div>
+          <div class="usage">Mood cards</div>
+        </div>
+      </div>
+
+      <div class="color-card">
+        <div class="swatch" style="background-color: #669eea;"></div>
+        <div class="card-content">
+          <div class="color-name">Blue (Config)</div>
+          <div class="hex-code">#669eea</div>
+          <div class="usage">Config reference</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Print to PDF for documentation. Updated: April 26, 2026</p>
+    </div>
+  </div>
+</body>
+</html>
