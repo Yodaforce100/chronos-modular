@@ -67,7 +67,7 @@ export default function SVFaq() {
   return (
     <section className="relative py-10 md:py-20 bg-white">
       {/* Bible pages background */}
-      <div className="absolute inset-0 opacity-30 pointer-events-none" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1507842217343-583f20917ae6?w=1200')", backgroundSize: "cover", backgroundPosition: "center", filter: "saturate(0.2) hue-rotate(30deg) brightness(1.1) grayscale(0.6)" }} />
+      <div className="absolute inset-0 opacity-40 pointer-events-none" style={{ backgroundImage: "url('https://media.base44.com/images/public/69e96f879840c600a93d0ce5/583f3e10d_iStock-2235714260.jpg')", backgroundSize: "cover", backgroundPosition: "center", filter: "saturate(0.3) hue-rotate(180deg) brightness(1.15) grayscale(0.3)" }} />
       {/* Fade in from top */}
       <div className="absolute top-0 left-0 right-0 h-32 pointer-events-none z-10" style={{ background: "linear-gradient(to bottom, white, transparent)" }} />
       <div className="max-w-2xl mx-auto px-6 relative z-20">
