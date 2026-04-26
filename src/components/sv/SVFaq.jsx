@@ -66,10 +66,7 @@ export default function SVFaq() {
 
   return (
     <section className="relative py-10 md:py-20 bg-white">
-      {/* Bible pages background */}
-      <div className="absolute inset-0 opacity-40 pointer-events-none" style={{ backgroundImage: "url('https://media.base44.com/images/public/69e96f879840c600a93d0ce5/1fb038157_istockphoto-1850234180-1024x1024.jpg')", backgroundSize: "cover", backgroundPosition: "top center", filter: "saturate(0.6) brightness(1.1) grayscale(0.1)" }} />
-      {/* Fade in from top */}
-      <div className="absolute top-0 left-0 right-0 h-32 pointer-events-none z-10" style={{ background: "linear-gradient(to bottom, white, transparent)" }} />
+
       <div className="max-w-2xl mx-auto px-6 relative z-20">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
