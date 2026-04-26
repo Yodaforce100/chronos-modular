@@ -6,7 +6,7 @@ const PLANS = [
   {
     id: "monthly",
     label: "Monthly Companion",
-    price: "$8.95",
+    price: "$5.95",
     period: "/ month",
     cta: "Start Monthly Plan",
     featured: false,
@@ -21,11 +21,11 @@ const PLANS = [
   {
     id: "annual",
     label: "Annual Journey",
-    price: "$79.80",
+    price: "$59.50",
     period: "/ year",
     cta: "Start Annual Journey",
     featured: true,
-    badge: "Just $6.65/month — Best Value",
+    badge: "Just $4.95/month — Best Value",
     features: [
       "12 Months for the Price of 10: Our best value for daily encouragement",
       "Continuous Access: All features included for a full year",

@@ -6,7 +6,7 @@ export default function SVTrialModal({ isOpen, onClose, selectedPlan }) {
   const [email, setEmail] = useState("");
   const [platform, setPlatform] = useState("telegram");
 
-  const plan = selectedPlan || { label: "Monthly Companion", price: "$8.95", period: "/ month" };
+  const plan = selectedPlan || { label: "Monthly Companion", price: "$5.95", period: "/ month" };
 
   return (
     <AnimatePresence>
