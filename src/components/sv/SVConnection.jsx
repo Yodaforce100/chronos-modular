@@ -71,7 +71,7 @@ export default function SVConnection() {
                 </div>
                 {/* Response preview */}
                 <div className="mt-4 pt-3 border-t border-[#D4B896]/40">
-                  <div className="flex items-center gap-1.5 mb-1.5">
+                  <div className="flex items-center justify-center gap-1.5 mb-1.5">
                     <div className="flex items-center gap-[2px]" aria-hidden="true">
                       {[1,2,3,4,5].map((i) => (
                         <div
