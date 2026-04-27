@@ -59,7 +59,7 @@ export default function SVSocials() {
             Follow Our Journey
           </h2>
           <p className="font-sans text-[15px] text-[#2A4B7C] leading-[1.7] max-w-md mx-auto">
-            Join our growing community and stay close to daily encouragement, scripture, and stories of faith.
+            Be part of something bigger. Follow along for daily scripture, gentle encouragement, and a community that cares.
           </p>
         </motion.div>
 
