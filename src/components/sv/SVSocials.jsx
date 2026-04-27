@@ -95,7 +95,7 @@ export default function SVSocials() {
               className="flex flex-col items-center gap-2 group"
               aria-label={social.name}
             >
-              <div className="w-14 h-14 rounded-full bg-white border border-[#E7DED2] flex items-center justify-center text-[#2A4B7C] shadow-sm group-hover:border-[#C9A84C] group-hover:text-[#C9A84C] transition-all duration-300">
+              <div className="w-14 h-14 rounded-full bg-white border border-[#E7DED2] flex items-center justify-center text-[#C9A84C] shadow-sm group-hover:border-[#D9B86A] group-hover:text-[#D9B86A] transition-all duration-300">
                 {social.icon}
               </div>
               <span className="font-sans text-xs text-[#5E8DBF] group-hover:text-[#C9A84C] transition-colors duration-300">
