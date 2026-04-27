@@ -32,7 +32,37 @@
 ---
 
 ## `components/sv/SVNavbar.jsx`
-- Sticky top navigation. Do not change scroll behaviour, link labels, or CTA button text.
+
+**Navigation Links (do not change):**
+- Link 1: `"How It Works"` → scrolls to `#how-it-works`
+- Link 2: `"Plans"` → scrolls to `#plans`
+- CTA Button: `"Begin Free Trial"`
+
+**Logo (do not change):**
+- Logo image URL: `https://media.base44.com/images/public/69e96f879840c600a93d0ce5/39f2abf45_Shepherd_verses_herologo_GOLD_STAR_2500_TRANSPARENTBGpng-2.png`
+- Logo height: `h-16` on desktop, `h-12` on mobile
+- Logo is centred on desktop, left-aligned on mobile
+- Do not change the alt text: `"Shepherd Verses"`
+
+**Scroll Behaviour (do not change):**
+- On scroll past 10px: navbar background transitions from fully transparent to white with a shadow
+- Controlled by a `scrolled` state and a `useEffect` scroll listener — do not remove
+
+**CTA Button Styling (do not change):**
+- Uses the gold gradient: `linear-gradient(90deg, #D9B86A 0%, #F5E9A4 35%, #E8D48B 60%, #D9B86A 100%)`
+- Text colour: `#001C5F` (navy)
+- `hover:opacity-90` transition — do not change
+
+**Mobile Menu (do not change):**
+- Hamburger icon toggles an animated dropdown drawer
+- Drawer contains the same nav links and CTA button
+- Animated open/close using Framer Motion `AnimatePresence`
+- Do not change the drawer background colour or link order
+
+**Layout (do not change):**
+- Fixed/sticky at top with `z-50`
+- Three-column grid on desktop: `[links] [logo] [CTA]`
+- Single row on mobile: `[hamburger] [logo]`
 
 ## `components/sv/SVConnection.jsx`
 - Contains the mood selector card and companion copy. Do not change mood labels, emoji, scripture quote, or the bible pages background image styling (opacity, filter values).
