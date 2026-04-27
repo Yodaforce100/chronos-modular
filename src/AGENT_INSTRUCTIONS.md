@@ -2,6 +2,18 @@
 
 ---
 
+## Working Agreement (Read This First)
+
+We are using the Base44 platform (Vite + React + Tailwind + shadcn/ui) as the complete foundation for the Shepherd Verses landing page. Do not rebuild or migrate to any other framework — including Next.js.
+
+**Non-negotiable rules:**
+- Do not change any text/copy unless explicitly instructed by the user
+- Do not change any image URLs, opacity values, gradients, animations, or brand colors unless explicitly instructed
+- Read and follow all instructions in `AGENT_INSTRUCTIONS.md` before writing any code
+- Work one stage at a time. Show the result and wait for explicit user approval before proceeding to the next stage
+
+---
+
 ## Stage 1: Project Orientation (MUST COMPLETE BEFORE ANY CODING)
 
 **This platform uses Vite + React + Tailwind + shadcn/ui. Do NOT attempt to use Next.js, create a new project, or run any install commands. Everything is already configured.**
