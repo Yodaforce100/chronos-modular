@@ -77,7 +77,7 @@ export default function SVPlans({ onSelectPlan }) {
               {/* Badge */}
               {plan.badge && (
                 <div className="absolute -top-3.5 left-1/2 -translate-x-1/2">
-                  <span className="font-sans text-[11px] font-semibold text-white bg-[#C9A84C] px-4 py-1.5 rounded-full whitespace-nowrap shadow">
+                  <span className="font-sans text-[11px] font-semibold text-[#001C5F] px-4 py-1.5 rounded-full whitespace-nowrap shadow" style={{ background: "linear-gradient(90deg, #D9B86A 0%, #F5E9A4 35%, #E8D48B 60%, #D9B86A 100%)", boxShadow: "0 4px 14px rgba(212,185,106,0.4)", border: "1px solid rgba(255,255,255,0.4)" }}>
                     {plan.badge}
                   </span>
                 </div>
