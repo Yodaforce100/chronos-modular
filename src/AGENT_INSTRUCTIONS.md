@@ -65,28 +65,147 @@
 - Single row on mobile: `[hamburger] [logo]`
 
 ## `components/sv/SVConnection.jsx`
-- Contains the mood selector card and companion copy. Do not change mood labels, emoji, scripture quote, or the bible pages background image styling (opacity, filter values).
+
+**Text (do not change):**
+- Card prompt: `"How are you feeling this morning?"`
+- Response label: `"Your companion responds…"`
+- Scripture in card: `"Cast all your anxiety on him because he cares for you."` — `1 Peter 5:7`
+- Section heading: `"A companion for every"` / `"moment of your day"`
+- Body: `"Some days begin with calm. Others begin with uncertainty, heaviness, or quiet worry. Shepherd Verses meets you in those moments—listening to how you feel and responding with spoken scripture and affirmations, chosen just for you."`
+
+**Mood Selector (do not change):**
+- 6 moods in this exact order: `😔 Heavy`, `😟 Anxious`, `😌 Peaceful`, `😴 Tired`, `🙏 Grateful`, `😊 Hopeful`
+- Do not change emoji, labels, or grid layout
+
+**Background & Visuals (do not change):**
+- Background image URL: `https://media.base44.com/images/public/69e96f879840c600a93d0ce5/583f3e10d_iStock-2235714260.jpg`
+- Image opacity: `0.40` | filter: `saturate(0.3) hue-rotate(180deg) brightness(1.15) grayscale(0.3)` — do not adjust
+- White gradient fade from top — do not remove
+- Animated blue soundwave bars inside card — do not remove (`animate-soundwave`)
+- Gold cross divider (`✝`) between lines — do not remove
+
+---
 
 ## `components/sv/SVHowItWorks.jsx`
-- Two-step cards with image + text. Do not change step titles, body copy, image URLs, or `objectPosition` values.
+
+**Text (do not change):**
+- Section heading: `"Two simple steps"` / `"A day transformed"`
+- Step 01 title: `"Share How You Feel"`
+- Step 01 body: `"PAUSE and name your current emotion—whether you're anxious, tired, or grateful. Your Shepherd Verses companion listens to where you are in this moment."` (`PAUSE` is gold, `Shepherd Verses companion` is bold)
+- Step 02 title: `"Hear a Caring Voice"`
+- Step 02 body: `"LISTEN as your companion shares spoken scripture and affirmations tailored to your feelings, carefully chosen to guide and support you."` (`LISTEN` is gold)
+
+**Images (do not change):**
+- Step 01 image URL: `https://media.base44.com/images/public/69e96f879840c600a93d0ce5/637e627fe_HeroMobilephoneimageApr26.png` | `objectPosition: "center center"`
+- Step 02 image URL: `https://media.base44.com/images/public/69e96f879840c600a93d0ce5/5f6aba3ca_iStock-2257561497.jpg` | `objectPosition: "center 30%"`
+- Each image uses a dark gradient overlay (`from-black/30 via-transparent to-black/40`) for text readability — do not remove
+- Card titles are overlaid on the image in white serif text — do not move below the image
+- White gradient fade at section bottom — do not remove
+
+---
 
 ## `components/sv/SVPlans.jsx`
-- Pricing cards. Do not change plan names, prices, feature copy, badge text, or CTA button labels.
+
+**Text (do not change):**
+- Eyebrow: `"Begin Today"`
+- Section heading: `"Choose Your Subscription"`
+- Subheading: `"Wake up supported. Start your day guided."`
+- Trust badges: `"🔒 Secure Payment"`, `"✦ Cancel Anytime"`, `"🎁 7-Day Free Trial"`
+
+**Plan 1 — Monthly Companion (do not change):**
+- Label: `"Monthly Companion"` | Price: `"$5.95 / month"` | CTA: `"Start Monthly Plan"`
+- Features: `"Daily Delivery"`, `"Custom Timing"`, `"Platform Choice"`, `"No Commitment"`
+
+**Plan 2 — Annual Journey (do not change):**
+- Label: `"Annual Journey"` | Price: `"$59.50 / year"` | CTA: `"Start Annual Journey"`
+- Badge: `"Just $4.95/month — Best Value"` — uses gold gradient, do not change
+- Features: `"12 Months for the Price of 10"`, `"Continuous Access"`, `"Simplified Billing"`, `"Everything in Monthly, plus priority support"`
+- Card background: `#2A4B7C` (navy) — do not change
+- CTA button uses gold gradient — do not change
+
+---
 
 ## `components/sv/SVReviews.jsx`
-- Three testimonial cards. Do not change reviewer names, locations, or quote text.
+
+**Text (do not change):**
+- Section heading: `"What Our Members Are Saying"`
+
+**Review 1 (do not change):**
+- Name: `"Margaret T."` | Location: `"Tennessee"`
+- Quote: `"Every morning I used to reach for my phone and feel anxious before the day even started. Now I start with Shepherd Verses and it genuinely changes my whole outlook. The scripture it chooses always feels like it was written just for me."`
+
+**Review 2 (do not change):**
+- Name: `"David R."` | Location: `"Texas"`
+- Quote: `"I was sceptical at first — I've been a Christian for thirty years and wondered what an app could offer me. But the way it listens and responds with such relevant scripture surprised me deeply. It's become part of my morning prayer time."`
+
+**Review 3 (do not change):**
+- Name: `"Joanne M."` | Location: `"Georgia"`
+- Quote: `"I shared that I was feeling overwhelmed one morning and the verse it gave me brought me to tears — in the best way. It felt like being heard. I've recommended it to everyone in my small group."`
+
+**Visuals (do not change):**
+- All cards show 5 gold stars (`★` in `#C9A84C`) — do not change star count or colour
+- Card background: `#F7F6F4`, border: `#E7DED2` — do not change
+
+---
 
 ## `components/sv/SVFaq.jsx`
-- Accordion FAQ. Do not change question or answer text. Background image uses `cover` with `20% center` positioning on desktop — do not change.
+
+**Text — Questions & Answers (do not change):**
+1. Q: `"What is Shepherd Verses?"` — A: `"Shepherd Verses is a personal spiritual companion…"`
+2. Q: `"How does Shepherd Verses work?"` — A: `"Simply share how you're feeling…"`
+3. Q: `"Do I need to know the Bible to use Shepherd Verses?"` — A: `"Not at all. Shepherd Verses gently guides you…"`
+4. Q: `"What kinds of feelings can I share?"` — A: `"You can share any feeling — anxious, grateful…"`
+5. Q: `"Will the scripture be relevant to how I feel?"` — A: `"Yes. Each response is thoughtfully chosen…"`
+6. Q: `"Can I use Shepherd Verses more than once a day?"` — A: `"Yes. You can return to Shepherd Verses…"`
+
+**Background & Visuals (do not change):**
+- Background image URL: `https://media.base44.com/images/public/69e96f879840c600a93d0ce5/dcaf9fcc8_istockphoto-1164883816-1024x1024.jpg`
+- Image opacity: `0.40` | filter: `saturate(0.7) brightness(1.05)` — do not adjust
+- Desktop position: `20% center` | Mobile position: `center center` — do not change
+- White gradient fade from top — do not remove
+- Accordion chevron colour: `#C9A84C` (gold) — do not change
+- Gold cross divider (`✝`) in section header — do not remove
+- Only one FAQ item can be open at a time — do not change this behaviour
+
+---
 
 ## `components/sv/SVSocials.jsx`
-- Social icons section. Do not change heading, body copy, or icon SVGs.
+
+**Text (do not change):**
+- Section heading: `"Follow Our Journey"`
+- Body: `"Be part of something bigger. Follow along for daily scripture, gentle encouragement, and a community that cares."`
+
+**Social Icons (do not change):**
+- 4 icons in this exact order: `TikTok`, `YouTube`, `Instagram`, `Facebook`
+- All use inline SVG paths — do not replace with lucide or other icon libraries
+- Icon circle: `w-14 h-14`, white background, gold border `#E8D48B`, gold icon `#C9A84C`
+- Hover: border transitions to `#D9B86A`, icon to `#D9B86A`, label to `#C9A84C`
+- Animated gold soundwave bars in section header — do not remove (`animate-soundwave`)
+
+---
 
 ## `components/sv/SVFooter.jsx`
-- Do not change tagline, legal link labels, or copyright text.
+
+**Text (do not change):**
+- Tagline: `"Daily scripture and affirmations, spoken just for you. Every morning, without fail."`
+- Legal label: `"Legal"`
+- Links: `"Privacy Policy"`, `"Terms of Service"`
+- Copyright: `"© 2026 Shepherd Verses. Made with care for your peace of mind."`
+
+**Logo (do not change):**
+- Logo image URL: `https://media.base44.com/images/public/69e96f879840c600a93d0ce5/39f2abf45_Shepherd_verses_herologo_GOLD_STAR_2500_TRANSPARENTBGpng-2.png`
+- Logo height: `h-20`
+- On desktop: centred in middle column of 3-column grid
+- On mobile: centred above the grid, logo hidden in grid
+
+**Layout (do not change):**
+- 3-column grid on desktop: `[tagline] [logo] [legal links]`
+- Footer background: white | top border: `#E7DED2`
+
+---
 
 ## `components/sv/SVTrialModal.jsx`
-- Modal triggered by CTA clicks. Do not change header copy, platform labels, or button text.
+- Modal triggered by all CTA clicks across the page. Do not change header copy, platform labels, or button text.
 
 ---
 
