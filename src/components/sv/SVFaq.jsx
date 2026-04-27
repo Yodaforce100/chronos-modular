@@ -34,9 +34,9 @@ function FaqItem({ faq, isOpen, onToggle }) {
     <div className="border-b border-[#E7DED2] last:border-0">
       <button
         onClick={onToggle}
-        className="w-full flex items-center justify-between py-5 md:py-3 text-left gap-4"
+        className="w-full flex items-center justify-between py-5 md:py-4 text-left gap-4"
       >
-        <span className="font-serif text-[17px] md:text-[15px] text-[#001C5F] leading-snug">{faq.q}</span>
+        <span className="font-serif text-[17px] md:text-[16px] text-[#001C5F] leading-snug">{faq.q}</span>
         <ChevronDown
           className="w-5 h-5 text-[#C9A84C] shrink-0 transition-transform duration-300"
           style={{ transform: isOpen ? "rotate(180deg)" : "rotate(0deg)" }}
