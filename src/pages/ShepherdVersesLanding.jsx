@@ -7,6 +7,7 @@ import SVPlans from "../components/sv/SVPlans";
 import SVFooter from "../components/sv/SVFooter";
 import SVReviews from "../components/sv/SVReviews";
 import SVFaq from "../components/sv/SVFaq";
+import SVSocials from "../components/sv/SVSocials";
 import SVTrialModal from "../components/sv/SVTrialModal";
 
 export default function ShepherdVersesLanding() {
@@ -32,6 +33,8 @@ export default function ShepherdVersesLanding() {
       <SVReviews />
       <div className="border-b border-[#E7DED2]" />
       <SVFaq />
+      <div className="border-b border-[#E7DED2]" />
+      <SVSocials />
       <div className="border-b border-[#E7DED2]" />
       <SVFooter />
       <SVTrialModal
