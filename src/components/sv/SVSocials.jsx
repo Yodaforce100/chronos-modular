@@ -50,17 +50,21 @@ export default function SVSocials() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <div className="flex items-center justify-center gap-[3px] mb-4">
-            {[1,2,3,4,5,6,7].map((i) => (
-              <div
-                key={i}
-                className="w-0.5 bg-[#C9A84C] rounded-full animate-soundwave"
-                style={{
-                  height: i === 4 ? '20px' : i % 2 === 0 ? '16px' : '12px',
-                  animationDelay: `${(i - 4) * 0.08}s`,
-                }}
-              />
-            ))}
+          <div className="flex items-center justify-center gap-3 mb-4">
+            <div className="h-px w-16 bg-[#C9A84C] opacity-60" />
+            <div className="flex items-center gap-[3px]">
+              {[1,2,3,4,5,6,7].map((i) => (
+                <div
+                  key={i}
+                  className="w-0.5 bg-[#C9A84C] rounded-full animate-soundwave"
+                  style={{
+                    height: i === 4 ? '20px' : i % 2 === 0 ? '16px' : '12px',
+                    animationDelay: `${(i - 4) * 0.08}s`,
+                  }}
+                />
+              ))}
+            </div>
+            <div className="h-px w-16 bg-[#C9A84C] opacity-60" />
           </div>
           <h2 className="font-serif text-2xl md:text-3xl text-[#001C5F] mb-3">
             Follow Our Journey
