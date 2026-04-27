@@ -34,9 +34,9 @@ function FaqItem({ faq, isOpen, onToggle }) {
     <div className="border-b border-[#E7DED2] last:border-0">
       <button
         onClick={onToggle}
-        className="w-full flex items-center justify-between py-5 text-left gap-4"
+        className="w-full flex items-center justify-between py-5 md:py-3 text-left gap-4"
       >
-        <span className="font-serif text-[17px] text-[#001C5F] leading-snug">{faq.q}</span>
+        <span className="font-serif text-[17px] md:text-[15px] text-[#001C5F] leading-snug">{faq.q}</span>
         <ChevronDown
           className="w-5 h-5 text-[#C9A84C] shrink-0 transition-transform duration-300"
           style={{ transform: isOpen ? "rotate(180deg)" : "rotate(0deg)" }}
@@ -65,7 +65,7 @@ export default function SVFaq() {
   const [openIndex, setOpenIndex] = useState(null);
 
   return (
-    <section className="relative py-10 md:py-20 bg-white">
+    <section className="relative py-10 md:py-10 bg-white">
       {/* Background image with overlay */}
       <div className="absolute inset-0 opacity-40 pointer-events-none" style={{ backgroundImage: "url('https://media.base44.com/images/public/69e96f879840c600a93d0ce5/dcaf9fcc8_istockphoto-1164883816-1024x1024.jpg')", backgroundSize: "cover", backgroundPosition: "center center", filter: "saturate(0.7) brightness(1.05)" }} />
       {/* Fade in from top */}
