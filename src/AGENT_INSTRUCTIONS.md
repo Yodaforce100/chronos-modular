@@ -1,5 +1,26 @@
 # Shepherd Verses — Agent Instructions: Do Not Modify
 
+---
+
+## Stage 1: Project Orientation (MUST COMPLETE BEFORE ANY CODING)
+
+**This platform uses Vite + React + Tailwind + shadcn/ui. Do NOT attempt to use Next.js, create a new project, or run any install commands. Everything is already configured.**
+
+Before writing or modifying any code, you MUST read the following files in full, in this order:
+
+1. `AGENT_INSTRUCTIONS.md` — this file. Read it completely.
+2. `index.css` — design tokens, font imports, CSS variables.
+3. `tailwind.config.js` — colour tokens, font families, keyframes, animations.
+4. `App.jsx` — routing structure. Understand all existing routes before adding new ones.
+
+After reading each file, acknowledge it before proceeding to the next.
+
+**Do not create any new files or modify any existing files until all four files have been read and acknowledged.**
+
+Once orientation is complete, confirm with: *"Stage 1 complete. I have read and understood the design system, routing structure, and all locked content. Ready to proceed."*
+
+---
+
 ## Global Rules
 - Do not change any copy/text unless explicitly instructed.
 - Do not change any image URLs unless explicitly instructed.
