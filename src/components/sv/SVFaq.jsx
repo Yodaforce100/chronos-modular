@@ -72,7 +72,7 @@ export default function SVFaq() {
       {/* Fade in from top */}
       <div className="absolute top-0 left-0 right-0 h-32 pointer-events-none z-10" style={{ background: "linear-gradient(to bottom, white, transparent)" }} />
 
-      <div className="max-w-2xl mx-auto px-6 relative z-20">
+      <div className="max-w-lg mx-auto px-6 relative z-20">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
