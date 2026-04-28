@@ -62,16 +62,16 @@ export default function SVHero({ onCTAClick }) {
 
           <div className="w-12 h-px bg-[#C5B49A] mt-4 mb-8" />
 
-          <p className="font-sans text-[18px] md:text-[15px] text-[#2A4B7C] leading-[1.7] max-w-xl">
+          <p className="font-sans text-[15px] text-[#2A4B7C] leading-[1.7] max-w-xl">
             Share how you're feeling, and your{" "}
-            <span className="font-bold md:font-medium text-[#2A4B7C]">Shepherd Verses</span>{" "}
+            <span className="font-medium text-[#2A4B7C]">Shepherd Verses</span>{" "}
             companion delivers calming, spoken scripture and affirmations—helping
             you find clarity and reassurance throughout your day.
           </p>
 
           <button
             onClick={onCTAClick}
-            className="mt-10 font-sans text-[18px] md:text-[15px] font-semibold md:font-medium text-[#001C5F] px-8 py-4 md:py-4 rounded-full min-h-[56px] md:min-h-[44px] w-full md:w-auto shadow-md transition-opacity duration-300 hover:opacity-90"
+            className="mt-10 font-sans text-[15px] font-medium text-[#001C5F] px-8 py-4 rounded-full min-h-[44px] shadow-md transition-opacity duration-300 hover:opacity-90"
             style={{ background: "linear-gradient(90deg, #D9B86A 0%, #F5E9A4 35%, #E8D48B 60%, #D9B86A 100%)", boxShadow: "0 6px 18px rgba(212,185,106,0.5)", border: "1px solid rgba(255,255,255,0.4)" }}
           >
             Start Your Morning with Peace
